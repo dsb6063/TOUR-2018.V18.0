@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBC.UpdateManager", "BBC.UpdateManager.csproj", "{DCCB5EF7-5958-42F4-B146-032498E4EA41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGA.Updater", "..\PGA.Updater\PGA.Updater\PGA.Updater.csproj", "{8C86419E-5134-462D-A645-B92D5ADF6044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBC.CloudManager", "..\BBC.CloudManager\BBC.CloudManager.csproj", "{CE349461-9EED-4087-B7A1-AAE1455885EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCCB5EF7-5958-42F4-B146-032498E4EA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCB5EF7-5958-42F4-B146-032498E4EA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCB5EF7-5958-42F4-B146-032498E4EA41}.Debug|x64.ActiveCfg = Debug|x64
+		{DCCB5EF7-5958-42F4-B146-032498E4EA41}.Debug|x64.Build.0 = Debug|x64
+		{DCCB5EF7-5958-42F4-B146-032498E4EA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCB5EF7-5958-42F4-B146-032498E4EA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCCB5EF7-5958-42F4-B146-032498E4EA41}.Release|x64.ActiveCfg = Release|x64
+		{DCCB5EF7-5958-42F4-B146-032498E4EA41}.Release|x64.Build.0 = Release|x64
+		{8C86419E-5134-462D-A645-B92D5ADF6044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C86419E-5134-462D-A645-B92D5ADF6044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C86419E-5134-462D-A645-B92D5ADF6044}.Debug|x64.ActiveCfg = Debug|x64
+		{8C86419E-5134-462D-A645-B92D5ADF6044}.Debug|x64.Build.0 = Debug|x64
+		{8C86419E-5134-462D-A645-B92D5ADF6044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C86419E-5134-462D-A645-B92D5ADF6044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C86419E-5134-462D-A645-B92D5ADF6044}.Release|x64.ActiveCfg = Release|x64
+		{8C86419E-5134-462D-A645-B92D5ADF6044}.Release|x64.Build.0 = Release|x64
+		{CE349461-9EED-4087-B7A1-AAE1455885EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE349461-9EED-4087-B7A1-AAE1455885EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE349461-9EED-4087-B7A1-AAE1455885EB}.Debug|x64.ActiveCfg = Debug|x64
+		{CE349461-9EED-4087-B7A1-AAE1455885EB}.Debug|x64.Build.0 = Debug|x64
+		{CE349461-9EED-4087-B7A1-AAE1455885EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE349461-9EED-4087-B7A1-AAE1455885EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE349461-9EED-4087-B7A1-AAE1455885EB}.Release|x64.ActiveCfg = Release|x64
+		{CE349461-9EED-4087-B7A1-AAE1455885EB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

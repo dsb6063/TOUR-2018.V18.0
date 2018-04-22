@@ -1,0 +1,41 @@
+<Project ProjectFileVersion="4" UseRelativePaths="True" CheckVersionsWhileResolvingAssemblies="True" DisabledFromMSBuild="False" ID="{ec9db0a7-5090-43a7-a3dc-343ebb4aea13}">
+  <SearchDirectories />
+  <OutputSettings OutputPath="..\..\..\..\..\..\..\Civil 3D Projects\Obfuscated Files" MainAssemblyPath="PGA.SupportFiles" RunAssemblyPath="" SNPath="" SignToolPath="" LicensingDLLPath="" OverwriteInputFiles="False" BuildID="" MapFilesLocation="" FullParamNamesInMappingFile="False">
+    <AdditionalAssemblies>
+      <AdditionalAssembly Path=".\bin\Debug\BBC.Common.AutoCAD.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\BBC.Common.Framework.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\Interop.AcStMgr.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\Interop.AXDBLib.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\LogicNP.CryptoLicensing.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\MathNet.Numerics.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\Microsoft.Office.Interop.Excel.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.Autodesk.Settings.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.Common.Settings.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.Database.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.DataContext.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.DrawingManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.FeaturelineManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.MessengerManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.OffsetPolylines.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.OpenDWG.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.PolylineManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.SportVision.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.SurfaceManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\PGA.WindingNumAlgorithm.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\ProcessPolylines.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path=".\bin\Debug\System.Data.SqlServerCe.dll" Encrypt="False" Compress="True" />
+    </AdditionalAssemblies>
+  </OutputSettings>
+  <ExceptionReporting ExceptionReportingServiceURL="" TryToContinueOnException="True" LocalReportPath=".\SupportFiled_ExceptionReports" ApplicationName="" CompanyName="" ShowUI="True" EnableSaveToFileButton="True" EnableSendReportButton="True" DeleteDownloadedReportsFromServer="True" />
+  <ObfuscationSettings RenamingScheme="3" UseOverloadedFieldNames="False" UseOverloadedMethodNames="False" HonorObfuscationAttributes="True" ExcludeSerializedTypes="True" ProcessInlineStrings="True" ForceXAMLProcessingModeExclude="False" ForceRenameParams="False" SymbolPrefix="" SymbolSuffix="" FakeFields="" FakeTypes="" FakeMethods="" EncryptionActive="True" CompressionActive="True" RemoveAccessedThroughPropertyAttribute="False" UseSaltForCryptographicRenaming="False" />
+  <ObfuscationRules />
+  <InclusionExclusionRules />
+  <Assembly Load="true" Path=".\bin\Debug\PGA.SupportFiles.dll" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="" TimeStampURL="" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="" PfxPasswordCert="" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="False" EncryptMethods="False" EncryptConstants="False" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="2" CodeMasking="0" SuppressILDASM="False" SuppressReflection="False" CombineResources="False" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="False" SymbolRenaming="False" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="False" Encrypt="False" Compress="False" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <WarningSuppressions />
+  <Warnings SaveWarningsToFile="" FailOnUnsuppressedWarning="False" SaveSuppressedWarnings="True" SaveUnsuppressedWarnings="True" />
+  <Filters />
+</Project>

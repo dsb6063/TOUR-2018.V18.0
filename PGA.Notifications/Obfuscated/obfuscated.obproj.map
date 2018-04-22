@@ -1,0 +1,32 @@
+﻿<Mappings><Assembly Name="PGA.Notifications"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="PGA.Notifications.Notifications" />
+<Method Token="100663298" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663299" Name="StartWatcher" Variables="" ParamCnt="0" />
+<Method Token="100663300" Name="StoptWatcher" Variables="" ParamCnt="0" />
+<Field Token="67108865" Name="TM_NoteWatcher" />
+<Type Token="33554436" Name="PGA.Notifications.TimerClass" />
+<Method Token="100663302" Name=".ctor" Variables="this;ex;" ParamCnt="1" />
+<Method Token="100663303" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663304" Name="TimerEventProcessor" Variables="sender;myEventArgs;commands;notes;V_2;result;ex2;ex2;" ParamCnt="2" />
+<Method Token="100663305" Name="WrapUpOperations" Variables="cmd;ex;" ParamCnt="0" />
+<Method Token="100663306" Name="WrapUpOperations" Variables="tm;cmd;ex;" ParamCnt="1" />
+<Method Token="100663307" Name="ShowBalloon" Variables="title;body;notifyIcon;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663308" Name="NotifyIcon_BalloonTipClosed" Variables="sender;e;bubble;V_1;" ParamCnt="2" />
+<Method Token="100663309" Name="infoCenterBalloon" Variables="Level;start;finish;icm;ri;V_2;ex;" ParamCnt="3" />
+<Field Token="67108866" Name="alarmCounter" />
+<Field Token="67108867" Name="exitFlag" />
+<Field Token="67108868" Name="MaxDWGs" />
+<Field Token="67108869" Name="MaxDXFs" />
+<Field Token="67108870" Name="TotalDWGs" />
+<Field Token="67108871" Name="myTimer" />
+<Type Token="33554437" Name="PGA.Notifications.StatusBarNotifications" />
+<Method Token="100663310" Name="StatusBarBalloon" Variables="category;title;doc;bw;" ParamCnt="2" />
+<Type Token="33554438" Name="PGA.Notifications.StatusBarNotifications/&lt;&gt;c__DisplayClass0_0" />
+<Method Token="100663311" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663312" Name="&lt;StatusBarBalloon&gt;b__0" Variables="this;o;args;" ParamCnt="3" />
+<Field Token="67108872" Name="statusBar" />
+<Field Token="67108873" Name="ti" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663301" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly></Mappings>

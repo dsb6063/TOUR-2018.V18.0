@@ -1,0 +1,77 @@
+-- Script Date: 3/20/2016 12:02 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+SET IDENTITY_INSERT [ExportToCADStack] ON;
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (420,N'BAY-HILL01.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE01\z-BAY-HILL01.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,1);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (421,N'BAY-HILL01.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE01\s-BAY-HILL01.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,1);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (422,N'BAY-HILL02.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE02\z-BAY-HILL02.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,2);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (423,N'BAY-HILL02.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE02\s-BAY-HILL02.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,2);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (424,N'BAY-HILL03.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE03\z-BAY-HILL03.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,3);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (425,N'BAY-HILL03.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE03\s-BAY-HILL03.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,3);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (426,N'BAY-HILL04.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE04\z-BAY-HILL04.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,4);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (427,N'BAY-HILL04.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE04\s-BAY-HILL04.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,4);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (428,N'BAY-HILL05.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE05\z-BAY-HILL05.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,5);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (429,N'BAY-HILL05.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE05\s-BAY-HILL05.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,5);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (430,N'BAY-HILL06.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE06\z-BAY-HILL06.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,6);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (431,N'BAY-HILL06.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE06\s-BAY-HILL06.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,6);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (432,N'BAY-HILL07.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE07\z-BAY-HILL07.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,7);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (433,N'BAY-HILL07.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE07\s-BAY-HILL07.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,7);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (434,N'BAY-HILL08.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE08\z-BAY-HILL08.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,8);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (435,N'BAY-HILL08.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE08\s-BAY-HILL08.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,8);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (436,N'BAY-HILL09.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE09\z-BAY-HILL09.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,9);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (437,N'BAY-HILL09.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE09\s-BAY-HILL09.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,9);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (438,N'BAY-HILL10.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE10\z-BAY-HILL10.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,10);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (439,N'BAY-HILL10.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE10\s-BAY-HILL10.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,10);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (440,N'BAY-HILL11.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE11\z-BAY-HILL11.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,11);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (441,N'BAY-HILL11.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE11\s-BAY-HILL11.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,11);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (442,N'BAY-HILL12.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE12\z-BAY-HILL12.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,12);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (443,N'BAY-HILL12.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE12\s-BAY-HILL12.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,12);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (444,N'BAY-HILL13.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE13\z-BAY-HILL13.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,13);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (445,N'BAY-HILL13.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE13\s-BAY-HILL13.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,13);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (446,N'BAY-HILL14.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE14\z-BAY-HILL14.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,14);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (447,N'BAY-HILL14.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE14\s-BAY-HILL14.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,14);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (448,N'BAY-HILL15.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE15\z-BAY-HILL15.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,15);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (449,N'BAY-HILL15.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE15\s-BAY-HILL15.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,15);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (450,N'BAY-HILL16.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE16\z-BAY-HILL16.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,16);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (451,N'BAY-HILL16.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE16\s-BAY-HILL16.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,16);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (452,N'BAY-HILL17.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE17\z-BAY-HILL17.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,17);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (453,N'BAY-HILL17.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE17\s-BAY-HILL17.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,17);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (454,N'BAY-HILL18.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE18\z-BAY-HILL18.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,18);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (455,N'BAY-HILL18.DWG',N'C:\Users\Daryl-Win-8\Downloads\2016Bay-Hill\2016Bay-Hill\TINSURF-20160319-211927\HOLE18\s-BAY-HILL18.DWG',{ts '2016-03-19 21:19:27.420'},N'DWG',0,0,0,0,18);
+GO
+SET IDENTITY_INSERT [ExportToCADStack] OFF;
+GO

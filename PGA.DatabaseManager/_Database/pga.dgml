@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="CommandStack" Category="Table" Bounds="-264.757194490844,151.74411250789,381.673598276539,253.841107480781" Group="Expanded" Label="CommandStack" UseManualLocation="True" />
+    <Node Id="CommandStack_Commands" Category="Field Optional" Bounds="-141.95693296815,247.70431250789,80.19,25.96" Description="nvarchar(50)" Label="Commands" />
+    <Node Id="CommandStack_Function" Category="Field Optional" Bounds="-69.2135983576878,191.74421250789,65.7766666666667,25.96" Description="nchar(10)" Label="Function" />
+    <Node Id="CommandStack_HasError" Category="Field Optional" Bounds="-164.553603487661,191.74421250789,65.34,25.96" Description="bit" Label="HasError" />
+    <Node Id="CommandStack_Id" Category="Field Primary" Bounds="-244.553610061656,191.74421250789,50,25.96" Description="int" Label="Id" />
+    <Node Id="CommandStack_IsCompleted" Category="Field Optional" Bounds="-244.757194490844,303.66441250789,86.82440064,25.95751168" Description="bit" Label="IsCompleted" />
+    <Node Id="CommandStack_IsInvoked" Category="Field Optional" Bounds="26.5630704523618,191.747194599214,70.3533333333334,25.96" Description="bit" Label="IsInvoked" />
+    <Node Id="CommandStack_IsRunning" Category="Field Optional" Bounds="-244.629060536404,247.70431250789,72.5966666666667,25.96" Description="bit" Label="IsRunning" />
+    <Node Id="CommandStack_SelectionSetID" Category="Field Optional" Bounds="-2.17310729889558,303.667393583511,96.5624274133333,25.95751168" Description="bigint" Label="SelectionSetID" />
+    <Node Id="CommandStack_SourceDWGGui" Category="Field Optional" Bounds="-244.608488442172,359.627608308672,102.028223253333,25.95751168" Description="bigint" Label="SourceDWGGui" />
+    <Node Id="CommandStack_SourceDWGID" Category="Field Optional" Bounds="-127.894387298896,303.667394599214,95.72128,25.95751168" Description="int" Label="SourceDWGID" />
+    <Node Id="CommandStack_TimeCompleted" Category="Field Optional" Bounds="-112.580265188839,359.627538642183,104.2989888,25.95751168" Description="datetime" Label="TimeCompleted" />
+    <Node Id="CommandStack_TimeStarted" Category="Field Optional" Bounds="-31.76693296815,247.707294599214,83.9366666666667,25.96" Description="datetime" Label="TimeStarted" />
+    <Node Id="Database" Category="Database" Bounds="-284.714472831611,-399.972719716969,1211.94564317462,1109.4080921154" Group="Expanded" Label="PGA.sdf" />
+    <Node Id="Logs" Category="Table" Bounds="-245.414314498343,-248.095449250204,224.636506564678,141.957878641274" Group="Expanded" Label="Logs" UseManualLocation="True" />
+    <Node Id="Logs_DateStamp" Category="Field" Bounds="-119.49069004111,-152.086390556764,78.72450432,25.95480832" Description="nchar(10)" Label="DateStamp" />
+    <Node Id="Logs_DrawingID" Category="Field Optional" Bounds="-225.267992510345,-152.120783867311,75.6777374933334,25.95480832" Description="nchar(50)" Label="DrawingID" />
+    <Node Id="Logs_Id" Category="Field Primary" Bounds="-225.402692285788,-208.089266838502,50.08025472,25.95480832" Description="int" Label="Id" />
+    <Node Id="Logs_Issue" Category="Field" Bounds="-145.264104334127,-208.080905022096,50.08025472,25.95480832" Description="nchar(200)" Label="Issue" />
+    <Node Id="PointCloud" Category="Table" Bounds="-224.522119388206,-76.1375620132744,308.67,197.88" Group="Expanded" Label="PointCloud" UseManualLocation="True" />
+    <Node Id="PointCloud_DateLoaded" Category="Field Optional" Bounds="-90.7221193882059,19.8224379867256,84.06,25.96" Description="datetime" Label="DateLoaded" />
+    <Node Id="PointCloud_DateStamp" Category="Field Optional" Bounds="-124.522119388206,-36.1375620132744,78.8,25.96" Description="datetime" Label="DateStamp" />
+    <Node Id="PointCloud_DestinationPath" Category="Field Optional" Bounds="-78.6954527215393,75.7824379867257,104.13,25.96" Description="nvarchar(50)" Label="DestinationPath" />
+    <Node Id="PointCloud_DrawingGUI" Category="Field Optional" Bounds="-204.522119388206,19.8224379867256,83.8,25.96" Description="nvarchar(50)" Label="DrawingGUI" />
+    <Node Id="PointCloud_DrawingName" Category="Field Optional" Bounds="-204.522119388206,75.7824379867257,95.8266666666667,25.96" Description="nvarchar(50)" Label="DrawingName" />
+    <Node Id="PointCloud_Id" Category="Field Primary" Bounds="-204.522119388206,-36.1375620132744,50,25.96" Description="int" Label="Id" />
+    <Node Id="PointCloud_SourcePath" Category="Field Optional" Bounds="-15.7221193882059,-36.1375620132744,79.87,25.96" Description="nvarchar(50)" Label="SourcePath" />
+    <Node Id="Polyline" Category="Table" Bounds="9.22195952603482,-359.972719611535,330.002007346569,253.834957798457" Group="Expanded" Label="Polyline" UseManualLocation="True" />
+    <Node Id="PolylineChildren" Category="Table" Bounds="151.191410049645,282.694748658493,304.536692504883,253.835855712617" Group="Expanded" Label="PolylineChildren" UseManualLocation="True" />
+    <Node Id="PolylineChildren_DateStamp" Category="Field Optional" Bounds="356.936014959511,322.695568831066,78.8,25.96" Description="datetime" Label="DateStamp" />
+    <Node Id="PolylineChildren_DrawingID" Category="Field Optional" Bounds="251.199340561725,322.695568831066,75.7366666666667,25.96" Description="nvarchar(50)" Label="DrawingID" />
+    <Node Id="PolylineChildren_Id" Category="Field Primary" Bounds="171.199326727089,322.695568831066,50,25.96" Description="int" Label="Id" />
+    <Node Id="PolylineChildren_LayerName" Category="Field Optional" Bounds="171.199322454628,378.655567915539,79.71,25.96" Description="nvarchar(50)" Label="LayerName" />
+    <Node Id="PolylineChildren_ListDelimiter" Category="Field Optional" Bounds="280.909323675331,378.655567915539,85.98,25.96" Description="nchar(10)" Label="ListDelimiter" />
+    <Node Id="PolylineChildren_OriginalGeometry" Category="Field Optional" Bounds="308.397046822882,434.619302846365,114.152339893333,25.9559372799999" Description="nvarchar(200)" Label="OriginalGeometry" />
+    <Node Id="PolylineChildren_PolylineChildrenID" Category="Field Optional" Bounds="171.203932461588,490.575018709132,117.325520586667,25.9559372799999" Description="nvarchar(50)" Label="PolylineChildrenID" />
+    <Node Id="PolylineChildren_PolylineParentID" Category="Field" Bounds="171.199936981907,434.615500276515,107.162048533333,25.9559372799999" Description="bigint" Label="PolylineParentID" />
+    <Node Id="PolylineDWGS" Category="Table" Bounds="146.966105206347,54.8141234866764,308.67000386556,197.8804" Group="Expanded" Label="PolylineDWGS" UseManualLocation="True" />
+    <Node Id="PolylineDWGS_DateLoaded" Category="Field Optional" Bounds="280.758929100543,150.78106894553,84.0599999999999,25.96" Description="datetime" Label="DateLoaded" />
+    <Node Id="PolylineDWGS_DateStamp" Category="Field Optional" Bounds="246.958936424762,94.8210548087619,78.8,25.96" Description="datetime" Label="DateStamp" />
+    <Node Id="PolylineDWGS_DestinationPath" Category="Field Optional" Bounds="292.786538123747,206.740995793343,104.19673752,25.95440128" Description="nvarchar(50)" Label="DestinationPath" />
+    <Node Id="PolylineDWGS_DrawingGUI" Category="Field Optional" Bounds="166.958959312946,150.78106894553,83.8,25.96" Description="nvarchar(50)" Label="DrawingGUI" />
+    <Node Id="PolylineDWGS_DrawingName" Category="Field Optional" Bounds="166.958939273069,206.741057456292,95.8266666666667,25.96" Description="nvarchar(50)" Label="DrawingName" />
+    <Node Id="PolylineDWGS_Id" Category="Field Primary" Bounds="166.958957787067,94.8210548087619,50,25.96" Description="int" Label="Id" />
+    <Node Id="PolylineDWGS_SourcePath" Category="Field Optional" Bounds="355.758943138629,94.8210548087619,79.87,25.96" Description="nvarchar(50)" Label="SourcePath" />
+    <Node Id="Polyline_Area" Category="Field" Bounds="269.230057468255,-319.965180615165,50,25.96" Description="nchar(50)" Label="Area" />
+    <Node Id="Polyline_DrawingID" Category="Field" Bounds="226.587298061361,-208.045849254384,75.7718316800001,25.9539788800001" Description="nchar(50)" Label="DrawingID" />
+    <Node Id="Polyline_DrawingName" Category="Field Optional" Bounds="29.2285417259211,-152.085270335927,95.7358272,25.95397888" Description="nchar(50)" Label="DrawingName" />
+    <Node Id="Polyline_Geometry" Category="Field" Bounds="124.384281924141,-208.0452694204,72.2573469866667,25.9539788800001" Description="nchar(200)" Label="Geometry" />
+    <Node Id="Polyline_Handle" Category="Field" Bounds="200.313380629062,-264.005166271903,57.6666666666667,25.96" Description="nchar(50)" Label="Handle" />
+    <Node Id="Polyline_Id" Category="Field Primary" Bounds="29.230026950677,-319.965180615165,50,25.96" Description="int" Label="Id" />
+    <Node Id="Polyline_Layer" Category="Field" Bounds="189.230019321282,-319.965180615165,50.0000000000001,25.96" Description="nchar(50)" Label="Layer" />
+    <Node Id="Polyline_Length" Category="Field" Bounds="113.673355502923,-264.005166271903,56.64,25.96" Description="nchar(50)" Label="Length" />
+    <Node Id="Polyline_Level" Category="Field" Bounds="109.229996433099,-319.965180615165,50,25.96" Description="nchar(50)" Label="Level" />
+    <Node Id="Polyline_Nodes" Category="Field" Bounds="29.2300228053726,-264.005166271903,54.4433333333333,25.96" Description="nchar(50)" Label="Nodes" />
+    <Node Id="Polyline_ObejctId" Category="Field" Bounds="29.230016625563,-208.04518244622,65.1533333333334,25.96" Description="nchar(50)" Label="ObejctId" />
+    <Node Id="Settings" Category="Table" Bounds="485.574570023008,-256.982612745519,421.65660032,309.749723369472" Group="Expanded" Label="Settings" UseManualLocation="True" />
+    <Node Id="Settings_CourseName" Category="Field Optional" Bounds="505.572010023009,6.81670461921698,88.44713659136,25.952966004736" Description="nvarchar(50)" Label="CourseName" />
+    <Node Id="Settings_CreateDXF" Category="Field Optional" Bounds="708.828851150091,-49.129221385519,75.7309964656638,25.952966004736" Description="bit" Label="CreateDXF" />
+    <Node Id="Settings_DateStamp" Category="Field Optional" Bounds="681.282849489675,-216.987732745519,78.8004915199999,25.95987712" Description="datetime" Label="DateStamp" />
+    <Node Id="Settings_DestDXFFolder" Category="Field Optional" Bounds="505.572010023008,-161.034895625519,98.5113015466667,25.95987712" Description="nvarchar(50)" Label="DestDXFFolder" />
+    <Node Id="Settings_DestinationFolder" Category="Field Optional" Bounds="634.068893649675,-161.034895625519,113.75601664,25.95987712" Description="nvarchar(50)" Label="DestinationFolder" />
+    <Node Id="Settings_EndTime" Category="Field Optional" Bounds="585.561770023008,-216.987732745519,65.7354973866668,25.95987712" Description="datetime" Label="EndTime" />
+    <Node Id="Settings_GlobalPointFilePath" Category="Field Optional" Bounds="505.572010023008,-105.082058505519,123.378118186667,25.95987712" Description="nvarchar(50)" Label="GlobalPointFilePath" />
+    <Node Id="Settings_GlobalPolylineFilePath" Category="Field Optional" Bounds="658.935710289675,-105.082058505519,137.206347946667,25.95987712" Description="nvarchar(50)" Label="GlobalPolylineFilePath" />
+    <Node Id="Settings_Id" Category="Field Primary" Bounds="505.572010023008,-216.987732745519,50.00417792,25.95987712" Description="int" Label="Id" />
+    <Node Id="Settings_SeverPath" Category="Field Optional" Bounds="606.239192307467,-49.129221385519,72.6040767626239,25.952966004736" Description="nvarchar(50)" Label="SeverPath" />
+    <Node Id="Settings_StartTime" Category="Field Optional" Bounds="505.572010023008,-49.129221385519,70.6816002044586,25.952966004736" Description="datetime" Label="StartTime" />
+    <Node Id="Settings_TemplateDWG" Category="Field Optional" Bounds="790.068923089675,-216.987732745519,97.1648072533335,25.95987712" Description="nvarchar(50)" Label="TemplateDWG" />
+    <Node Id="SourceDrawingInfo" Category="Table" Bounds="-198.780866306469,435.582902484367,320.065226335697,253.852339840092" Group="Expanded" Label="SourceDrawingInfo" UseManualLocation="True" />
+    <Node Id="SourceDrawingInfo_DestinationPath" Category="Field Optional" Bounds="-50.8936118313493,587.451111969994,104.148921813333,25.9595084800001" Description="nvarchar(50)" Label="DestinationPath" />
+    <Node Id="SourceDrawingInfo_DrawingGui" Category="Field Optional" Bounds="-98.7404385854557,475.582734284447,82.0902216533333,25.9595084800001" Description="nvarchar(50)" Label="DrawingGui" />
+    <Node Id="SourceDrawingInfo_DrawingName" Category="Field Optional" Bounds="-57.3549411793441,531.519730744408,95.8498397866666,25.9595084800001" Description="nvarchar(50)" Label="DrawingName" />
+    <Node Id="SourceDrawingInfo_DrawingPath" Category="Field Optional" Bounds="13.437542096908,475.588471589134,87.84060928,25.9595084800001" Description="nvarchar(50)" Label="DrawingPath" />
+    <Node Id="SourceDrawingInfo_Id" Category="Field Primary" Bounds="-178.777407542135,475.582734284447,50.0466363733333,25.9595084800001" Description="int" Label="Id" />
+    <Node Id="SourceDrawingInfo_LastSaveTime" Category="Field Optional" Bounds="-178.700560383958,531.542451081322,91.2521949866667,25.9595084800002" Description="nchar(10)" Label="LastSaveTime" />
+    <Node Id="SourceDrawingInfo_TimeStampFile" Category="Field Optional" Bounds="-178.693781524551,587.502259430931,97.71555072,25.9595084800001" Description="nchar(10)" Label="TimeStampFile" />
+    <Node Id="SourceDrawingInfo_TimeStampProcessess" Category="Field Optional" Bounds="-178.563281076755,643.490729911718,136.216856666667,25.944448" Description="nchar(10)" Label="TimeStampProcessess" />
+  </Nodes>
+  <Links>
+    <Link Source="CommandStack" Target="CommandStack_Commands" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_Function" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_HasError" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_Id" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_IsCompleted" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_IsInvoked" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_IsRunning" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_SelectionSetID" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_SourceDWGGui" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_SourceDWGID" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_TimeCompleted" Category="Contains" />
+    <Link Source="CommandStack" Target="CommandStack_TimeStarted" Category="Contains" />
+    <Link Source="Database" Target="CommandStack" Category="Contains" />
+    <Link Source="Database" Target="Logs" Category="Contains" />
+    <Link Source="Database" Target="PointCloud" Category="Contains" />
+    <Link Source="Database" Target="Polyline" Category="Contains" />
+    <Link Source="Database" Target="PolylineChildren" Category="Contains" />
+    <Link Source="Database" Target="PolylineDWGS" Category="Contains" />
+    <Link Source="Database" Target="Settings" Category="Contains" />
+    <Link Source="Database" Target="SourceDrawingInfo" Category="Contains" />
+    <Link Source="Logs" Target="Logs_DateStamp" Category="Contains" />
+    <Link Source="Logs" Target="Logs_DrawingID" Category="Contains" />
+    <Link Source="Logs" Target="Logs_Id" Category="Contains" />
+    <Link Source="Logs" Target="Logs_Issue" Category="Contains" />
+    <Link Source="PointCloud" Target="PointCloud_DateLoaded" Category="Contains" />
+    <Link Source="PointCloud" Target="PointCloud_DateStamp" Category="Contains" />
+    <Link Source="PointCloud" Target="PointCloud_DestinationPath" Category="Contains" />
+    <Link Source="PointCloud" Target="PointCloud_DrawingGUI" Category="Contains" />
+    <Link Source="PointCloud" Target="PointCloud_DrawingName" Category="Contains" />
+    <Link Source="PointCloud" Target="PointCloud_Id" Category="Contains" />
+    <Link Source="PointCloud" Target="PointCloud_SourcePath" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_Area" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_DrawingID" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_DrawingName" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_Geometry" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_Handle" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_Id" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_Layer" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_Length" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_Level" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_Nodes" Category="Contains" />
+    <Link Source="Polyline" Target="Polyline_ObejctId" Category="Contains" />
+    <Link Source="PolylineChildren" Target="PolylineChildren_DateStamp" Category="Contains" />
+    <Link Source="PolylineChildren" Target="PolylineChildren_DrawingID" Category="Contains" />
+    <Link Source="PolylineChildren" Target="PolylineChildren_Id" Category="Contains" />
+    <Link Source="PolylineChildren" Target="PolylineChildren_LayerName" Category="Contains" />
+    <Link Source="PolylineChildren" Target="PolylineChildren_ListDelimiter" Category="Contains" />
+    <Link Source="PolylineChildren" Target="PolylineChildren_OriginalGeometry" Category="Contains" />
+    <Link Source="PolylineChildren" Target="PolylineChildren_PolylineChildrenID" Category="Contains" />
+    <Link Source="PolylineChildren" Target="PolylineChildren_PolylineParentID" Category="Contains" />
+    <Link Source="PolylineDWGS" Target="PolylineDWGS_DateLoaded" Category="Contains" />
+    <Link Source="PolylineDWGS" Target="PolylineDWGS_DateStamp" Category="Contains" />
+    <Link Source="PolylineDWGS" Target="PolylineDWGS_DestinationPath" Category="Contains" />
+    <Link Source="PolylineDWGS" Target="PolylineDWGS_DrawingGUI" Category="Contains" />
+    <Link Source="PolylineDWGS" Target="PolylineDWGS_DrawingName" Category="Contains" />
+    <Link Source="PolylineDWGS" Target="PolylineDWGS_Id" Category="Contains" />
+    <Link Source="PolylineDWGS" Target="PolylineDWGS_SourcePath" Category="Contains" />
+    <Link Source="Settings" Target="Settings_CourseName" Category="Contains" />
+    <Link Source="Settings" Target="Settings_CreateDXF" Category="Contains" />
+    <Link Source="Settings" Target="Settings_DateStamp" Category="Contains" />
+    <Link Source="Settings" Target="Settings_DestDXFFolder" Category="Contains" />
+    <Link Source="Settings" Target="Settings_DestinationFolder" Category="Contains" />
+    <Link Source="Settings" Target="Settings_EndTime" Category="Contains" />
+    <Link Source="Settings" Target="Settings_GlobalPointFilePath" Category="Contains" />
+    <Link Source="Settings" Target="Settings_GlobalPolylineFilePath" Category="Contains" />
+    <Link Source="Settings" Target="Settings_Id" Category="Contains" />
+    <Link Source="Settings" Target="Settings_SeverPath" Category="Contains" />
+    <Link Source="Settings" Target="Settings_StartTime" Category="Contains" />
+    <Link Source="Settings" Target="Settings_TemplateDWG" Category="Contains" />
+    <Link Source="SourceDrawingInfo" Target="SourceDrawingInfo_DestinationPath" Category="Contains" />
+    <Link Source="SourceDrawingInfo" Target="SourceDrawingInfo_DrawingGui" Category="Contains" />
+    <Link Source="SourceDrawingInfo" Target="SourceDrawingInfo_DrawingName" Category="Contains" />
+    <Link Source="SourceDrawingInfo" Target="SourceDrawingInfo_DrawingPath" Category="Contains" />
+    <Link Source="SourceDrawingInfo" Target="SourceDrawingInfo_Id" Category="Contains" />
+    <Link Source="SourceDrawingInfo" Target="SourceDrawingInfo_LastSaveTime" Category="Contains" />
+    <Link Source="SourceDrawingInfo" Target="SourceDrawingInfo_TimeStampFile" Category="Contains" />
+    <Link Source="SourceDrawingInfo" Target="SourceDrawingInfo_TimeStampProcessess" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Database" />
+    <Category Id="Field" />
+    <Category Id="Field Optional" />
+    <Category Id="Field Primary" />
+    <Category Id="Table" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Description" Label="Description" Description="Description" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Table" ValueLabel="True">
+      <Condition Expression="HasCategory('Table')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Schema" ValueLabel="True">
+      <Condition Expression="HasCategory('Schema')" />
+      <Setter Property="Background" Value="#FF7F9169" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Primary" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Primary')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Optional" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Optional')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Foreign" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Foreign')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="True">
+      <Condition Expression="HasCategory('Field')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Database" ValueLabel="True">
+      <Condition Expression="HasCategory('Database')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>

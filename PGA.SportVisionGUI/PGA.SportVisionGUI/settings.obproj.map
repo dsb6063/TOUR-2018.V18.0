@@ -1,0 +1,95 @@
+﻿<Mappings><Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\obj\Debug\App.g.cs" NewName="File0" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\App.xaml" NewName="File1" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\MainWindow.xaml.cs" NewName="File2" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\MainWindow.xaml" NewName="File3" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\Properties\Resources.Designer.cs" NewName="File4" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\Properties\Settings.Designer.cs" NewName="File5" />
+<Assembly Name="PGA.SportVisionGUI"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Type Token="33554434" Name="PGA.SportVisionGUI.App" />
+<Method Token="100663297" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663298" Name="InitializeComponent" Variables="this;" ParamCnt="1" />
+<Method Token="100663299" Name="Main" Variables="app;" ParamCnt="0" />
+<Type Token="33554436" Name="PGA.SportVisionGUI.MainWindow" />
+<Method Token="100663301" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663302" Name="cmdCancel_Click" Variables="this;sender;e;" ParamCnt="3" />
+<Method Token="100663303" Name="cmdSubmit_Click" Variables="this;sender;e;V_0;V_1;" ParamCnt="3" />
+<Method Token="100663304" Name="cmdGetDir_Click" Variables="this;sender;e;result;V_1;ex;" ParamCnt="3" />
+<Method Token="100663305" Name="Clear_Click" Variables="this;sender;e;V_0;V_1;" ParamCnt="3" />
+<Method Token="100663306" Name="ClearData" Variables="this;sender;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663307" Name="Clear_Checked" Variables="this;sender;e;checkbox;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663308" Name="InitializeComponent" Variables="this;resourceLocater;V_1;" ParamCnt="1" />
+<Method Token="100663309" Name="System.Windows.Markup.IComponentConnector.Connect" Variables="this;connectionId;target;V_0;" ParamCnt="3" />
+<Field Token="67108865" Name="folderBrowserDialog1" />
+<Field Token="67108866" Name="state" />
+<Field Token="67108867" Name="groupBox" />
+<Field Token="67108868" Name="Clear" />
+<Field Token="67108869" Name="txtDirectory" />
+<Field Token="67108870" Name="cmdGetDir" />
+<Field Token="67108871" Name="cmdSubmit" />
+<Field Token="67108872" Name="cmdCancel" />
+<Field Token="67108873" Name="_contentLoaded" />
+<Type Token="33554437" Name="PGA.SportVisionGUI.Properties.Resources" />
+<Method Token="100663310" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663311" Name="get_ResourceManager" Variables="V_0;temp;V_2;" ParamCnt="0" />
+<Method Token="100663312" Name="get_Culture" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663313" Name="set_Culture" Variables="value;" ParamCnt="1" />
+<Field Token="67108874" Name="resourceMan" />
+<Field Token="67108875" Name="resourceCulture" />
+<Type Token="33554438" Name="PGA.SportVisionGUI.Properties.Settings" />
+<Method Token="100663314" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663315" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663316" Name="get_Default" Variables="V_0;" ParamCnt="0" />
+<Field Token="67108876" Name="defaultInstance" />
+<Type Token="33554439" Name="PGA.SportVisionGUI.MainWindow/&lt;&gt;c" />
+<Method Token="100663317" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663318" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663319" Name="&lt;cmdSubmit_Click&gt;b__4_0" Variables="this;p;" ParamCnt="2" />
+<Field Token="67108877" Name="&lt;&gt;9" />
+<Field Token="67108878" Name="&lt;&gt;9__4_0" />
+<Type Token="33554440" Name="PGA.SportVisionGUI.MainWindow/&lt;cmdSubmit_Click&gt;d__4" />
+<Method Token="100663320" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663321" Name="MoveNext" Variables="this;V_0;V_1;V_2;V_3;V_4;" ParamCnt="1" />
+<Method Token="100663322" Name="SetStateMachine" Variables="this;stateMachine;" ParamCnt="2" />
+<Field Token="67108879" Name="&lt;&gt;1__state" />
+<Field Token="67108880" Name="&lt;&gt;t__builder" />
+<Field Token="67108881" Name="sender" />
+<Field Token="67108882" Name="e" />
+<Field Token="67108883" Name="&lt;&gt;4__this" />
+<Field Token="67108884" Name="&lt;count&gt;5__1" />
+<Field Token="67108885" Name="&lt;files&gt;5__2" />
+<Field Token="67108886" Name="&lt;commands&gt;5__3" />
+<Field Token="67108887" Name="&lt;filtered&gt;5__4" />
+<Field Token="67108888" Name="&lt;ex&gt;5__5" />
+<Field Token="67108889" Name="&lt;&gt;u__1" />
+<Type Token="33554441" Name="PGA.SportVisionGUI.MainWindow/&lt;Clear_Click&gt;d__6" />
+<Method Token="100663323" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663324" Name="MoveNext" Variables="this;V_0;V_1;V_2;V_3;V_4;" ParamCnt="1" />
+<Method Token="100663325" Name="SetStateMachine" Variables="this;stateMachine;" ParamCnt="2" />
+<Field Token="67108890" Name="&lt;&gt;1__state" />
+<Field Token="67108891" Name="&lt;&gt;t__builder" />
+<Field Token="67108892" Name="sender" />
+<Field Token="67108893" Name="e" />
+<Field Token="67108894" Name="&lt;&gt;4__this" />
+<Field Token="67108895" Name="&lt;checkbox&gt;5__1" />
+<Field Token="67108896" Name="&lt;ex&gt;5__2" />
+<Field Token="67108897" Name="&lt;&gt;u__1" />
+<Type Token="33554442" Name="PGA.SportVisionGUI.MainWindow/&lt;ClearData&gt;d__7" />
+<Method Token="100663326" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663327" Name="MoveNext" Variables="this;V_0;V_1;V_2;V_3;" ParamCnt="1" />
+<Method Token="100663328" Name="SetStateMachine" Variables="this;stateMachine;" ParamCnt="2" />
+<Field Token="67108898" Name="&lt;&gt;1__state" />
+<Field Token="67108899" Name="&lt;&gt;t__builder" />
+<Field Token="67108900" Name="sender" />
+<Field Token="67108901" Name="&lt;&gt;4__this" />
+<Field Token="67108902" Name="&lt;commands&gt;5__1" />
+<Field Token="67108903" Name="&lt;delete&gt;5__2" />
+<Field Token="67108904" Name="&lt;ex&gt;5__3" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663300" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly><File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\obj\Debug\App.g.cs" NewName="File0" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\App.xaml" NewName="File1" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\MainWindow.xaml.cs" NewName="File2" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\MainWindow.xaml" NewName="File3" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\Properties\Resources.Designer.cs" NewName="File4" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionGUI\PGA.SportVisionGUI\Properties\Settings.Designer.cs" NewName="File5" />
+</Mappings>

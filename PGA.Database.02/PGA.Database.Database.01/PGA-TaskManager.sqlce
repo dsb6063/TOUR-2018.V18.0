@@ -1,0 +1,17 @@
+-- Script Date: 12/29/2015 6:24 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+DROP TABLE [TaskManager];
+GO
+CREATE TABLE [TaskManager] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [Date] datetime NOT NULL
+, [CourseName] nvarchar(100) NOT NULL
+, [DateCreated] datetime NULL
+, [CreatedBy] nvarchar(100) NULL
+, [DateStarted] datetime NULL
+, [DateCompleted] datetime NULL
+, [Paused] bit NULL
+, [Cancelled] bit NULL
+);
+GO
+ALTER TABLE [TaskManager] ADD CONSTRAINT [PK_TaskManager] PRIMARY KEY ([Id]);
+GO

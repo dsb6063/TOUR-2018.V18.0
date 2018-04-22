@@ -1,0 +1,58 @@
+﻿<Mappings><Entry OldName="PGA.SportVisionAuto.TimerClass.alarmCounter" NewName="PGA.SportVisionAuto.TimerClass.c6767c64636187d091385b44e8bccf4ee" />
+<Entry OldName="PGA.SportVisionAuto.TimerClass.exitFlag" NewName="PGA.SportVisionAuto.TimerClass.cfaa64f17f810f5b30ee03d0ab1bd5209" />
+<Entry OldName="PGA.SportVisionAuto.TimerClass.MaxDWGs" NewName="PGA.SportVisionAuto.TimerClass.c1ddf7bab2511c58880cd1085b3c1a616" />
+<Entry OldName="PGA.SportVisionAuto.TimerClass.MaxDXFs" NewName="PGA.SportVisionAuto.TimerClass.c18aa53fd1450dfddaa457fbdc8b79b02" />
+<Entry OldName="PGA.SportVisionAuto.TimerClass.TotalDWGs" NewName="PGA.SportVisionAuto.TimerClass.cdb792fc092435d991be8c8f4a224d133" />
+<Entry OldName="PGA.SportVisionAuto.TimerClass.Doc_BeginDocumentClose(Object sender, DocumentBeginCloseEventArgs e)" NewName="PGA.SportVisionAuto.TimerClass.c30365dcbbd4a3cd793d818a647cc8e9c(Object c4c61ce86a2de0a1a5d3cc5a40a3d2022, DocumentBeginCloseEventArgs cffd8e8d86d8d52a113ba070a7aa4c8f7)" />
+<Entry OldName="PGA.SportVisionAuto.TimerClass.OnCommandEnded(Object sender, CommandEventArgs e)" NewName="PGA.SportVisionAuto.TimerClass.cc72e5668e054aa66444dceff02fd5796(Object c4c61ce86a2de0a1a5d3cc5a40a3d2022, CommandEventArgs cffd8e8d86d8d52a113ba070a7aa4c8f7)" />
+<Entry OldName="PGA.SportVisionAuto.TimerClass.TimerEventProcessor(Object sender, EventArgs myEventArgs)" NewName="PGA.SportVisionAuto.TimerClass.c03f7fd6f09ed3d8268c9d1b36f8917e4(Object c4c61ce86a2de0a1a5d3cc5a40a3d2022, EventArgs cb7cd5a28c50586f3ace74c5f17b01417)" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionAuto\PGA.SportVisionAuto\Active.cs" NewName="File0" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionAuto\PGA.SportVisionAuto\Commands.cs" NewName="File1" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionAuto\PGA.SportVisionAuto\Program.cs" NewName="File2" />
+<Assembly Name="PGA.SportVisionAuto"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="PGA.SportVisionAuto.Active" />
+<Method Token="100663298" Name="get_Editor" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663299" Name="get_Document" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663300" Name="get_Database" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663301" Name="WriteMessage" Variables="message;" ParamCnt="1" />
+<Method Token="100663302" Name="WriteMessage" Variables="message;parameter;" ParamCnt="2" />
+<Method Token="100663303" Name="get_ActiveCivilDocument" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663304" Name="get_WorkingDatabase" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663305" Name="StartTransaction" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663306" Name="get_MdiDocument" Variables="V_0;" ParamCnt="0" />
+<Type Token="33554436" Name="PGA.SportVisionAuto.Commands" />
+<Method Token="100663308" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663309" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663310" Name="StartWatcher" Variables="" ParamCnt="0" />
+<Method Token="100663311" Name="StoptWatcher" Variables="" ParamCnt="0" />
+<Method Token="100663312" Name="DisableTimer" Variables="" ParamCnt="0" />
+<Method Token="100663313" Name="EnableTimer" Variables="" ParamCnt="0" />
+<Field Token="67108865" Name="TM_Watcher" />
+<Type Token="33554438" Name="PGA.SportVisionAuto.TimerClass" />
+<Method Token="100663320" Name=".ctor" Variables="this;ex;" ParamCnt="1" />
+<Method Token="100663321" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663322" Name="UnlockCommands" Variables="this;doc;" ParamCnt="2" />
+<Method Token="100663323" Name="Doc_BeginDocumentClose" Variables="this;sender;e;lLock;db;dir;path;file;V_5;V_6;ex;" ParamCnt="3" />
+<Method Token="100663324" Name="OnCommandEnded" Variables="this;sender;e;ex;" ParamCnt="3" />
+<Method Token="100663325" Name="Initialize" Variables="this;" ParamCnt="1" />
+<Method Token="100663326" Name="Terminate" Variables="this;" ParamCnt="1" />
+<Method Token="100663327" Name="TimerEventProcessor" Variables="sender;myEventArgs;commands;V_1;V_2;name;V_4;V_5;ex2;ex2;" ParamCnt="2" />
+<Method Token="100663328" Name="AsyncSaveAsLastDwg" Variables="name;ed;" ParamCnt="1" />
+<Method Token="100663329" Name="WrapUpOperations" Variables="cmd;ex;" ParamCnt="0" />
+<Method Token="100663330" Name="WrapUpOperations" Variables="tm;cmd;ex;" ParamCnt="1" />
+<Method Token="100663331" Name="ResetVars" Variables="cmd;V_1;ex;" ParamCnt="0" />
+<Field Token="67108867" Name="myTimer" />
+<Field Token="67108868" Name="alarmCounter" />
+<Field Token="67108869" Name="exitFlag" />
+<Field Token="67108870" Name="MaxDWGs" />
+<Field Token="67108871" Name="MaxDXFs" />
+<Field Token="67108872" Name="TotalDWGs" />
+<Type Token="33554439" Name="PGA.SportVisionAuto.Program" />
+<Method Token="100663332" Name="OpenAutoCAD" Variables="filename;doc;db;ed;V_3;name;" ParamCnt="1" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663307" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly><File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionAuto\PGA.SportVisionAuto\Active.cs" NewName="File0" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionAuto\PGA.SportVisionAuto\Commands.cs" NewName="File1" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SportVisionAuto\PGA.SportVisionAuto\Program.cs" NewName="File2" />
+</Mappings>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_ConvertModelWizard_Files\UpgradeReferences.xslt"?>
+<UpgradeLog>
+  <Events>
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA-Tour-Civil-App.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA-Tour-Civil-App.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA-Tour-Civil-App.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA-Tour-Civil-App\Properties\Resources.resx" Message="Resources.resx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA-Tour-Civil-App.csproj" Message="PGA-Tour-Civil-App" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common\PGA.Common.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common\PGA.Common.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common\PGA.Common.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common\PGA.Common.csproj" Message="PGA.Common" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Utils\PGA.Common.Utils.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Utils\PGA.Common.Utils.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Utils\PGA.Common.Utils.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Utils\PGA.Common.Utils.csproj" Message="PGA.Common.Utils" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Logging\PGA.Common.Logging.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Logging\PGA.Common.Logging.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Logging\PGA.Common.Logging.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Logging\PGA.Common.Logging.csproj" Message="PGA.Common.Logging" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Registry\PGA.Common.Registry.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Registry\PGA.Common.Registry.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Registry\PGA.Common.Registry.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Registry\PGA.Common.Registry.csproj" Message="PGA.Common.Registry" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Settings\PGA.Common.Settings.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Settings\PGA.Common.Settings.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Settings\PGA.Common.Settings.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.Settings\PGA.Common.Settings.csproj" Message="PGA.Common.Settings" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Views\PGA.Views.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Views\PGA.Views.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Views\PGA.Views.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Views\Settings.resx" Message="Settings.resx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Views\PGA.Views.csproj" Message="PGA.Views" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Model.BLL\PGA.Model.BLL.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Model.BLL\PGA.Model.BLL.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Model.BLL\PGA.Model.BLL.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Model.BLL\PGA.Model.BLL.csproj" Message="PGA.Model.BLL" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Model.DAL\PGA.Model.DAL.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Model.DAL\PGA.Model.DAL.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Model.DAL\PGA.Model.DAL.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Model.DAL\PGA.Model.DAL.csproj" Message="PGA.Model.DAL" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Controller\PGA.Controller.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Controller\PGA.Controller.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Controller\PGA.Controller.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Controller\PGA.Controller.csproj" Message="PGA.Controller" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.AutoCAD\Pge.Common.AutoCAD\PGA.Common.AutoCAD.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.AutoCAD\Pge.Common.AutoCAD\PGA.Common.AutoCAD.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.AutoCAD\Pge.Common.AutoCAD\PGA.Common.AutoCAD.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.AutoCAD\Pge.Common.AutoCAD\StandardsViolationReportForm.resx" Message="StandardsViolationReportForm.resx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Common.AutoCAD\Pge.Common.AutoCAD\PGA.Common.AutoCAD.csproj" Message="PGA.Common.AutoCAD" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Autodesk.Registry\PGA.Autodesk.Registry.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Autodesk.Registry\PGA.Autodesk.Registry.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Autodesk.Registry\PGA.Autodesk.Registry.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Autodesk.Registry\PGA.Autodesk.Registry.csproj" Message="PGA.Autodesk.Registry" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Autodesk.Settings\PGA.Autodesk.Settings.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Autodesk.Settings\PGA.Autodesk.Settings.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Autodesk.Settings\PGA.Autodesk.Settings.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA.Autodesk.Settings\PGA.Autodesk.Settings.csproj" Message="PGA.Autodesk.Settings" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\TestProjectLog\TestProjectLog.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\TestProjectLog\TestProjectLog.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\TestProjectLog\TestProjectLog.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\TestProjectLog\TestProjectLog.csproj" Message="TestProjectLog" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\Daryl Banks\Documents\Visual Studio 2010\Projects\PGA-Tour-Civil-App\PGA-Tour-Civil-App.sln" Message="PGA-Tour-Civil-App" />
+  </Events>
+</UpgradeLog>

@@ -1,0 +1,27 @@
+-- Script Date: 8/12/2015 6:55 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+DROP TABLE [Logs];
+GO
+CREATE TABLE [Logs] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [DateStamp] nchar(10) NOT NULL
+, [Issue] nchar(200) NOT NULL
+, [DrawingID] nchar(50) NULL
+);
+GO
+ALTER TABLE [Logs] ADD CONSTRAINT [PK_Logs] PRIMARY KEY ([Id]);
+GO
+DROP TABLE [PointCloud];
+GO
+CREATE TABLE [PointCloud]
+(
+	[Id] int IDENTITY (1,1) NOT NULL,
+    [DrawingName] NVARCHAR(50) NULL, 
+    [DrawingGUI] NVARCHAR(50) NULL, 
+    [SourcePath] NVARCHAR(50) NULL, 
+    [DestinationPath] NVARCHAR(50) NULL, 
+    [DateStamp] DATETIME NULL, 
+    [DateLoaded] DATETIME NULL
+);
+GO
+ALTER TABLE [PointCloud] ADD CONSTRAINT [PK_PointCloud] PRIMARY KEY ([Id]);
+GO

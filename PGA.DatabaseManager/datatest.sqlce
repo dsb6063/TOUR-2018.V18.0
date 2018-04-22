@@ -1,0 +1,19 @@
+-- Script Date: 5/27/2016 4:01 PM  - ErikEJ.SqlCeScripting version 3.5.2.58
+SET IDENTITY_INSERT [ExportToCADStack] ON;
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (
+1,N'BAY-HILL01.DWG',N'C:\Users\m4800\Downloads\BayHill-01\BayHill-01\TINSURF-20160527-102231\HOLE01\z-BAY-HILL01.DWG',{ts '2016-05-27 10:22:31.963'},NULL,0,0,0,0,1);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (
+2,N'BAY-HILL01.DWG',N'C:\Users\m4800\Downloads\BayHill-01\BayHill-01\TINSURF-20160527-102231\HOLE01\s-BAY-HILL01.DWG',{ts '2016-05-27 10:22:31.963'},NULL,NULL,NULL,NULL,NULL,1);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (
+3,N'SV-BAY-HILL01.DWG',N'C:\Users\m4800\Downloads\BayHill-01\BayHill-01\TINSURF-20160527-102231\SportVision\HOLE01\SV-BAY-HILL01.DWG',{ts '2016-05-27 10:22:31.963'},'INSERT',NULL,NULL,NULL,NULL,1);
+GO
+INSERT INTO [ExportToCADStack] ([Id],[DwgName],[CompletePath],[DateStamp],[Function],[IsInvoked],[IsRunning],[IsCompleted],[HasError],[Hole]) VALUES (
+4,N'SV-3DP-BAY-HILL01.DWG',N'C:\Users\m4800\Downloads\BayHill-01\BayHill-01\TINSURF-20160527-102231\SportVision\HOLE01\SV-3DP-BAY-HILL01.DWG',{ts '2016-05-27 10:22:31.963'},'INSERT',NULL,NULL,NULL,NULL,1);
+GO
+SET IDENTITY_INSERT [ExportToCADStack] OFF;
+GO
+ALTER TABLE [ExportToCADStack] ALTER COLUMN [Id] IDENTITY (5,1);
+GO

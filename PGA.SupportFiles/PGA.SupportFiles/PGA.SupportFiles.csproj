@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DE10703-436D-4F0C-A91A-A14CA52AC06D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PGA.SupportFiles</RootNamespace>
+    <AssemblyName>PGA.SupportFiles</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AssemblyVersion>18047.0.0.2</AssemblyVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autodesk.AutoCAD.Interop">
+      <HintPath>..\..\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA.Common.AutoCAD\BBC.Common.AutoCAD\bin\Debug\Autodesk.AutoCAD.Interop.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop.Common">
+      <HintPath>..\..\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA.Common.AutoCAD\BBC.Common.AutoCAD\bin\Debug\Autodesk.AutoCAD.Interop.Common.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="BBC.Common.AutoCAD">
+      <HintPath>..\..\PGA.OpenDWG\PGA.OpenDWG\bin\x64\Debug\BBC.Common.AutoCAD.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\..\PGA.SV30MOffset\packages\MathNet.Numerics.3.13.0\lib\portable-net45+sl5+netcore45+MonoAndroid1+MonoTouch1\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.Autodesk.Settings">
+      <HintPath>..\..\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA.Autodesk.Settings\bin\x64\Debug\PGA.Autodesk.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.Common.Settings">
+      <HintPath>..\..\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA.Common.Settings\bin\Debug\PGA.Common.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.Database">
+      <HintPath>..\..\PGA.Database.02\PGA.Database.Database.01\bin\x64\Debug\PGA.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.DataContext">
+      <HintPath>..\..\PGA.DataContext\PGA.DataContext\bin\x64\Debug\PGA.DataContext.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.DrawingManager">
+      <HintPath>..\..\PGA.DrawingManager\PGA.DrawingManager\bin\Debug\PGA.DrawingManager.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.FeaturelineManager">
+      <HintPath>..\..\PGA.FeaturelineManager\PGA.FeaturelineManager\bin\x64\Debug\PGA.FeaturelineManager.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.MessengerManager">
+      <HintPath>..\..\PGA.MessengerManager\bin\x64\Debug\PGA.MessengerManager.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.PolylineManager">
+      <HintPath>..\..\PGA.PolylineManager\PGA.PolylineManager\bin\x64\Debug\PGA.PolylineManager.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.SportVision">
+      <HintPath>..\..\PGA.SportVisionCustom\PGA.SportVisionCustom\bin\x64\Debug\PGA.SportVision.dll</HintPath>
+    </Reference>
+    <Reference Include="PGA.SurfaceManager">
+      <HintPath>..\..\PGA.SurfaceManager\PGA.SurfaceManager\bin\x64\Debug\PGA.SurfaceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="ProcessPolylines">
+      <HintPath>..\..\ProcessPolylines\ProcessPolylines\bin\x64\Debug\ProcessPolylines.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

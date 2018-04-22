@@ -1,0 +1,293 @@
+﻿<Mappings><Assembly Name="PGA.Surfaces"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="PnPoly" />
+<Method Token="100663298" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663299" Name="pnpoly" Variables="points;test;nvert;i;j;c;V_4;V_5;V_6;V_7;" ParamCnt="2" />
+<Method Token="100663300" Name="PointInPolyline" Variables="points;tests;test;nvert;i;j;c;V_4;V_5;V_6;V_7;" ParamCnt="3" />
+<Method Token="100663301" Name="PointInPolyline" Variables="points;tests;nvert;tvert;test;i;j;m;n;c;V_8;V_9;V_10;V_11;V_12;V_13;" ParamCnt="2" />
+<Type Token="33554436" Name="PGA.Surfaces.C3DSurfacesDemoCommands" />
+<Method Token="100663303" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663304" Name="GetIdsByTypeTypeValue" Variables="types;doc;oEd;typedValueSelection;selectionFilter;promptSelectionResult;V_5;V_6;type;V_8;" ParamCnt="1" />
+<Method Token="100663305" Name="GetObjectId" Variables="handle;id;doc;db;tr;h;V_5;" ParamCnt="1" />
+<Method Token="100663306" Name="IsTINExcluded" Variables="objectid;commands;excludedfeatures;V_2;str;compare;V_5;V_6;" ParamCnt="1" />
+<Method Token="100663307" Name="CreateAllSurfaces" Variables="this;polylines;surfaceManager;m_dict;V_3;internalPLines;lsurface;V_6;V_7;V_8;V_9;baseObj;V_11;V_12;V_13;V_14;innerbdy;outerPline;innerIdCollection;V_18;V_19;V_20;V_21;pLines;V_23;layer;V_25;e;e;V_28;e;e;e;" ParamCnt="1" />
+<Method Token="100663308" Name="CreateSingleSurface" Variables="this;m_dict;surfaceManager;V_2;ed;selectionRes;V_5;selectionOpts;V_7;selectedObjects;selectedpolyline;polylines;internalPLines;lsurface;V_13;V_14;V_15;V_16;selected;V_18;V_19;V_20;boundary;V_22;V_23;V_24;innnerId;currentPoly;selectedPoly;V_28;V_29;e;e;V_32;ex;e;e;e;" ParamCnt="1" />
+<Method Token="100663309" Name="RebuildAllSurfaces" Variables="this;polylines;m_dict;surfaceManager;V_3;internalPLines;lsurface;V_6;baseObj;V_8;V_9;V_10;innerbdy;outerPline;innerIdCollection;V_14;V_15;V_16;V_17;pLines;layer;e;V_21;e;e;e;" ParamCnt="1" />
+<Method Token="100663310" Name="ZoomAll" Variables="" ParamCnt="0" />
+<Method Token="100663311" Name="ExportSurfaceObjects" Variables="surfaceManager;db;ed;surfaces;V_4;surfaceId;trans;surface;V_8;e;" ParamCnt="0" />
+<Method Token="100663312" Name="CloseSelectedPolylines" Variables="oids;selection;V_2;V_3;obj;V_5;" ParamCnt="0" />
+<Method Token="100663313" Name="GetPolyFromObjId" Variables="this;oid;db;tr;obj;lwp;e;V_5;V_6;V_7;e;" ParamCnt="2" />
+<Type Token="33554437" Name="C3DSurfacesDemo.PasteSurfaces" />
+<Method Token="100663314" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663315" Name="AddPointCloudObjects" Variables="this;tr;surfaceName;m_TheSurfaceId;surface;surfaceStyleName;styleId;V_6;" ParamCnt="1" />
+<Method Token="100663316" Name="TestPasteSurface" Variables="this;srcSurface;destSurface;V_0;V_1;tr;" ParamCnt="3" />
+<Method Token="100663317" Name="ExtractBorder" Variables="this;trans;surfaceId;surface;entityIds;i;entityId;V_4;border;V_6;" ParamCnt="3" />
+<Method Token="100663318" Name="CreateSurfaceMatrices" Variables="this;surfaceMatrix;item;V_2;" ParamCnt="1" />
+<Method Token="100663319" Name="CreateOverallSurface" Variables="this;surfaceName;surfaceStyleName;surface;V_3;V_4;msg;V_6;" ParamCnt="1" />
+<Method Token="100663320" Name="GetAllInternalPolyLinesToSelected" Variables="this;oid;oids;db;intid;V_2;objectId;basePolyline;tempPolyline;bArea;cArea;tpoints;bpoints;V_10;ex;V_12;V_13;V_14;V_15;V_16;V_17;V_18;V_19;e;e;" ParamCnt="3" />
+<Method Token="100663321" Name="GetAllInternalPolyLinesToSelectedOriginal" Variables="this;oid;oids;intid;basePolyline;tempPolyline;bArea;cArea;db;V_6;objectId;tpoints;bpoints;V_10;ex;V_12;V_13;V_14;V_15;V_16;V_17;V_18;e;e;" ParamCnt="3" />
+<Method Token="100663322" Name="GetSurfaceEntityIDs" Variables="db;ids;tran;tbl;br;b;ex;V_6;" ParamCnt="1" />
+<Method Token="100663323" Name="GetSurfaceByName" Variables="surfaceName;oids;surfaceId;tr;doc;surfacecollection;V_5;oid;surface;V_8;V_9;V_10;e;" ParamCnt="1" />
+<Method Token="100663324" Name="GetAllSurfaces" Variables="this;oids;selection;V_2;V_3;oid;V_5;e;" ParamCnt="1" />
+<Method Token="100663325" Name="GetIdsByTypeCollection" Variables="this;collection;getClass;doc;V_4;trans;modelspace;polylineIds;V_8;id;V_10;" ParamCnt="1" />
+<Method Token="100663326" Name="GetAllPolyLines" Variables="this;oids;selection;V_2;V_3;oid;V_5;e;" ParamCnt="1" />
+<Method Token="100663327" Name="AddStandardBoundary" Variables="this;polyId;surfacename;surface;poly;tr;points;surfaceBoundaries;V_4;V_5;V_6;V_7;ex;" ParamCnt="4" />
+<Method Token="100663328" Name="ProcessFailedOuterBoundary" Variables="this;polyId;surfacename;surface;tr;poly;points;surfaceBoundaries;V_4;V_5;V_6;V_7;ex;" ParamCnt="4" />
+<Method Token="100663329" Name="ProcessFailedOuterBoundary" Variables="this;inptscol;surfacename;surface;polyId;tr;poly;points;surfaceBoundaries;V_5;V_6;V_7;V_8;ex;" ParamCnt="4" />
+<Method Token="100663330" Name="ProcessFailedHideBoundarys" Variables="this;polyId;surfacename;surface;tr;poly;points;surfaceBoundaries;V_4;V_5;V_6;V_7;ex;" ParamCnt="4" />
+<Method Token="100663331" Name="RemoveStandardBoundary" Variables="this;polyId;surfacename;surface;tr;boundaryEntities;surfaceBoundaries;ex;" ParamCnt="4" />
+<Method Token="100663332" Name="AddSelectedLineAsOuterBoundary" Variables="this;id;" ParamCnt="2" />
+<Method Token="100663333" Name="CreateSelectedSurface" Variables="this;oid;surfaceName;surfaceStyleName;i;tempSurface;surface;V_5;V_6;V_7;V_8;msg;" ParamCnt="2" />
+<Method Token="100663334" Name="GetPLineMaxGeoExtents" Variables="this;polyline;V_0;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663335" Name="GetAllInternalPolyLinesToSelected" Variables="this;oid;oids;minpolyseparation;intid;basePolyline;tempPolyline;bArea;cArea;db;V_6;objectId;tpoints;bpoints;V_10;ex;V_12;V_13;V_14;V_15;V_16;V_17;V_18;e;e;e;" ParamCnt="4" />
+<Method Token="100663336" Name="GetPLineMinGeoExtents" Variables="this;polyline;V_0;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663337" Name="IsContainedWithInObject" Variables="this;max0;min0;max1;min1;V_0;V_1;" ParamCnt="5" />
+<Method Token="100663338" Name="IsContainedWithInObject" Variables="this;max0;min0;max1;min1;V_0;V_1;" ParamCnt="5" />
+<Method Token="100663339" Name="GetAllInternalPolyLinesToSelected" Variables="this;oid;e;V_1;" ParamCnt="2" />
+<Method Token="100663340" Name="GetExtents3DPoly" Variables="selectedObjectId;doc;ed;db;tr;ucs;V_5;V_6;obj;lwp;V_9;vn;V_11;V_12;i;pt;V_15;p2d;V_17;V_18;vId;v2d;V_21;V_22;p3d;V_24;V_25;vId;v3d;" ParamCnt="1" />
+<Method Token="100663341" Name="GetMinVector3D" Variables="enExtents3D;V_0;" ParamCnt="1" />
+<Method Token="100663342" Name="GetMaxVector3D" Variables="enExtents3D;V_0;" ParamCnt="1" />
+<Method Token="100663343" Name="GetPolyLayerFromOid" Variables="selectedObjectId;doc;ed;db;tr;ucs;V_5;V_6;obj;lwp;V_9;V_10;V_11;p2d;V_13;V_14;p3d;V_16;V_17;" ParamCnt="1" />
+<Method Token="100663344" Name="GetPolyFromObjId" Variables="this;oid;db;tr;obj;lwp;e;V_4;V_5;V_6;e;" ParamCnt="3" />
+<Method Token="100663345" Name="GetPolyFromObjId" Variables="this;oid;db;tr;obj;lwp;e;V_5;V_6;V_7;e;" ParamCnt="2" />
+<Method Token="100663346" Name="GetObjectIdCollectionFromEntity" Variables="this;polyId;entities;V_1;" ParamCnt="2" />
+<Method Token="100663347" Name="GetPoint3DCollectionFromEntity" Variables="this;polyId;points;entities;V_2;" ParamCnt="2" />
+<Method Token="100663348" Name="GetPolyPointsByObjectId" Variables="selectedObjectId;doc;ed;db;tr;points;ucs;V_6;V_7;obj;lwp;V_10;vn;i;point3D;V_14;V_15;" ParamCnt="1" />
+<Method Token="100663349" Name="ListInternalPolylines" Variables="m_dict;V_0;obj;V_2;collection;V_4;polylines;V_6;V_7;" ParamCnt="1" />
+<Method Token="100663350" Name="GetObjectId" Variables="handle;id;doc;db;tr;h;V_5;" ParamCnt="1" />
+<Method Token="100663351" Name="IsTINExcluded" Variables="objectid;commands;excludedfeatures;V_2;str;compare;V_5;V_6;" ParamCnt="1" />
+<Method Token="100663352" Name="CreateSurfaceForPolylines" Variables="this;polylines;V_0;polyline;V_2;e;V_4;V_5;e;" ParamCnt="2" />
+<Method Token="100663353" Name="AddBoundariesForSurfaces" Variables="this;polylines;V_0;pair;surface;name;tr;lObjectId;boundaryEntities;surfaceBoundaries;sbo;V_9;ex;V_11;ex;" ParamCnt="2" />
+<Method Token="100663354" Name="FindSurfaceIdForPolylineV1" Variables="this;oid;V_0;id;V_2;V_3;e;" ParamCnt="2" />
+<Method Token="100663355" Name="FindSurfaceIdForPolylineV2" Variables="oid;V_0;id;V_2;V_3;e;" ParamCnt="1" />
+<Method Token="100663356" Name="get_TOLERANCE" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663357" Name="PasteAllSurfaces" Variables="this;sHole;objectId;V_1;id;e;V_4;e;" ParamCnt="2" />
+<Method Token="100663358" Name="AddBoundariesForSurfaces" Variables="this;polylinepnts;surfaceid;name;surface;tr;surfaceBoundaries;V_4;ex;" ParamCnt="3" />
+<Method Token="100663359" Name="ProcessOverlapOuterBoundary" Variables="this;name;surface;outbound;polyId;tr;poly;points;ex;" ParamCnt="3" />
+<Method Token="100663360" Name="AddBoundariesForSurfaces" Variables="this;polylines;surfaceid;name;surface;tr;boundaryEntities;surfaceBoundaries;V_5;ex;" ParamCnt="3" />
+<Method Token="100663361" Name="AddHandletoDescription" Variables="this;surface;polylines;tr;V_1;V_2;" ParamCnt="3" />
+<Method Token="100663362" Name="GetPolylineName" Variables="selectedObjectId;doc;ed;db;plane;ucs;V_5;tr;obj;lwp;p2d;p3d;V_11;V_12;V_13;V_14;" ParamCnt="1" />
+<Field Token="67108865" Name="m_polylinesurfaces" />
+<Field Token="67108866" Name="m_polylinesonly" />
+<Type Token="33554438" Name="C3DSurfacesDemo.C3DSurfacesDemoApp" />
+<Method Token="100663363" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663364" Name="Initialize" Variables="this;" ParamCnt="1" />
+<Method Token="100663365" Name="Terminate" Variables="this;" ParamCnt="1" />
+<Type Token="33554440" Name="C3DSurfacesDemo.CivilApplicationManager" />
+<Method Token="100663373" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663374" Name="get_ActiveCivilDocument" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663375" Name="get_WorkingDatabase" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663376" Name="StartTransaction" Variables="V_0;" ParamCnt="0" />
+<Type Token="33554441" Name="C3DSurfacesDemo.CivilTinSurface" />
+<Method Token="100663377" Name=".ctor" Variables="this;surfaceName;surfaceStyleName;tr;surface;styleId;V_3;" ParamCnt="3" />
+<Method Token="100663378" Name=".ctor" Variables="this;sourceId;" ParamCnt="2" />
+<Method Token="100663379" Name="SetBaseLayerCivilTinSurface" Variables="surfaceStyleName;db;doc;loc;V_3;tr;" ParamCnt="1" />
+<Method Token="100663380" Name="CreateFromExisting" Variables="surfaceName;requested;V_1;msg;V_3;" ParamCnt="1" />
+<Method Token="100663381" Name="FindCivilTinSurface" Variables="surfaceName;requested;V_1;V_2;" ParamCnt="1" />
+<Method Token="100663382" Name="FindCivilTinSurfaceByName" Variables="surfaceName;requested;V_1;V_2;" ParamCnt="1" />
+<Method Token="100663383" Name="FindCivilTinSurfaceByName" Variables="surfaceName;value;requested;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663384" Name="get_Name" Variables="this;tr;surface;V_2;" ParamCnt="1" />
+<Method Token="100663385" Name="set_Name" Variables="this;value;tr;surface;" ParamCnt="2" />
+<Method Token="100663386" Name="get_Points" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663387" Name="get_Triangles" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663388" Name="AddPoints" Variables="this;points;tr;surface;" ParamCnt="2" />
+<Method Token="100663389" Name="AddStandardBreakline" Variables="this;points;name;polyId;" ParamCnt="3" />
+<Method Token="100663390" Name="AddStandardBreakline" Variables="this;polyId;name;tr;surface;entities;" ParamCnt="3" />
+<Method Token="100663391" Name="GetObjectIdCollectionFromEntity" Variables="this;polyId;entities;V_1;" ParamCnt="2" />
+<Method Token="100663392" Name="GetCivilSurfaceBySurfaceId" Variables="this;surIdId;surface;tr;V_2;e;" ParamCnt="2" />
+<Method Token="100663393" Name="GetCivilSurfaceBySurfaceName" Variables="surf;surface;surIdId;tr;V_3;e;" ParamCnt="1" />
+<Method Token="100663394" Name="RebuildSurfaceBySurfaceName" Variables="surf;surface;surIdId;tr;V_3;V_4;e;" ParamCnt="1" />
+<Method Token="100663395" Name="AddStandardBoundary" Variables="this;polyId;surfacename;tr;surface;boundaryEntities;surfaceBoundaries;V_4;e;" ParamCnt="3" />
+<Method Token="100663396" Name="AddStandardInnerBoundary" Variables="this;polyId;layername;tr;surface;boundaryEntities;surfaceBoundaries;sbo;V_5;V_6;e;" ParamCnt="3" />
+<Method Token="100663397" Name="findSurface" Variables="surfaceName;doc;tr;V_2;surfaceId;surface;V_5;V_6;V_7;" ParamCnt="1" />
+<Method Token="100663398" Name="createPolylineFromPoints" Variables="this;points;polyId;polyline;V_2;" ParamCnt="2" />
+<Method Token="100663399" Name="addEntityToCurrentDatabase" Variables="this;entity;entityId;tr;curDb;bt;btr;V_5;" ParamCnt="2" />
+<Method Token="100663400" Name="FindSurfaceBySurfaceId" Variables="surfaceId;doc;tr;surface;V_3;" ParamCnt="1" />
+<Method Token="100663401" Name="FindSurfaceNameById" Variables="surfaceId;doc;tr;surface;V_3;" ParamCnt="1" />
+<Method Token="100663402" Name="SetDefaultBuildOptions" Variables="this;V_0;tr;surface;V_3;V_4;V_5;V_6;e;" ParamCnt="1" />
+<Method Token="100663403" Name="SmoothAllSurfaces" Variables="this;surfaces;V_1;surface;V_3;ex;" ParamCnt="1" />
+<Method Token="100663404" Name="SetSmoothing" Variables="this;surface;points;polyline;V_2;tr;V_4;v3d;V_6;ex;V_8;" ParamCnt="2" />
+<Method Token="100663405" Name="SetSmoothing" Variables="this;surface;points;V_0;ts;pointOutputOptions;op;V_4;ex;" ParamCnt="3" />
+<Field Token="67108869" Name="m_TheSurfaceId" />
+<Type Token="33554442" Name="C3DSurfacesDemo.Point3dEnumerable" />
+<Method Token="100663406" Name=".ctor" Variables="this;surfaceId;" ParamCnt="2" />
+<Method Token="100663407" Name="GetEnumerator" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663408" Name="System.Collections.IEnumerable.GetEnumerator" Variables="this;V_0;" ParamCnt="1" />
+<Field Token="67108870" Name="m_Surface" />
+<Type Token="33554443" Name="C3DSurfacesDemo.Point3dEnumerator" />
+<Method Token="100663409" Name=".ctor" Variables="this;surface;" ParamCnt="2" />
+<Method Token="100663410" Name="get_Current" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663411" Name="System.Collections.IEnumerator.get_Current" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663412" Name="Dispose" Variables="this;" ParamCnt="1" />
+<Method Token="100663413" Name="MoveNext" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663414" Name="Reset" Variables="this;" ParamCnt="1" />
+<Method Token="100663415" Name="currentPoint" Variables="this;V_0;" ParamCnt="1" />
+<Field Token="67108871" Name="m_VertexEnumerator" />
+<Type Token="33554444" Name="C3DSurfacesDemo.TriangleEnumerable" />
+<Method Token="100663416" Name=".ctor" Variables="this;surfaceId;" ParamCnt="2" />
+<Method Token="100663417" Name="GetEnumerator" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663418" Name="System.Collections.IEnumerable.GetEnumerator" Variables="this;V_0;" ParamCnt="1" />
+<Field Token="67108872" Name="m_Surface" />
+<Type Token="33554445" Name="C3DSurfacesDemo.TriangleEnumerator" />
+<Method Token="100663419" Name=".ctor" Variables="this;surface;" ParamCnt="2" />
+<Method Token="100663420" Name="get_Current" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663421" Name="System.Collections.IEnumerator.get_Current" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663422" Name="Dispose" Variables="this;" ParamCnt="1" />
+<Method Token="100663423" Name="MoveNext" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663424" Name="Reset" Variables="this;" ParamCnt="1" />
+<Method Token="100663425" Name="currentTriangle" Variables="this;triangle;vx1;vx2;vx3;V_4;" ParamCnt="1" />
+<Method Token="100663426" Name="AddPointCloudObjects" Variables="this;tr;surfaceName;m_TheSurfaceId;surface;surfaceStyleName;styleId;V_6;" ParamCnt="1" />
+<Field Token="67108873" Name="m_TriangleEnumerator" />
+<Type Token="33554446" Name="C3DSurfacesDemo.TinSurfaceSample" />
+<Method Token="100663427" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663428" Name="testCreatePlateau" Variables="ed;selSurface;resSurface;surfaceId;selPline;resPline;plineId;selYesNo;resYesNo;erasePline;db;V_11;V_12;V_13;trans;surface;pline;test;plinesBorder;verticesInsidePline;plineVertexIndex;plineVertex0;plineVertex1;res0;res1;vertex0;vertex1;V_27;V_28;" ParamCnt="0" />
+<Type Token="33554447" Name="C3DSurfacesDemo.SurfaceTriangle" />
+<Method Token="100663429" Name=".ctor" Variables="this;vx1;vx2;vx3;" ParamCnt="4" />
+<Method Token="100663430" Name="get_Vertex1" Variables="this;" ParamCnt="1" />
+<Method Token="100663431" Name="set_Vertex1" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663432" Name="get_Vertex2" Variables="this;" ParamCnt="1" />
+<Method Token="100663433" Name="set_Vertex2" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663434" Name="get_Vertex3" Variables="this;" ParamCnt="1" />
+<Method Token="100663435" Name="set_Vertex3" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108874" Name="&lt;Vertex1&gt;k__BackingField" />
+<Field Token="67108875" Name="&lt;Vertex2&gt;k__BackingField" />
+<Field Token="67108876" Name="&lt;Vertex3&gt;k__BackingField" />
+<Type Token="33554448" Name="C3DSurfacesDemo.EditorUtils" />
+<Method Token="100663436" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663437" Name="Regen" Variables="" ParamCnt="0" />
+<Method Token="100663438" Name="Write" Variables="msg;" ParamCnt="1" />
+<Method Token="100663439" Name="PromptForString" Variables="prompt;result;options;promptResult;V_3;V_4;" ParamCnt="1" />
+<Method Token="100663440" Name="get__editor" Variables="V_0;" ParamCnt="0" />
+<Type Token="33554449" Name="C3DSurfacesDemo.COMInstanceException" />
+<Method Token="100663441" Name=".ctor" Variables="this;message;objectInterface;" ParamCnt="3" />
+<Method Token="100663442" Name="get_Interface" Variables="this;V_0;" ParamCnt="1" />
+<Field Token="67108877" Name="m_ObjectInterface" />
+<Type Token="33554450" Name="C3DSurfacesDemo.CreateSurfaceException" />
+<Method Token="100663443" Name=".ctor" Variables="this;message;" ParamCnt="2" />
+<Type Token="33554451" Name="C3DSurfacesDemo.SurfaceDataProvider" />
+<Method Token="100663444" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663445" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663446" Name="GenerateRandomPoints" Variables="count;xMax;yMax;zMax;points;i;V_2;V_3;" ParamCnt="4" />
+<Method Token="100663447" Name="GenerateRandomPoint" Variables="xMax;yMax;zMax;x;y;z;V_3;" ParamCnt="3" />
+<Method Token="100663448" Name="GenerateBreaklinePoints" Variables="count;xMax;yMax;points;xDelta;yDelta;i;x;y;V_6;V_7;" ParamCnt="3" />
+<Field Token="67108878" Name="m_Generator" />
+<Type Token="33554453" Name="C3DSurfacesDemo.SurfaceDataUtilities" />
+<Method Token="100663456" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663457" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663458" Name="GetTriangleAtIndex" Variables="data;index;vx1;vx2;vx3;V_3;" ParamCnt="2" />
+<Method Token="100663459" Name="GetPointAtIndex" Variables="data;index;x;y;z;V_3;" ParamCnt="2" />
+<Method Token="100663460" Name="PointCollectionToDoubleArray" Variables="points;pointsAsDoubles;idx;V_2;point;V_4;V_5;" ParamCnt="1" />
+<Field Token="67108885" Name="POINT_OFFSET" />
+<Field Token="67108886" Name="TRIANGLE_OFFSET" />
+<Type Token="33554454" Name="C3DSurfacesDemo.SurfaceStyleManager" />
+<Method Token="100663461" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663462" Name="Exists" Variables="styleName;V_0;" ParamCnt="1" />
+<Method Token="100663463" Name="GetStyleId" Variables="styleName;tr;doc;styles;V_3;styleId;style;V_6;V_7;" ParamCnt="1" />
+<Method Token="100663464" Name="CreateDefault" Variables="styleName;tr;doc;styles;styleId;style;majorContours;minorContours;triangles;V_8;ex;" ParamCnt="1" />
+<Type Token="33554455" Name="C3DSurfacesDemo.PasteSurfaces/SurfaceMatrix" />
+<Method Token="100663465" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663466" Name="get_SurfaceType" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663467" Name="set_SurfaceType" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663468" Name="get_SurfaceName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663469" Name="set_SurfaceName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663470" Name="get_SurfaceStyle" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663471" Name="set_SurfaceStyle" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663472" Name="get_DestTinStyle" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663473" Name="set_DestTinStyle" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663474" Name="get_PolyLayer" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663475" Name="set_PolyLayer" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108887" Name="surfaceType" />
+<Field Token="67108888" Name="surfaceName" />
+<Field Token="67108889" Name="surfaceStyle" />
+<Field Token="67108890" Name="destTINStyle" />
+<Field Token="67108891" Name="polyLayer" />
+<Type Token="33554456" Name="C3DSurfacesDemo.PasteSurfaces/LayerStatesBLL" />
+<Method Token="100663476" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663477" Name="get_Bridge" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663478" Name="set_Bridge" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663479" Name="get_Building" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663480" Name="set_Building" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663481" Name="get_Bunker" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663482" Name="set_Bunker" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663483" Name="get_BushOutline" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663484" Name="set_BushOutline" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663485" Name="get_CartPath" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663486" Name="set_CartPath" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663487" Name="get_Collar" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663488" Name="set_Collar" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663489" Name="get_DirtOutline" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663490" Name="set_DirtOutline" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663491" Name="get_Fairway" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663492" Name="set_Fairway" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663493" Name="get_Green" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663494" Name="set_Green" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663495" Name="get_GreenSideBunker" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663496" Name="set_GreenSideBunker" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663497" Name="get_IntMedRough" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663498" Name="set_IntMedRough" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663499" Name="get_LandScaping" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663500" Name="set_LandScaping" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663501" Name="get_NativeArea" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663502" Name="set_NativeArea" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663503" Name="get_Other" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663504" Name="set_Other" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663505" Name="get_Path" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663506" Name="set_Path" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663507" Name="get_RockOutline" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663508" Name="set_RockOutline" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663509" Name="get_RoughOutline" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663510" Name="set_RoughOutline" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663511" Name="get_Steps" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663512" Name="set_Steps" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663513" Name="get_TeeBox" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663514" Name="set_TeeBox" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663515" Name="get_TreeOutline" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663516" Name="set_TreeOutline" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663517" Name="get_WalkStrip" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663518" Name="set_WalkStrip" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663519" Name="get_Wall" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663520" Name="set_Wall" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663521" Name="get_Water" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663522" Name="set_Water" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663523" Name="get_WaterDrop" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663524" Name="set_WaterDrop" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663525" Name="get_LayerStateID" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663526" Name="set_LayerStateID" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108892" Name="_bridge" />
+<Field Token="67108893" Name="_building" />
+<Field Token="67108894" Name="_bunker" />
+<Field Token="67108895" Name="_bushOutline" />
+<Field Token="67108896" Name="_cartPath" />
+<Field Token="67108897" Name="_collar" />
+<Field Token="67108898" Name="_dirtOutline" />
+<Field Token="67108899" Name="_fairway" />
+<Field Token="67108900" Name="_green" />
+<Field Token="67108901" Name="_greenSideBunker" />
+<Field Token="67108902" Name="_intMedRough" />
+<Field Token="67108903" Name="_landScaping" />
+<Field Token="67108904" Name="_nativeArea" />
+<Field Token="67108905" Name="_other" />
+<Field Token="67108906" Name="_path" />
+<Field Token="67108907" Name="_rockOutline" />
+<Field Token="67108908" Name="_roughOutline" />
+<Field Token="67108909" Name="_steps" />
+<Field Token="67108910" Name="_teeBox" />
+<Field Token="67108911" Name="_treeOutline" />
+<Field Token="67108912" Name="_walkStrip" />
+<Field Token="67108913" Name="_wall" />
+<Field Token="67108914" Name="_water" />
+<Field Token="67108915" Name="_waterDrop" />
+<Field Token="67108916" Name="_layerStateID" />
+<Type Token="33554457" Name="C3DSurfacesDemo.PasteSurfaces/&lt;&gt;c" />
+<Method Token="100663527" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663528" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663529" Name="&lt;GetSurfaceEntityIDs&gt;b__10_0" Variables="this;id;" ParamCnt="2" />
+<Field Token="67108917" Name="&lt;&gt;9" />
+<Field Token="67108918" Name="&lt;&gt;9__10_0" />
+<Type Token="33554458" Name="C3DSurfacesDemo.PasteSurfaces/&lt;&gt;c__DisplayClass13_0" />
+<Method Token="100663530" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663531" Name="&lt;GetIdsByTypeCollection&gt;b__0" Variables="this;id;" ParamCnt="2" />
+<Field Token="67108919" Name="acceptableTypes" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663302" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly></Mappings>

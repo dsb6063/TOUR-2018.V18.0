@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A9AE2226-3FB4-41E1-AAC7-42A250802636}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PGA.Surfaces</RootNamespace>
+    <AssemblyName>PGA.Surfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\accoremgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acdbmgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\acdbmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acmgd, Version=18.2.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\acmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AecBaseMgd, Version=6.7.49.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\AecBaseMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AeccDbMgd, Version=9.0.1619.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\C3D\AeccDbMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Civil3D\PasteSurfaces.cs" />
+    <Compile Include="C3DSurfacesDemoApp.cs" />
+    <Compile Include="C3DSurfacesDemoCommands.cs" />
+    <Compile Include="Civil3D\CivilApplicationManager.cs" />
+    <Compile Include="Civil3D\CivilTinSurface.cs" />
+    <Compile Include="PlatoSample.cs" />
+    <Compile Include="PnPoly.cs" />
+    <Compile Include="SurfaceTriangle.cs" />
+    <Compile Include="Utilities\EditorUtils.cs" />
+    <Compile Include="Exception\COMInstanceException.cs" />
+    <Compile Include="Exception\CreateSurfaceException.cs" />
+    <Compile Include="Utilities\SurfaceDataProvider.cs" />
+    <Compile Include="Utilities\SurfaceDataUtilities.cs" />
+    <Compile Include="Civil3D\SurfaceStyleManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA.Common.AutoCAD\BBC.Common.AutoCAD\BBC.Common.AutoCAD.csproj">
+      <Project>{94ce62e5-86c3-4fc9-ae04-14813e316925}</Project>
+      <Name>BBC.Common.AutoCAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA.Common.AutoCAD\BBC.Common.Framework\BBC.Common.Framework.csproj">
+      <Project>{5d20161e-212f-486c-9676-c577a8cf4bf5}</Project>
+      <Name>BBC.Common.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.Database.02\PGA.Database.Database.01\PGA.Database.01.csproj">
+      <Project>{5e0eec36-50d3-4512-939d-d3e8c353310b}</Project>
+      <Name>PGA.Database.01</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.DataContext\PGA.DataContext\PGA.DataContext.csproj">
+      <Project>{506D9E8A-E07C-4DE7-B57A-18F9AB2B7735}</Project>
+      <Name>PGA.DataContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.MessengerManager\PGA.MessengerManager.csproj">
+      <Project>{55a6727a-77a2-43bd-bd1d-51b27db7ab79}</Project>
+      <Name>PGA.MessengerManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.OffsetPolylines\PGA.OffsetPolylines\PGA.OffsetPolylines.csproj">
+      <Project>{1c56f665-f951-49ac-a34f-33cf33a0cbed}</Project>
+      <Name>PGA.OffsetPolylines</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.SurfaceManager\PGA.SurfaceManager\PGA.SurfaceManager.csproj">
+      <Project>{a3541071-e2f4-45ae-b3fd-fcf408a9107c}</Project>
+      <Name>PGA.SurfaceManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.pfx" />
+  </ItemGroup>
+</Project>

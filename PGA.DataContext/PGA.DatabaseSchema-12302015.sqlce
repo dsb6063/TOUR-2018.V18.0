@@ -1,0 +1,219 @@
+-- Script Date: 12/30/2015 12:30 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+-- Database information:
+-- Locale Identifier: 1033
+-- Encryption Mode: Platform Default
+-- Case Sensitive: False
+-- Database: C:\Users\Daryl-Win-8\AppData\Roaming\Autodesk\ApplicationPlugins\PGA-PuttTinSurface2014.bundle\Database\PGA.sdf
+-- ServerVersion: 4.0.8876.1
+-- DatabaseSize: 256 KB
+-- Created: 12/17/2015 3:48 PM
+
+-- User Table information:
+-- Number of tables: 12
+-- DrawingStack: 0 row(s)
+-- GlobalSettings: 1 row(s)
+-- Logs: 1 row(s)
+-- PointCloud: 57 row(s)
+-- Polyline: 0 row(s)
+-- PolylineChildren: 0 row(s)
+-- PolylineDWGS: 19 row(s)
+-- Settings: 2 row(s)
+-- SourceDrawingInfo: 0 row(s)
+-- Stack: 1 row(s)
+-- TaskManager: 0 row(s)
+-- Tasks: 3 row(s)
+
+DROP TABLE [Taskmanager]
+GO
+DROP TABLE [Tasks]
+GO
+DROP TABLE [DrawingStack];
+GO
+DROP TABLE [Stack];
+GO
+DROP TABLE [SourceDrawingInfo]
+GO
+DROP TABLE [Settings];
+GO
+DROP TABLE [PolylineDWGS]
+GO
+DROP TABLE [PolylineChildren];
+GO
+DROP TABLE [Polyline]
+GO
+DROP TABLE [PointCloud];
+GO
+DROP TABLE [Logs]
+GO
+DROP TABLE [GlobalSettings];
+GO
+CREATE TABLE [Tasks] (
+  [Id] int IDENTITY (27,1) NOT NULL
+, [ProjectID] int NOT NULL
+, [TimeStarted] datetime NULL
+, [TimeEnded] datetime NULL
+, [IsCancelled] bit NULL
+, [IsPaused] bit NULL
+);
+GO
+CREATE TABLE [TaskManager] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [Date] datetime NOT NULL
+, [CourseName] nvarchar(100) NOT NULL
+, [DateCreated] datetime NULL
+, [CreatedBy] nvarchar(100) NULL
+, [DateStarted] datetime NULL
+, [DateCompleted] datetime NULL
+, [Paused] bit NULL
+, [Cancelled] bit NULL
+);
+GO
+CREATE TABLE [Stack] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [dwgid] int NOT NULL
+, [Command] nvarchar(500) NULL
+, [CommandFunction] nvarchar(500) NULL
+, [State] nvarchar(100) NULL
+, [HasError] bit NOT NULL
+, [ErrorMessage] nvarchar(500) NULL
+);
+GO
+CREATE TABLE [SourceDrawingInfo] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [DrawingName] nvarchar(50) NULL
+, [DrawingPath] nvarchar(50) NULL
+, [DrawingGui] nvarchar(50) NULL
+, [DestinationPath] nvarchar(50) NULL
+, [TimeStampFile] nchar(10) NULL
+, [TimeStampProcessess] nchar(10) NULL
+, [LastSaveTime] nchar(10) NULL
+);
+GO
+CREATE TABLE [Settings] (
+  [Id] int IDENTITY (4,1) NOT NULL
+, [GlobalPointFilePath] nvarchar(200) NULL
+, [GlobalPolylineFilePath] nvarchar(200) NULL
+, [TemplateDWG] nvarchar(200) NULL
+, [SeverPath] nvarchar(200) NULL
+, [CourseName] nvarchar(50) NULL
+, [DateStamp] datetime NULL
+, [StartTime] datetime NULL
+, [EndTime] datetime NULL
+, [DestinationFolder] nvarchar(200) NULL
+, [CreateDXF] bit NULL
+, [DestDXFFolder] nvarchar(200) NULL
+, [ProjectName] nvarchar(250) NULL
+, [ProjectCity] nvarchar(250) NULL
+, [ProjectState] nvarchar(250) NULL
+, [ProjectDate] datetime NULL
+, [ProjectCreator] nvarchar(250) NULL
+, [ProjectManager] nvarchar(250) NULL
+, [ProjectSurveyor] nvarchar(250) NULL
+);
+GO
+CREATE TABLE [PolylineDWGS] (
+  [Id] int IDENTITY (109,1) NOT NULL
+, [DrawingName] nvarchar(50) NULL
+, [DrawingGUI] nvarchar(50) NULL
+, [SourcePath] nvarchar(200) NULL
+, [DestinationPath] nvarchar(200) NULL
+, [DateStamp] datetime NULL
+, [DateLoaded] datetime NULL
+);
+GO
+CREATE TABLE [PolylineChildren] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [PolylineParentID] bigint NOT NULL
+, [PolylineChildrenID] nvarchar(50) NULL
+, [DateStamp] datetime NULL
+, [PolylineID] bigint NULL
+);
+GO
+CREATE TABLE [Polyline] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [DrawingName] nchar(50) NULL
+, [DrawingID] nchar(50) NOT NULL
+, [Handle] nchar(50) NOT NULL
+, [ObejctId] nchar(50) NOT NULL
+, [Level] nchar(50) NOT NULL
+, [Nodes] nchar(50) NOT NULL
+, [Layer] nchar(50) NOT NULL
+, [Area] nchar(50) NOT NULL
+, [Length] nchar(50) NOT NULL
+, [Geometry] nchar(200) NOT NULL
+);
+GO
+CREATE TABLE [PointCloud] (
+  [Id] int IDENTITY (115,1) NOT NULL
+, [DrawingName] nvarchar(50) NULL
+, [DrawingGUI] nvarchar(50) NULL
+, [SourcePath] nvarchar(200) NULL
+, [DestinationPath] nvarchar(200) NULL
+, [DateStamp] datetime NULL
+, [DateLoaded] datetime NULL
+);
+GO
+CREATE TABLE [Logs] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [DateStamp] nchar(10) NOT NULL
+, [Issue] nchar(200) NOT NULL
+, [DrawingID] nchar(50) NULL
+);
+GO
+CREATE TABLE [GlobalSettings] (
+  [Id] int IDENTITY (2,1) NOT NULL
+, [PointsPath] nvarchar(200) NULL
+, [PolylinePath] nvarchar(200) NULL
+, [SourceDWG] nvarchar(200) NULL
+, [ServerName] nvarchar(100) NULL
+, [ServerPath] nvarchar(100) NULL
+, [EmailAddress] nvarchar(100) NULL
+, [EmailServer] nvarchar(100) NULL
+, [EmailPort] nvarchar(100) NULL
+, [EmailUserName] nvarchar(100) NULL
+, [EmailPassword] nvarchar(100) NULL
+, [IsEmailSecured] bit DEFAULT NULL NULL
+, [IsAttachment] bit DEFAULT NULL NULL
+);
+GO
+CREATE TABLE [DrawingStack] (
+  [Id] int IDENTITY (326,1) NOT NULL
+, [PolylineDwgName] nvarchar(500) NULL
+, [PointCloudDwgName] nvarchar(500) NULL
+, [DateStamp] datetime NULL
+, [Function] nvarchar(100) NULL
+, [IsInvoked] bit NULL
+, [IsRunning] bit NULL
+, [IsCompleted] bit NULL
+, [HasError] bit NULL
+, [TimeStarted] datetime NULL
+, [TimeCompleted] datetime NULL
+, [SourcePolylineDwgID] bigint NULL
+, [Hole] bigint NULL
+);
+GO
+ALTER TABLE [Tasks] ADD CONSTRAINT [PK_Tasks] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [TaskManager] ADD CONSTRAINT [PK_TaskManager] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [Stack] ADD CONSTRAINT [PK_Stack] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [SourceDrawingInfo] ADD CONSTRAINT [PK_SourceDrawingInfoS] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [Settings] ADD CONSTRAINT [PK_Settings] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [PolylineDWGS] ADD CONSTRAINT [PK_PolylineDWGS] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [PolylineChildren] ADD CONSTRAINT [PK_PolylineChildren] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [Polyline] ADD CONSTRAINT [PK_Polyline] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [PointCloud] ADD CONSTRAINT [PK_PointCloud] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [Logs] ADD CONSTRAINT [PK_Logs] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [GlobalSettings] ADD CONSTRAINT [PK_GlobalSettings] PRIMARY KEY ([Id]);
+GO
+ALTER TABLE [DrawingStack] ADD CONSTRAINT [PK_DrawingStack] PRIMARY KEY ([Id]);
+GO
+

@@ -1,0 +1,92 @@
+﻿<Mappings><Assembly Name="PGA.CivTinSurf"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="PGA.CourseCoaleseProject.ProjectSettings" />
+<Method Token="100663298" Name=".ctor" Variables="this;date;set;" ParamCnt="2" />
+<Method Token="100663299" Name="InitializeSettings" Variables="this;date;commands;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663300" Name="InitializeSettings" Variables="this;set;ex;" ParamCnt="2" />
+<Method Token="100663301" Name="get_UseGen2013DXF" Variables="this;" ParamCnt="1" />
+<Method Token="100663302" Name="set_UseGen2013DXF" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663303" Name="get_UseSkipDXF" Variables="this;" ParamCnt="1" />
+<Method Token="100663304" Name="set_UseSkipDXF" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663305" Name="get_UseRemoveDups" Variables="this;" ParamCnt="1" />
+<Method Token="100663306" Name="set_UseRemoveDups" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663307" Name="get_UseBreaklines" Variables="this;" ParamCnt="1" />
+<Method Token="100663308" Name="set_UseBreaklines" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663309" Name="get_UseReports" Variables="this;" ParamCnt="1" />
+<Method Token="100663310" Name="set_UseReports" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663311" Name="get_UseOutput3DPolys" Variables="this;" ParamCnt="1" />
+<Method Token="100663312" Name="set_UseOutput3DPolys" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663313" Name="get_UseGenErrorReport" Variables="this;" ParamCnt="1" />
+<Method Token="100663314" Name="set_UseGenErrorReport" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663315" Name="get_UseAddFLtoWaterSurf" Variables="this;" ParamCnt="1" />
+<Method Token="100663316" Name="set_UseAddFLtoWaterSurf" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663317" Name="get_UsePDFReport" Variables="this;" ParamCnt="1" />
+<Method Token="100663318" Name="set_UsePDFReport" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663319" Name="get_UseSmoothing" Variables="this;" ParamCnt="1" />
+<Method Token="100663320" Name="set_UseSmoothing" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663321" Name="get_UseProbing" Variables="this;" ParamCnt="1" />
+<Method Token="100663322" Name="set_UseProbing" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663323" Name="get_UseSimplify" Variables="this;" ParamCnt="1" />
+<Method Token="100663324" Name="set_UseSimplify" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663325" Name="get_UseSportVision" Variables="this;" ParamCnt="1" />
+<Method Token="100663326" Name="set_UseSportVision" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663327" Name="GetValueFromCheckBox" Variables="this;sender;chkBox;V_1;V_2;testchkBox;V_4;ex;" ParamCnt="2" />
+<Field Token="67108865" Name="&lt;UseGen2013DXF&gt;k__BackingField" />
+<Field Token="67108866" Name="&lt;UseSkipDXF&gt;k__BackingField" />
+<Field Token="67108867" Name="&lt;UseRemoveDups&gt;k__BackingField" />
+<Field Token="67108868" Name="&lt;UseBreaklines&gt;k__BackingField" />
+<Field Token="67108869" Name="&lt;UseReports&gt;k__BackingField" />
+<Field Token="67108870" Name="&lt;UseOutput3DPolys&gt;k__BackingField" />
+<Field Token="67108871" Name="&lt;UseGenErrorReport&gt;k__BackingField" />
+<Field Token="67108872" Name="&lt;UseAddFLtoWaterSurf&gt;k__BackingField" />
+<Field Token="67108873" Name="&lt;UsePDFReport&gt;k__BackingField" />
+<Field Token="67108874" Name="&lt;UseSmoothing&gt;k__BackingField" />
+<Field Token="67108875" Name="&lt;UseProbing&gt;k__BackingField" />
+<Field Token="67108876" Name="&lt;UseSimplify&gt;k__BackingField" />
+<Field Token="67108877" Name="&lt;UseSportVision&gt;k__BackingField" />
+<Type Token="33554436" Name="PGA.CourseCoalesceProject.Coalesce" />
+<Method Token="100663329" Name="get_Drawingpath" Variables="" ParamCnt="0" />
+<Method Token="100663330" Name="set_Drawingpath" Variables="value;" ParamCnt="1" />
+<Method Token="100663331" Name="get_Flag" Variables="" ParamCnt="0" />
+<Method Token="100663332" Name="set_Flag" Variables="value;" ParamCnt="1" />
+<Method Token="100663333" Name="get_Hole" Variables="" ParamCnt="0" />
+<Method Token="100663334" Name="set_Hole" Variables="value;" ParamCnt="1" />
+<Method Token="100663335" Name="set_DateStamp" Variables="value;" ParamCnt="1" />
+<Method Token="100663336" Name="get_DateStamp" Variables="" ParamCnt="0" />
+<Method Token="100663337" Name="LoadandProcessPolys" Variables="commands;TemplatePath;dwgs;DwDrawingStacks;V_4;V_5;dwg;V_7;V_8;dwg;s;TotalDrawings;acDocMgr;acNewDoc;acDoc;V_15;V_16;V_17;V_18;V_19;V_20;V_21;V_22;acDbNewDoc;ed;gpath;V_26;path;V_28;V_29;db;wdb;collection;date;output;fileName;outdxf;outdwg;pTinSurface;_commands;civilcommand;V_41;V_42;V_43;V_44;V_45;V_46;V_47;V_48;surfaceId;ex;V_51;ex;surfaceId;ex;V_55;V_56;ex;ex;ex1;" ParamCnt="0" />
+<Method Token="100663338" Name="SetSportVisionFolder" Variables="dwg;commands;date;output;V_2;V_3;V_4;ex;" ParamCnt="2" />
+<Method Token="100663339" Name="DumpDrawingStack" Variables="commands;" ParamCnt="0" />
+<Method Token="100663340" Name="GetOsVersion" Variables="name;V_1;ex;" ParamCnt="0" />
+<Method Token="100663341" Name="GenerateXMLReport" Variables="outdwg;acDbNewDoc;dwg;commands;writer;hole;filepath;savepath;drawingname;completepath;V_7;ex1;" ParamCnt="3" />
+<Method Token="100663342" Name="AcNewDoc_CommandEnded" Variables="sender;e;" ParamCnt="2" />
+<Method Token="100663343" Name="SavezCADFile" Variables="outdwg;acDbNewDoc;dwg;commands;hole;filepath;savepath;drawingname;completepath;V_6;" ParamCnt="3" />
+<Method Token="100663344" Name="GenerateReport" Variables="outdwg;acDbNewDoc;dwg;commands;writer;hole;filepath;savepath;drawingname;completepath;V_7;ex1;" ParamCnt="3" />
+<Method Token="100663345" Name="SavesCADFile" Variables="outdwg;acDbNewDoc;dwg;commands;hole;filepath;savepath;drawingname;completepath;V_6;" ParamCnt="3" />
+<Method Token="100663346" Name="SavesSVCADFile" Variables="outdwg;acDbNewDoc;dwg;commands;hole;filepath;savepath;drawingname;completepath;V_6;ex;" ParamCnt="3" />
+<Method Token="100663347" Name="Poly3DPath" Variables="outdwg;acDbNewDoc;dwg;commands;hole;filepath;savepath;dirinfo;drawingname;completepath;V_7;V_8;V_9;V_10;V_11;ex;" ParamCnt="3" />
+<Method Token="100663348" Name="SetSportVisionFolder" Variables="name;dir;file;output;V_3;ex;" ParamCnt="1" />
+<Method Token="100663349" Name="SetOutPutFolder" Variables="dwg;commands;date;output;V_2;V_3;V_4;ex;" ParamCnt="2" />
+<Method Token="100663350" Name="get_GCloudPath" Variables="" ParamCnt="0" />
+<Method Token="100663351" Name="set_GCloudPath" Variables="value;" ParamCnt="1" />
+<Method Token="100663352" Name="get_DwDrawingStacks" Variables="" ParamCnt="0" />
+<Method Token="100663353" Name="set_DwDrawingStacks" Variables="value;" ParamCnt="1" />
+<Method Token="100663354" Name="get_GDwgPath" Variables="" ParamCnt="0" />
+<Method Token="100663355" Name="set_GDwgPath" Variables="value;" ParamCnt="1" />
+<Method Token="100663356" Name="LoadandProcessPolysSynch" Variables="commands;TemplatePath;dwgs;DwDrawingStacks;TotalDrawings;V_5;V_6;dwg;V_8;V_9;dwg;acDocMgr;acNewDoc;acDoc;V_14;V_15;V_16;V_17;V_18;V_19;acDbNewDoc;ed;gpath;V_23;path;V_25;V_26;V_27;db;wdb;collection;date;output;fileName;outdxf;outdwg;pTinSurface;civilcommand;V_38;V_39;V_40;ex;ex1;" ParamCnt="0" />
+<Field Token="67108878" Name="NumberofPolylines" />
+<Field Token="67108879" Name="&lt;Drawingpath&gt;k__BackingField" />
+<Field Token="67108880" Name="&lt;Flag&gt;k__BackingField" />
+<Field Token="67108881" Name="&lt;Hole&gt;k__BackingField" />
+<Field Token="67108882" Name="&lt;DateStamp&gt;k__BackingField" />
+<Field Token="67108883" Name="&lt;GCloudPath&gt;k__BackingField" />
+<Field Token="67108884" Name="&lt;DwDrawingStacks&gt;k__BackingField" />
+<Field Token="67108885" Name="&lt;GDwgPath&gt;k__BackingField" />
+<Type Token="33554437" Name="PGA.CourseCoalesceProject.Coalesce/&lt;&gt;c" />
+<Method Token="100663357" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663358" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663359" Name="&lt;GetOsVersion&gt;b__20_0" Variables="this;x;" ParamCnt="2" />
+<Field Token="67108886" Name="&lt;&gt;9" />
+<Field Token="67108887" Name="&lt;&gt;9__20_0" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663328" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly></Mappings>

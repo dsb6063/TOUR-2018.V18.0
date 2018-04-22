@@ -1,0 +1,9 @@
+-- Script Date: 9/6/2015 5:55 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+DELETE FROM [Settings]
+GO
+DELETE FROM [PointCloud]
+GO
+DELETE FROM [PolylineDWGS]
+GO
+DELETE FROM [CommandStack]
+GO

@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="PGA.DatabaseManager.MainWindow" Title="Database Manager" Margin="5" Padding="3" ResizeMode="CanMinimize" HorizontalAlignment="Center"  Icon="68.ico" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:PGA.TaskManagerUC" xmlns:course="clr-namespace:PGA.CourseName;assembly=PGA.CourseName" 
+        xmlns:localLog="clr-namespace:PGA.LogManagerUC" xmlns:dbMaintanenceUc="clr-namespace:PGA.DbMaintanenceUC" xmlns:gauge="clr-namespace:CircularGaugeDemoWPF;assembly=CircularGaugeDemoWPF" 
+        xmlns:simplify="clr-namespace:PGA.AdjustSimplify;assembly=PGA.AdjustSimplify" xmlns:progress="clr-namespace:PGA.ApplicationProgress;assembly=PGA.ApplicationProgress" 
+        xmlns:updateManager="clr-namespace:PGA.UpdateManager;assembly=PGA.UpdateManager_1.0"
+        Loaded="Window_Loaded" VerticalAlignment="Center" Left="0" Top="0" WindowStartupLocation="CenterScreen" Width="1140" Height="716" Background="#FF3A3333">
+    <Window.Resources>
+        <Style x:Key="{x:Type TextBox}" TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <Trigger Property="UIElement.IsMouseOver" Value="True">
+                    <Setter Property="Control.Background" Value="#FFDCDCDC" />
+                </Trigger>
+                <Trigger Property="UIElement.IsFocused" Value="True">
+                    <Setter Property="Control.Background" Value="#FFF0FFFF" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Border x:Name="Outer_Border" BorderThickness="1" Padding="5,2,5,2">
+        <Grid ZIndex="0" Background="Black" MouseEnter="Grid_MouseEnter" TextInput="Grid_TextInput" Margin="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="9"/>
+                <ColumnDefinition Width="90*"/>
+                <ColumnDefinition Width="280*"/>
+                <ColumnDefinition Width="170*"/>
+                <ColumnDefinition Width="295*"/>
+                <ColumnDefinition Width="70*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="70*"/>
+                <ColumnDefinition Width="133*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="167*"/>
+                <RowDefinition Height="70*"/>
+            </Grid.RowDefinitions>
+            <TextBox Name="txtServerPath" Margin="77,152,89,0" TextWrapping="Wrap" Text="" Visibility="Hidden" Grid.Column="2" Height="0" VerticalAlignment="Top" Grid.ColumnSpan="3"  />
+            <TextBox Name="txtTemplatePath" Height="23" Margin="77,124,89,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Visibility="Hidden" Grid.Column="2" Grid.ColumnSpan="3" />
+            <Label Content="File Path" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" BorderThickness="0,0,0,1" Margin="76,22,0,0" Grid.Column="1" Height="27" FontWeight="Bold" Grid.ColumnSpan="2" >
+                <Label.Effect>
+                    <DropShadowEffect ShadowDepth="0" BlurRadius="0" Direction="0" />
+                </Label.Effect>
+            </Label>
+            <Label Content="Template Path" Margin="21,119,230,0" VerticalAlignment="Top" Visibility="Hidden" Grid.Column="1" Height="26" Grid.ColumnSpan="2"  />
+            <Label Content="Server Path" Margin="21,0,230,152" Visibility="Hidden"  Grid.Column="1" Height="0" VerticalAlignment="Bottom" Grid.ColumnSpan="2"  />
+            <Label Content="New DXF Path" Margin="21,0,230,89" VerticalAlignment="Bottom" Visibility="Hidden" Grid.Column="1" Height="26" Grid.ColumnSpan="2"   />
+            <Label Content="Project Time" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,22,6,0" Width="119" BorderThickness="0,0,0,1" Grid.Column="5" Height="27" FontWeight="Bold" Grid.ColumnSpan="3"  >
+                <Label.Effect>
+                    <DropShadowEffect ShadowDepth="0" BlurRadius="0" Direction="0" />
+                </Label.Effect>
+            </Label>
+            <TextBox Name="txtDateCreated2" IsReadOnly="True" HorizontalAlignment="Right" Height="25" Margin="0,56,34,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="130" Grid.Column="7" Grid.ColumnSpan="2" />
+            <TextBox Name="txtDateCreated" IsReadOnly="True" Visibility="Hidden" HorizontalAlignment="Right" Height="25" Margin="0,56,34,0" TextWrapping="NoWrap" Text="" Width="130" VerticalAlignment="Top" Grid.Column="7" Grid.ColumnSpan="2" />
+            <TextBox Name="txtStartTime" IsReadOnly="True" HorizontalAlignment="Right" Height="25" Margin="0,93,34,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" Grid.Column="7" Grid.ColumnSpan="2" />
+            <TextBox Name="txtEndTime" IsReadOnly="True" HorizontalAlignment="Right" Height="25" Margin="0,120,34,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" Grid.Column="7" Grid.ColumnSpan="2" />
+            <Label Name="lblVersion" Content="Version: 16138.8.0.0" Padding="2" Margin="133,20,224,0" VerticalAlignment="Top" Grid.Column="3" HorizontalAlignment="Center" Grid.ColumnSpan="2" />
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Center"  Margin="137,10,228,0" Grid.Column="3" Height="16" Width="100" Grid.ColumnSpan="2">
+            <Hyperlink Name="lnkHomePage" NavigateUri="https://drive.google.com/drive/folders/0B6BFlGfLeSw3S3ViQ3RrUFRfUnc" RequestNavigate="Hyperlink_RequestNavigate" />
+            </TextBlock>
+            <Expander Header="Advanced Settings" Margin="90,134,0,0"  Foreground="Black" BorderBrush="#FF5C8ECB"  Panel.ZIndex="10" Grid.Column="2"  UseLayoutRounding="True" HorizontalAlignment="Left" MaxWidth="607" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" Padding="1" Grid.ColumnSpan="3"  >
+                <Expander.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFE2E6EC" Offset="0.13"/>
+                        <GradientStop Color="White" Offset="1"/>
+                        <GradientStop Color="#FF5C8ECB" Offset="0.946"/>
+                    </LinearGradientBrush>
+                </Expander.Background>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="54*"/>
+                        <ColumnDefinition Width="20*"/>
+                        <ColumnDefinition Width="563*"/>
+                    </Grid.ColumnDefinitions>
+                    <GroupBox Header="Sportvision" BorderThickness="1" Padding="1" Margin="15,0"  VerticalAlignment="Top" Grid.ColumnSpan="3">
+                        <GroupBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}" />
+                                <GradientStop Color="#FFC5BCBC" Offset="0.881" />
+                                <GradientStop Color="#7FAAA2A2" Offset="0.613" />
+                            </LinearGradientBrush>
+                        </GroupBox.Background>
+                        <GroupBox BorderThickness="0" Height="30" Padding="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0">
+                            <Grid>
+                                <CheckBox Name="chkSportVision" Content="Enable" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,6.296,0,0" RenderTransformOrigin="0.521,1.785" Checked="chkSportVision_Checked" />
+                                <CheckBox Name="chkCreateBL" Content="Breaklines" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="132.999,6.296,0,0" />
+                                <CheckBox Name="chk3DPolys" Content="3D Polyline" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="275.999,6.296,0,0" />
+                                <Button Name="cmdReformPlys" Padding="2" Content="30 Meter Reform" HorizontalAlignment="Right" VerticalAlignment="Center" Width="131" Margin="0,1,-180,-4" Click="cmdReformPlys_Click" Height="25" />
+                            </Grid>
+                        </GroupBox>
+                    </GroupBox>
+                    <GroupBox Header="Select Options" BorderThickness="1" Padding="0" Margin="15,50,15,15" Height="102.04"  Grid.ColumnSpan="3" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <GroupBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}" />
+                                <GradientStop Color="#FFC5BCBC" Offset="0.881" />
+                                <GradientStop Color="#7FAAA2A2" Offset="0.613" />
+                            </LinearGradientBrush>
+                        </GroupBox.Background>
+                        <Grid VerticalAlignment="Top" Width="590" Height="100" Margin="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="8*"/>
+                                <ColumnDefinition Width="287*"/>
+                            </Grid.ColumnDefinitions>
+                            <CheckBox Name="chkCreate2013DXF" Content="2013 DXF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7.913,18,0,0" Grid.Column="1" />
+                            <CheckBox Name="chkDuplicates" Content="Duplicates" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="421.913,18,0,0" Grid.Column="1" />
+                            <CheckBox Name="chkReports" Content="Reports" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218.913,21.148,0,0" Grid.Column="1" />
+                            <CheckBox Name="chkSimplifyPolylines" IsChecked="true" IsEnabled="True" Content="Simplify" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218.913,46.05,0,0" Grid.Column="1" />
+                            <CheckBox Name="chkOmitSDXF" Content="Skip DXF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7.913,46.05,0,0" Grid.Column="1" />
+                            <CheckBox Name="chkWaterBL"  Visibility="Hidden" Content="Water Breaklines" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="421.913,46.05,0,0" Grid.Column="1" />
+                            <CheckBox Name="chkStrictNames" Content="Strict Names" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="421.913,46.05,0,0" Grid.Column="1" IsEnabled="False" Visibility="Hidden" />
+                            <CheckBox Name="chkErrReports" Content="Error Reports" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218.913,46.05,0,0" Grid.Column="1" IsEnabled="False" Visibility="Hidden" />
+                            <CheckBox Name="chkPDFReport" Content="PDF Print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="421.913,46.05,0,0" RenderTransformOrigin="0.438,-0.869" Grid.Column="1" IsEnabled="False" />
+                            <CheckBox Name="chkProbing" Content="Probing" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7.913,74.5,0,0" Grid.Column="1" Visibility="Hidden" IsEnabled="False" />
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </Expander>
+            <Button Name="cmdTemplatePath" Content="..." HorizontalAlignment="Left" Height="23" Margin="210,124,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.531,2.174" Visibility="Hidden" Click="cmdTemplatePath_Click" Grid.Column="4" />
+            <Button Name="cmdServerPath" Content="..." HorizontalAlignment="Left" Margin="210,152,0,0" Width="32" RenderTransformOrigin="0.531,2.174" Visibility="Hidden" Click="cmdServerPath_Click" Grid.Column="4" Height="0" VerticalAlignment="Top" />
+            <Border Height="105" Margin="30,46,25,0" BorderBrush="#FFDCDCDC" VerticalAlignment="Top" Padding="3" BorderThickness="0" CornerRadius="5" Grid.Column="1" Grid.ColumnSpan="4" >
+                <Grid>
+                    <TextBox x:Name="txtPointPath" HorizontalAlignment="Left" Height="23" Margin="146,3,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="560" />
+                    <TextBox x:Name="txtPolylinePath" HorizontalAlignment="Left" Margin="146,31,0,0" TextWrapping="Wrap" Text="" Width="560" VerticalAlignment="Top" Height="23" />
+                    <Label Content="LiDAR Points" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Margin="42,0,0,0" />
+                    <Label Content="Polyline Path" HorizontalAlignment="Left" Margin="42,26,0,47.04" Width="119" />
+                    <TextBox x:Name="txtNewDWGPath" HorizontalAlignment="Left" Height="23" Margin="146,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="560" />
+                    <Label Content="Output Path" HorizontalAlignment="Left" Margin="42,0,0,16.52" VerticalAlignment="Bottom" Width="119" />
+                    <Button x:Name="cmdPointPath" Content="..." HorizontalAlignment="Left" Height="23" Margin="711,3,0,0" VerticalAlignment="Top" Width="32" Click="cmdPointPath_Click" />
+                    <Button x:Name="cmdPolylinePath" Content="..." HorizontalAlignment="Left" Margin="711,30.5,0,45.5" Width="32" RenderTransformOrigin="0.531,2.174" Height="23" Click="cmdPolylinePath_Click" />
+                    <Button x:Name="cmdDWGPath" Content="..." HorizontalAlignment="Left" Height="23" Margin="711,40,0,0" VerticalAlignment="Center" Width="32" RenderTransformOrigin="0.531,2.174" Click="cmdDWGPath_Click" />
+                </Grid>
+            </Border>
+            <Button Name="cmdDXFPath" Content="..." HorizontalAlignment="Left" Height="23" Margin="210,0,0,92" VerticalAlignment="Bottom" Width="32" RenderTransformOrigin="0.531,2.174" Visibility="Hidden" Click="cmdDXFPath_Click" Grid.Column="4" />
+            <Button Name="cmdRefreshDate" Content="..." HorizontalAlignment="Right" Margin="0,57,14,0" VerticalAlignment="Top" Width="15" Click="cmdRefreshDate_Click" Grid.Column="8" Height="20" />
+            <GroupBox Header="Tasks"  Panel.ZIndex="1" Grid.Column="4" Margin="195,171,35,40" Grid.ColumnSpan="5"   >
+                <Grid x:Name="Rt_Side_Commands" Grid.Column="4" HorizontalAlignment="Right" Margin="0,0,33.886,-40.139" VerticalAlignment="Bottom">
+                    <GroupBox Header="Execute Task" BorderThickness="1" Margin="-9,141,21,75" BorderBrush="#FF5C8ECB" >
+                        <GroupBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}"/>
+                                <GradientStop Color="#FF5C8ECB"/>
+                                <GradientStop Color="#7FBFBFBF"/>
+                                <GradientStop Color="#F749851F" Offset="0.954"/>
+                                <GradientStop Color="#FCFCFBFF" Offset="0.406"/>
+                            </LinearGradientBrush>
+                        </GroupBox.Background>
+                        <Grid Margin="-3,0,3,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="33*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button x:Name="cmdClose" Content="Close" HorizontalAlignment="Right" Height="19.25" Width="70" Click="cmdClose_Click" Margin="0,11,28,7" Grid.Column="1" />
+                            <Button x:Name="cmdExecute" Content="New Task" HorizontalAlignment="Left" Height="19.25" Width="70" Click="cmdExecute_Click" Margin="27,11,0,7" Grid.Column="1" />
+                        </Grid>
+                    </GroupBox>
+                    <updateManager:Updater Margin="-9,17,21,0" Height="56" VerticalAlignment="Top" />
+                    <dbMaintanenceUc:DbMaintanenceUC Margin="-9,76,21,140" />
+                </Grid>
+            </GroupBox>
+            <simplify:UC_Simplify  Margin="30,185,190,-140" Width="140" Height="100" Panel.ZIndex="9" Grid.Column="1" Grid.ColumnSpan="2" ></simplify:UC_Simplify>
+            <gauge:GuageUC Margin="30,185,190,145" Width="150" Height="150" Panel.ZIndex="9" Grid.Column="1" Grid.ColumnSpan="2"  />
+            <Border HorizontalAlignment="Right" Margin="0,52,25,0" VerticalAlignment="Top" Width="233" Grid.Column="5" Grid.ColumnSpan="4" >
+                <Grid>
+                    <Label Content="Date Created" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" />
+                    <Label Content="Start Time" HorizontalAlignment="Left" Margin="0,37,0,55.624" Height="25" />
+                    <Label Content="End  Time" HorizontalAlignment="Left" Height="25" Margin="0,0,0,27.624" VerticalAlignment="Bottom" />
+                    <Label Content="Run  Time" HorizontalAlignment="Left" VerticalAlignment="Bottom" BorderThickness="0,0,0,1" Height="25" />
+                </Grid>
+            </Border>
+            <TextBox Name="txtElapsedTime" IsReadOnly="True" HorizontalAlignment="Right" Height="25" Margin="0,148,34,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" Grid.Column="7" Grid.ColumnSpan="2" />
+            <local:TaskManagerUC Height="200" Width="550" Margin="-2,452,1,29" Grid.ColumnSpan="4" Grid.RowSpan="2" />
+            <!--</Border>-->
+            <localLog:LogManagerUC Grid.Column="4" Width="550" Grid.ColumnSpan="5" Grid.RowSpan="2" >
+                <localLog:LogManagerUC.Margin>
+                    <Thickness>24,447,-1,34</Thickness>
+                </localLog:LogManagerUC.Margin>
+            </localLog:LogManagerUC>
+            <Border BorderBrush="#FF808080" BorderThickness="1" Margin="0,452,285,10" Panel.ZIndex="-10" Grid.ColumnSpan="5" Grid.RowSpan="2" >
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0.615"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+            <Image Name="image"   Source="Golf3.png" Margin="19,0,230,19" Opacity="0.2" Grid.Column="1" Height="180" VerticalAlignment="Bottom" Visibility="Hidden" Grid.ColumnSpan="2" />
+            <Border BorderBrush="#FF808080" BorderThickness="1" Panel.ZIndex="-10" Margin="1,0,0,29" Grid.ColumnSpan="9" >
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FF5C8ECB" Offset="1"/>
+                        <GradientStop Color="#FFEAEAEA" Offset="0.351"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+            <Grid Width="200" Height="200" Grid.Column="3" Margin="76,135,0,145" HorizontalAlignment="Left" Grid.ColumnSpan="2" >
+                <progress:ProgressBar Margin="-430,183,480,-183" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Hidden"/>
+                <Label Content="Drawing Stages" Margin="-406,214,514,-40" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Hidden"/>
+
+            </Grid>
+
+            <GroupBox Grid.Column="2" Margin="143,171,111,254" Header="Options" Grid.ColumnSpan="3">
+                <Grid>
+                    <ToggleButton x:Name="togSportvisionRun" Padding="2"  Content="Sportvision" Width="300" HorizontalAlignment="Center"   Checked="togSportvisionRun_Checked" />
+                </Grid>
+            </GroupBox>
+            <GroupBox Grid.Column="2" Margin="143,231,112,40" Header="Golf Course Details" Grid.ColumnSpan="3" >
+                <Grid>
+                    <Grid>
+                        <Grid x:Name="Project_Details" Margin="-1,34,1,51" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Hidden"   >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="265*"/>
+                                <ColumnDefinition Width="84*"/>
+                                <ColumnDefinition Width="305*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="txtProjectName" IsReadOnly="True" Margin="-152.897,4.04,0,0" TextWrapping="NoWrap" Text="" TabIndex="7" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"  Visibility="Hidden" />
+                            <TextBox x:Name="txtPrjectCity" Height="25"  TextWrapping="NoWrap" Text="" TabIndex="8" RenderTransformOrigin="0.548,2.167" Margin="46,62,28.685,3" Grid.ColumnSpan="2"  />
+                            <TextBox x:Name="txtUserName" Margin="-151.213,29.04,0,0" TextWrapping="Wrap" Text="" TabIndex="9" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="93.804" Visibility="Hidden" />
+                            <TextBox x:Name="txtState"  Height="25" TextWrapping="Wrap" Text="" RenderTransformOrigin="0.508,2.391" TabIndex="10" Grid.Column="2" Margin="12.315,63,1.685,2" />
+                            <TextBox x:Name="txtManager" Margin="-120,59.04,285.615,67.96" TextWrapping="Wrap" Text="" TabIndex="11" Visibility="Hidden" />
+                            <TextBox x:Name="txtSurveyor" Height="25" Margin="-120,0,285.615,38.99" TextWrapping="Wrap" Text=""  TabIndex="12" Visibility="Hidden" />
+                            <Label Content="Task" HorizontalAlignment="Left" Margin="-190,3.08,0,0" Height="25.96" VerticalAlignment="Top" Visibility="Hidden"  />
+                            <Label Content="City" HorizontalAlignment="Left" Margin="6,62,0,1"  />
+                            <Label Content="State"   HorizontalAlignment="Right" Grid.Column="1" Margin="0,65,-8.602,1" />
+                            <Label Content="User" Margin="-190,29.04,0,0" HorizontalAlignment="Left" Height="25.96" VerticalAlignment="Top" Visibility="Hidden"  />
+                            <Label Content="Manager" Margin="-193.89,58.15,0,67.89" HorizontalAlignment="Left" Width="58.77" Visibility="Hidden"  />
+                            <Label Content="Surveyor" Margin="-193.89,0,0,42.43" VerticalAlignment="Bottom" Height="25" HorizontalAlignment="Left" Visibility="Hidden" />
+                            <TextBox x:Name="txtCourseCode" Height="25" VerticalAlignment="Top" Margin="-4.728,28.08,0,0" TextChanged="txtCourseCode_TextChanged" Grid.Column="2" HorizontalAlignment="Left" Width="50"  />
+                            <TextBox x:Name="txtTOURCode" Text="" Height="25" VerticalAlignment="Top" Margin="72,28,0,0" Grid.Column="2" HorizontalAlignment="Left" Width="64" RenderTransformOrigin="-0.345,0.44">
+                            </TextBox>
+                            <Label Content="TOUR Code" VerticalAlignment="Top" Margin="67,3,0,0" BorderThickness="0,0,0,1" Height="25" Grid.Column="2" HorizontalAlignment="Left" />
+                            <TextBox x:Name="txtCourseName" Height="25" Margin="-1,28,27.685,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="txtCourseName_TextChanged" HorizontalAlignment="Right" Width="226" Grid.ColumnSpan="2" />
+                            <Label Content="Golf Course Name" VerticalAlignment="Top" Margin="-1.888,3.08,86.191,0" BorderThickness="0,0,0,1" Height="25" HorizontalAlignment="Right" />
+                            <Label Content="Code" Margin="-6.001,3.08,0,0" BorderThickness="0,0,0,1" Grid.Column="2" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                        </Grid>
+                    </Grid>
+                    <course:UserControl1></course:UserControl1>
+                </Grid>
+            </GroupBox>
+            <Border BorderBrush="#FF808080" BorderThickness="1" Margin="15,452,0,10" Grid.Column="4" Panel.ZIndex="-10" Grid.ColumnSpan="5" Grid.RowSpan="2" >
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0.598"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

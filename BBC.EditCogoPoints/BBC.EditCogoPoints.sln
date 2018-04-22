@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBC.AutoCAD.Trans", "BBC.AutoCAD.Trans\BBC.AutoCAD.Trans.csproj", "{E79987F4-C2C3-438B-9CCF-BB29706BC17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGA.EditCogoPoints", "BBC.EditCogoPoints\PGA.EditCogoPoints.csproj", "{17DDF0E2-DD84-45AF-8547-E7313549387F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E79987F4-C2C3-438B-9CCF-BB29706BC17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79987F4-C2C3-438B-9CCF-BB29706BC17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79987F4-C2C3-438B-9CCF-BB29706BC17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79987F4-C2C3-438B-9CCF-BB29706BC17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DDF0E2-DD84-45AF-8547-E7313549387F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DDF0E2-DD84-45AF-8547-E7313549387F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DDF0E2-DD84-45AF-8547-E7313549387F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DDF0E2-DD84-45AF-8547-E7313549387F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

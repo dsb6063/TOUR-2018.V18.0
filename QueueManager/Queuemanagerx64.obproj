@@ -1,0 +1,27 @@
+<Project ProjectFileVersion="4" UseRelativePaths="True" CheckVersionsWhileResolvingAssemblies="True" DisabledFromMSBuild="False" ID="{1e5f33e2-2be0-4a0e-9ba4-319040929e76}">
+  <SearchDirectories />
+  <OutputSettings OutputPath="..\..\..\..\..\..\Civil 3D Projects\Obfuscated Files" MainAssemblyPath="PGA.QueueManager" RunAssemblyPath="" SNPath="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\sn.exe" SignToolPath="" LicensingDLLPath="" OverwriteInputFiles="False" BuildID="" MapFilesLocation="" FullParamNamesInMappingFile="False">
+    <AdditionalAssemblies>
+      <AdditionalAssembly Path=".\QueueManager\bin\x64\Debug\PGA.Database.dll" Encrypt="False" Compress="False" />
+      <AdditionalAssembly Path=".\QueueManager\bin\x64\Debug\PGA.DataContext.dll" Encrypt="False" Compress="False" />
+      <AdditionalAssembly Path=".\QueueManager\bin\x64\Debug\PGA.MessengerManager.dll" Encrypt="False" Compress="False" />
+      <AdditionalAssembly Path=".\QueueManager\bin\x64\Debug\System.Data.SqlServerCe.dll" Encrypt="False" Compress="False" />
+    </AdditionalAssemblies>
+  </OutputSettings>
+  <ExceptionReporting ExceptionReportingServiceURL="" TryToContinueOnException="True" LocalReportPath=".\QueueManager\bin\x64\Debug\Queuemanager_ExceptionReports" ApplicationName="" CompanyName="" ShowUI="True" EnableSaveToFileButton="True" EnableSendReportButton="True" DeleteDownloadedReportsFromServer="True" />
+  <ObfuscationSettings RenamingScheme="3" UseOverloadedFieldNames="False" UseOverloadedMethodNames="False" HonorObfuscationAttributes="True" ExcludeSerializedTypes="True" ProcessInlineStrings="True" ForceXAMLProcessingModeExclude="False" ForceRenameParams="False" SymbolPrefix="" SymbolSuffix="" FakeFields="" FakeTypes="" FakeMethods="" EncryptionActive="True" CompressionActive="True" RemoveAccessedThroughPropertyAttribute="False" UseSaltForCryptographicRenaming="False" />
+  <ObfuscationRules />
+  <InclusionExclusionRules>
+    <Entity FullName="PGA.QueueManager">
+      <Rule Targets="4095" Exclude="True" Features="131071" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+  </InclusionExclusionRules>
+  <Assembly Load="true" Path=".\QueueManager\bin\x64\Debug\PGA.QueueManager.dll" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="" TimeStampURL="" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="QgBhAG4AawBzAC0AMgAwADEAOAA=" PfxPasswordCert="" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="False" EncryptMethods="False" EncryptConstants="False" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="0" CodeMasking="0" SuppressILDASM="False" SuppressReflection="False" CombineResources="False" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="False" SymbolRenaming="False" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="False" IncludeLocalVariablesInPdbFile="False" Encrypt="False" Compress="False" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <WarningSuppressions />
+  <Warnings SaveWarningsToFile="" FailOnUnsuppressedWarning="False" SaveSuppressedWarnings="True" SaveUnsuppressedWarnings="True" />
+  <Filters />
+</Project>

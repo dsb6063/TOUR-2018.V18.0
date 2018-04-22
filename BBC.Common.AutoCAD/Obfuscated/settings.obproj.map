@@ -1,0 +1,399 @@
+﻿<Mappings><Assembly Name="BBC.Common.AutoCAD"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Type Token="33554434" Name="BBC.Common.AutoCAD.StandardsManager" />
+<Method Token="100663297" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663298" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663299" Name="IsPluginDefined" Variables="this;pluginName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;" ParamCnt="2" />
+<Method Token="100663300" Name="IsPluginSelectable" Variables="this;pluginName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;" ParamCnt="2" />
+<Method Token="100663301" Name="IsPluginSelected" Variables="this;pluginName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;" ParamCnt="2" />
+<Method Token="100663302" Name="GetDefinedPlugins" Variables="this;plugIns;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;" ParamCnt="2" />
+<Method Token="100663303" Name="SelectPlugin" Variables="this;pluginName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;" ParamCnt="2" />
+<Method Token="100663304" Name="SelectAllPlugins" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;" ParamCnt="1" />
+<Method Token="100663305" Name="SelectAllPluginsForBatchChecker" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;" ParamCnt="1" />
+<Method Token="100663306" Name="DeselectPlugin" Variables="this;pluginName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;" ParamCnt="2" />
+<Method Token="100663307" Name="AttachStandardsFile" Variables="this;fullFileNameAndPath;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;V_15;" ParamCnt="2" />
+<Method Token="100663308" Name="DetachAllStandardsFiles" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;" ParamCnt="1" />
+<Method Token="100663309" Name="DetachStandardsFile" Variables="this;fullFileNameAndPath;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;V_15;V_16;" ParamCnt="2" />
+<Method Token="100663310" Name="IsStandardsFileAttached" Variables="this;fullFileNameAndPath;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;" ParamCnt="2" />
+<Method Token="100663311" Name="SetPrimaryStandardsFile" Variables="this;fullFileNameAndPath;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;" ParamCnt="2" />
+<Method Token="100663312" Name="ToggleAutomaticallyFixProblems" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;" ParamCnt="1" />
+<Method Token="100663313" Name="ToggleNotificationDialog" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;" ParamCnt="1" />
+<Method Token="100663314" Name="ToggleShowIgnoredProblems" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;" ParamCnt="1" />
+<Method Token="100663315" Name="TurnOffAutomaticallyFixProblems" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;" ParamCnt="1" />
+<Method Token="100663316" Name="TurnOffNotificationDialog" Variables="this;V_0;V_1;V_2;V_3;" ParamCnt="1" />
+<Method Token="100663317" Name="TurnOffShowIgnoredProblems" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;" ParamCnt="1" />
+<Method Token="100663318" Name="TurnOnAutomaticallyFixProblems" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;" ParamCnt="1" />
+<Method Token="100663319" Name="TurnOnNotificationDialog" Variables="this;V_0;V_1;V_2;V_3;" ParamCnt="1" />
+<Method Token="100663320" Name="TurnOnShowIgnoredProblems" Variables="this;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;" ParamCnt="1" />
+<Method Token="100663321" Name="ValidateStandards" Variables="this;chxTemplateFileName;chxFileNameIn;chxFileNameOut;htmFileNameOut;dwgFileNames;dwsFileNames;timeOut;showErrorDialog;errorDialogMessage;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;V_15;V_16;V_17;V_18;V_19;V_20;V_21;V_22;" ParamCnt="10" />
+<Method Token="100663322" Name="GenerateInputChxFile" Variables="this;chxFileName;chxTemplateFileName;dwgFileNames;dwsFileNames;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;V_15;V_16;V_17;V_18;V_19;V_20;V_21;V_22;V_23;V_24;" ParamCnt="5" />
+<Method Token="100663323" Name="RunBatchCheckerToGenerateErrorReport" Variables="this;chxFileNameIn;chxFileNameOut;htmFileNameOut;timeOut;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;" ParamCnt="5" />
+<Method Token="100663324" Name="ParseOutputChxFile" Variables="this;chxFileName;chxFileReports;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;V_15;V_16;V_17;V_18;V_19;V_20;V_21;V_22;V_23;V_24;V_25;V_26;V_27;V_28;V_29;V_30;V_31;V_32;" ParamCnt="3" />
+<Method Token="100663325" Name="MergeSymbolTables" Variables="this;sourceDwgFile;targetDwgFile;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;" ParamCnt="3" />
+<Method Token="100663326" Name="MergeSymbolTablesWithActiveDocument" Variables="this;sourceDwgFile;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;" ParamCnt="2" />
+<Field Token="67108865" Name="AutoCADAppRootRegistryPath" />
+<Field Token="67108866" Name="AutoCADRootRegistryPath" />
+<Field Token="67108867" Name="DefaultOutputFolder" />
+<Type Token="33554436" Name="BBC.Common.AutoCAD.AcStFileReport" />
+<Method Token="100663328" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663329" Name="get_User" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663330" Name="set_User" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663331" Name="get_ReportTime" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663332" Name="set_ReportTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663333" Name="get_File" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663334" Name="set_File" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663335" Name="get_FileName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663336" Name="set_FileName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663337" Name="get_LastSavedBy" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663338" Name="set_LastSavedBy" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663339" Name="get_LastModified" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663340" Name="set_LastModified" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663341" Name="get_LastError" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663342" Name="set_LastError" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663343" Name="get_ReportList" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663344" Name="set_ReportList" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108868" Name="_User" />
+<Field Token="67108869" Name="_ReportTime" />
+<Field Token="67108870" Name="_File" />
+<Field Token="67108871" Name="_FileName" />
+<Field Token="67108872" Name="_LastSavedBy" />
+<Field Token="67108873" Name="_LastModified" />
+<Field Token="67108874" Name="_LastError" />
+<Field Token="67108875" Name="_ReportList" />
+<Type Token="33554437" Name="BBC.Common.AutoCAD.AcStResults" />
+<Method Token="100663345" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663346" Name="get_User" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663347" Name="set_User" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663348" Name="get_ReportTime" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663349" Name="set_ReportTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663350" Name="get_ResultsList" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663351" Name="set_ResultsList" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108876" Name="_User" />
+<Field Token="67108877" Name="_ReportTime" />
+<Field Token="67108878" Name="_ResultsList" />
+<Type Token="33554438" Name="BBC.Common.AutoCAD.AcStResultsPlugin" />
+<Method Token="100663352" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663353" Name="get_PluginName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663354" Name="set_PluginName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663355" Name="get_ResultList" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663356" Name="set_ResultList" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108879" Name="_PluginName" />
+<Field Token="67108880" Name="_ResultList" />
+<Type Token="33554439" Name="BBC.Common.AutoCAD.AcStResult" />
+<Method Token="100663357" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663358" Name="get_ResultType" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663359" Name="set_ResultType" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663360" Name="get_ItemHandle" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663361" Name="set_ItemHandle" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663362" Name="get_ItemName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663363" Name="set_ItemName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663364" Name="get_ItemType" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663365" Name="set_ItemType" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663366" Name="get_Problem" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663367" Name="set_Problem" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663368" Name="get_SuggestedFix" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663369" Name="set_SuggestedFix" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663370" Name="get_FailedFixInfo" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663371" Name="set_FailedFixInfo" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663372" Name="get_IgnoredByApp" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663373" Name="set_IgnoredByApp" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663374" Name="get_IgnoredByUser" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663375" Name="set_IgnoredByUser" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663376" Name="get_ResultsFixList" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663377" Name="set_ResultsFixList" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108881" Name="_ResultType" />
+<Field Token="67108882" Name="_ItemHandle" />
+<Field Token="67108883" Name="_ItemName" />
+<Field Token="67108884" Name="_ItemType" />
+<Field Token="67108885" Name="_Problem" />
+<Field Token="67108886" Name="_SuggestedFix" />
+<Field Token="67108887" Name="_FailedFixInfo" />
+<Field Token="67108888" Name="_IgnoredByApp" />
+<Field Token="67108889" Name="_IgnoredByUser" />
+<Field Token="67108890" Name="_ResultsFixList" />
+<Type Token="33554440" Name="BBC.Common.AutoCAD.AcStResultsFix" />
+<Method Token="100663378" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663379" Name="get_FixName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663380" Name="set_FixName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663381" Name="get_FixType" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663382" Name="set_FixType" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663383" Name="get_DWSName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663384" Name="set_DWSName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663385" Name="get_ResultPropertyList" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663386" Name="set_ResultPropertyList" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108891" Name="_FixName" />
+<Field Token="67108892" Name="_FixType" />
+<Field Token="67108893" Name="_DWSName" />
+<Field Token="67108894" Name="_ResultPropertyList" />
+<Type Token="33554441" Name="BBC.Common.AutoCAD.AcStResultProperty" />
+<Method Token="100663387" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663388" Name="get_PropertyName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663389" Name="set_PropertyName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663390" Name="get_ObjectValue" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663391" Name="set_ObjectValue" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663392" Name="get_StandardValue" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663393" Name="set_StandardValue" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663394" Name="get_PropertyFixType" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663395" Name="set_PropertyFixType" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108895" Name="_PropertyName" />
+<Field Token="67108896" Name="_ObjectValue" />
+<Field Token="67108897" Name="_StandardValue" />
+<Field Token="67108898" Name="_PropertyFixType" />
+<Type Token="33554442" Name="BBC.Common.AutoCAD.AcStErrorRecord" />
+<Method Token="100663396" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663397" Name="get_DwgName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663398" Name="set_DwgName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663399" Name="get_PluginName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663400" Name="set_PluginName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663401" Name="get_Problem" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663402" Name="set_Problem" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663403" Name="get_ItemName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663404" Name="set_ItemName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663405" Name="get_PropertyName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663406" Name="set_PropertyName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663407" Name="get_ObjectValue" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663408" Name="set_ObjectValue" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663409" Name="get_StandardValue" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663410" Name="set_StandardValue" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108899" Name="_DwgName" />
+<Field Token="67108900" Name="_PluginName" />
+<Field Token="67108901" Name="_Problem" />
+<Field Token="67108902" Name="_ItemName" />
+<Field Token="67108903" Name="_PropertyName" />
+<Field Token="67108904" Name="_ObjectValue" />
+<Field Token="67108905" Name="_StandardValue" />
+<Type Token="33554443" Name="BBC.Common.AutoCAD.StandardsViolationReportForm" />
+<Method Token="100663411" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663412" Name="get_DefaultFileName" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663413" Name="set_DefaultFileName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663414" Name="get_DefaultFolder" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663415" Name="set_DefaultFolder" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663416" Name="get_ErrorRecordList" Variables="this;V_0;" ParamCnt="1" />
+<Method Token="100663417" Name="set_ErrorRecordList" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663418" Name="InitializeDgvStdErrors" Variables="this;" ParamCnt="1" />
+<Method Token="100663419" Name="cmdClose_Click" Variables="this;sender;e;" ParamCnt="3" />
+<Method Token="100663420" Name="cmdExportToExcel_Click" Variables="this;sender;e;V_0;V_1;" ParamCnt="3" />
+<Method Token="100663421" Name="ExportToExcel" Variables="this;excelFileName;errorRecordList;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;" ParamCnt="3" />
+<Method Token="100663422" Name="releaseObject" Variables="this;obj;V_0;" ParamCnt="2" />
+<Method Token="100663423" Name="Dispose" Variables="this;disposing;V_0;" ParamCnt="2" />
+<Method Token="100663424" Name="InitializeComponent" Variables="this;" ParamCnt="1" />
+<Field Token="67108906" Name="_DefaultFileName" />
+<Field Token="67108907" Name="_DefaultFolder" />
+<Field Token="67108908" Name="_ErrorRecordList" />
+<Field Token="67108909" Name="components" />
+<Field Token="67108910" Name="cmdExportToExcel" />
+<Field Token="67108911" Name="cmdClose" />
+<Field Token="67108912" Name="dgvPanel" />
+<Field Token="67108913" Name="dgvStdErrors" />
+<Type Token="33554444" Name="BBC.Common.AutoCAD.AcadDatabaseManager" />
+<Method Token="100663425" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663426" Name="AddPolyline" Variables="trans;points;layername;isClosed;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;" ParamCnt="4" />
+<Method Token="100663427" Name="AddPolyline" Variables="trans;points;layername;isClosed;colorIndex;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;" ParamCnt="5" />
+<Method Token="100663428" Name="AddPredefinedHatch" Variables="trans;points;layername;isClosed;patternName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;" ParamCnt="5" />
+<Method Token="100663429" Name="GetHatchMidPoint" Variables="hatch;V_0;V_1;V_2;V_3;V_4;" ParamCnt="1" />
+<Method Token="100663430" Name="DegreeToRadian" Variables="degree;V_0;" ParamCnt="1" />
+<Method Token="100663431" Name="RadianToDegree" Variables="degree;V_0;" ParamCnt="1" />
+<Method Token="100663432" Name="AddMText" Variables="trans;insert;text;layer;textStyle;height;rotation;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="7" />
+<Method Token="100663433" Name="AddMText" Variables="trans;insert;text;layer;textStyle;height;rotation;colorIndex;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="8" />
+<Method Token="100663434" Name="AddDBText" Variables="trans;insert;text;layer;textStyle;height;rotation;horizontalMode;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="8" />
+<Method Token="100663435" Name="AddToDatabase" Variables="db;databaseObject;trans;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="3" />
+<Method Token="100663436" Name="SetXData" Variables="transaction;objectId;applicationName;xData;V_0;V_1;V_2;V_3;" ParamCnt="4" />
+<Method Token="100663437" Name="GetXData" Variables="transaction;objectId;applicationName;V_0;V_1;V_2;" ParamCnt="3" />
+<Method Token="100663438" Name="GetXData" Variables="entity;applicationName;V_0;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663439" Name="GetEED" Variables="entity;applicationName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;" ParamCnt="2" />
+<Method Token="100663440" Name="SetEED" Variables="trans;objId;eedDict;appname;V_0;V_1;V_2;V_3;V_4;" ParamCnt="4" />
+<Method Token="100663441" Name="WriteMessage" Variables="message;V_0;" ParamCnt="1" />
+<Method Token="100663442" Name="SetDisplayOrder" Variables="transaction;oids;sendToTop;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Type Token="33554445" Name="BBC.Common.AutoCAD.RasterManager" />
+<Method Token="100663443" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663444" Name="LoadRasterStudioApi" Variables="rasterStudioArxPath;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;" ParamCnt="1" />
+<Method Token="100663445" Name="DeleteUnreferencedRasterImageDefinitions" Variables="db;trans;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;" ParamCnt="2" />
+<Method Token="100663446" Name="StripPathFromSourceFileName" Variables="db;trans;rasterImageName;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="3" />
+<Method Token="100663447" Name="GetRasterImageDef" Variables="db;trans;rasterImageName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;" ParamCnt="3" />
+<Field Token="67108914" Name="_aecImageInsertWorldFileCorrelationSource" />
+<Field Token="67108915" Name="rasterStudioArxPath" />
+<Type Token="33554446" Name="BBC.Common.AutoCAD.Layout_Manager" />
+<Method Token="100663448" Name="SetCurrentLayout" Variables="db;layoutName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663449" Name="SetCurrentLayout" Variables="db;trans;layoutName;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663450" Name="DeleteLayout" Variables="db;layoutName;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663451" Name="DeleteLayout" Variables="db;trans;layoutName;V_0;V_1;V_2;V_3;V_4;" ParamCnt="3" />
+<Method Token="100663452" Name="GetLayoutId" Variables="db;layoutName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663453" Name="GetLayoutId" Variables="db;trans;layoutName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;" ParamCnt="3" />
+<Method Token="100663454" Name="IsLayoutDefined" Variables="db;layoutName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663455" Name="IsLayoutDefined" Variables="db;trans;layoutName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663456" Name="GetLayoutNames" Variables="db;V_0;V_1;V_2;V_3;" ParamCnt="1" />
+<Method Token="100663457" Name="GetLayoutNames" Variables="db;trans;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="2" />
+<Method Token="100663458" Name="GetLayoutNames" Variables="db;trans;filter;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663459" Name="WBlockCloneLayout" Variables="db;targetLayoutName;sourceLayoutName;sourceLayoutDrawingName;V_0;V_1;V_2;V_3;" ParamCnt="4" />
+<Method Token="100663460" Name="WBlockCloneLayout" Variables="db;trans;targetLayoutName;sourceLayoutName;sourceLayoutDrawingName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;V_15;V_16;" ParamCnt="5" />
+<Method Token="100663461" Name="DeleteViewportsFromLayout" Variables="db;layoutName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663462" Name="DeleteViewportsFromLayout" Variables="db;trans;layoutName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;" ParamCnt="3" />
+<Type Token="33554447" Name="BBC.Common.AutoCAD.BlockManager" />
+<Method Token="100663463" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663464" Name="AddBlock" Variables="db;trans;blockName;point;angle;attributeTagValue;layername;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;" ParamCnt="7" />
+<Method Token="100663465" Name="AddBlockAttributes" Variables="blockRef;blockDefinition;attributeTagValue;tm;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="4" />
+<Method Token="100663466" Name="SetAttributeValue" Variables="trans;blockRef;tag;value;V_0;V_1;V_2;V_3;V_4;" ParamCnt="4" />
+<Method Token="100663467" Name="IsBlockDefined" Variables="blockName;V_0;V_1;V_2;" ParamCnt="1" />
+<Method Token="100663468" Name="IsBlockDefined" Variables="db;blockName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663469" Name="IsBlockDefined" Variables="db;trans;blockName;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663470" Name="DefineBlockFromFileOnDisk" Variables="blockName;blockPath;V_0;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663471" Name="DefineBlockFromFileOnDisk" Variables="db;blockName;blockPath;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663472" Name="DefineBlockFromFileOnDisk" Variables="db;trans;blockName;blockPath;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;" ParamCnt="4" />
+<Type Token="33554448" Name="BBC.Common.AutoCAD.LayerManager" />
+<Method Token="100663473" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663474" Name="IsDefined" Variables="db;layerName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663475" Name="IsDefined" Variables="db;trans;layername;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663476" Name="CreateLayer" Variables="db;layername;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663477" Name="CreateLayer" Variables="db;layername;color;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663478" Name="CreateLayer" Variables="db;trans;layername;V_0;" ParamCnt="3" />
+<Method Token="100663479" Name="CreateLayer" Variables="db;trans;layername;color;V_0;" ParamCnt="4" />
+<Method Token="100663480" Name="CreateLayer" Variables="db;trans;layername;color;linetypeId;V_0;V_1;V_2;V_3;V_4;" ParamCnt="5" />
+<Method Token="100663481" Name="DeleteLayer" Variables="db;layername;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663482" Name="DeleteLayer" Variables="db;trans;layername;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663483" Name="GetLayerId" Variables="db;layername;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663484" Name="GetLayerId" Variables="db;trans;layername;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663485" Name="GetLayerIds" Variables="db;trans;layerFilter;useWildCard;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;" ParamCnt="4" />
+<Method Token="100663486" Name="GetLayerNames" Variables="db;V_0;V_1;V_2;V_3;" ParamCnt="1" />
+<Method Token="100663487" Name="GetLayerNames" Variables="db;trans;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="2" />
+<Method Token="100663488" Name="GetLayerNames" Variables="db;trans;filter;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663489" Name="IsLocked" Variables="db;layerName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663490" Name="IsLocked" Variables="db;layerId;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663491" Name="IsLocked" Variables="db;trans;layername;V_0;V_1;V_2;V_3;V_4;" ParamCnt="3" />
+<Method Token="100663492" Name="IsLocked" Variables="db;trans;layerId;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663493" Name="LockLayer" Variables="db;layerName;isLocked;V_0;V_1;" ParamCnt="3" />
+<Method Token="100663494" Name="LockLayer" Variables="db;trans;layername;isLocked;V_0;V_1;V_2;V_3;" ParamCnt="4" />
+<Method Token="100663495" Name="LockAllLayers" Variables="db;isLocked;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663496" Name="LockAllLayers" Variables="db;trans;isLocked;V_0;V_1;V_2;V_3;V_4;" ParamCnt="3" />
+<Method Token="100663497" Name="FreezeLayer" Variables="db;layerName;isFrozen;V_0;V_1;" ParamCnt="3" />
+<Method Token="100663498" Name="FreezeLayer" Variables="db;trans;layerName;isFrozen;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="4" />
+<Method Token="100663499" Name="FreezeAllLayers" Variables="db;isFrozen;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663500" Name="FreezeAllLayers" Variables="db;trans;isFrozen;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663501" Name="IsOff" Variables="db;layerName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663502" Name="IsOff" Variables="db;layerId;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663503" Name="IsOff" Variables="db;trans;layername;V_0;V_1;V_2;V_3;V_4;" ParamCnt="3" />
+<Method Token="100663504" Name="IsOff" Variables="db;trans;layerId;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663505" Name="OffLayer" Variables="db;layerName;isOff;V_0;V_1;" ParamCnt="3" />
+<Method Token="100663506" Name="OffLayer" Variables="db;trans;layerName;isOff;V_0;V_1;V_2;V_3;" ParamCnt="4" />
+<Method Token="100663507" Name="OffAllLayers" Variables="db;isOff;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663508" Name="OffAllLayers" Variables="db;trans;isOff;V_0;V_1;V_2;V_3;V_4;" ParamCnt="3" />
+<Type Token="33554449" Name="BBC.Common.AutoCAD.AcadUtilities" />
+<Method Token="100663509" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663510" Name="SendStringToExecute" Variables="acadCmd;V_0;V_1;" ParamCnt="1" />
+<Method Token="100663511" Name="ZoomAll" Variables="V_0;V_1;V_2;V_3;" ParamCnt="0" />
+<Method Token="100663512" Name="ZoomExtents" Variables="V_0;V_1;V_2;V_3;" ParamCnt="0" />
+<Method Token="100663513" Name="GetActiveProfileName" Variables="V_0;V_1;V_2;V_3;V_4;" ParamCnt="0" />
+<Method Token="100663514" Name="LoadSideDatabase" Variables="fullFileNameAndPath;isReadOnly;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663515" Name="MergeSymbolTables" Variables="sourceDb;targetDb;isDirty;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;V_15;V_16;V_17;V_18;V_19;V_20;V_21;V_22;V_23;V_24;V_25;V_26;V_27;V_28;V_29;V_30;V_31;V_32;V_33;V_34;V_35;V_36;V_37;V_38;V_39;V_40;V_41;V_42;V_43;V_44;V_45;V_46;V_47;V_48;" ParamCnt="3" />
+<Method Token="100663516" Name="ConvertTo2d" Variables="pt;V_0;V_1;V_2;" ParamCnt="1" />
+<Method Token="100663517" Name="ConvertTo2d" Variables="pt;ucs;V_0;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663518" Name="ConvertTo3dCollection" Variables="points;V_0;" ParamCnt="1" />
+<Method Token="100663519" Name="ConvertTo3dCollection" Variables="points;zValue;V_0;V_1;V_2;V_3;V_4;" ParamCnt="2" />
+<Method Token="100663520" Name="GetHatchMidPoint" Variables="hatch;V_0;V_1;V_2;V_3;V_4;" ParamCnt="1" />
+<Method Token="100663521" Name="GetCentriod" Variables="points;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;" ParamCnt="1" />
+<Method Token="100663522" Name="GetWindowSelection" Variables="V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="0" />
+<Method Token="100663523" Name="DegreeToRadian" Variables="degree;V_0;" ParamCnt="1" />
+<Method Token="100663524" Name="RadianToDegree" Variables="degree;V_0;" ParamCnt="1" />
+<Method Token="100663525" Name="get_AcadWindow" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663526" Name="WriteMessage" Variables="message;V_0;" ParamCnt="1" />
+<Method Token="100663527" Name="HighlightEntities" Variables="highlight;oids;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663528" Name="HighlightEntities" Variables="trans;highlight;oids;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;" ParamCnt="3" />
+<Method Token="100663529" Name="HighlightEntity" Variables="trans;highlight;id;V_0;V_1;" ParamCnt="3" />
+<Method Token="100663530" Name="SetDisplayOrder" Variables="transaction;oids;sendToTop;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663531" Name="DeleteObjects" Variables="oids;V_0;" ParamCnt="1" />
+<Method Token="100663532" Name="DeleteObjects" Variables="db;oids;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663533" Name="DeleteObjects" Variables="db;trans;oids;V_0;V_1;V_2;V_3;V_4;" ParamCnt="3" />
+<Method Token="100663534" Name="CopyObjects" Variables="oids;V_0;V_1;V_2;" ParamCnt="1" />
+<Method Token="100663535" Name="CopyObjects" Variables="db;oids;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663536" Name="CopyObjects" Variables="db;trans;oids;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;" ParamCnt="3" />
+<Method Token="100663537" Name="ZoomToObjectExtents" Variables="oids;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;V_15;V_16;V_17;V_18;V_19;V_20;" ParamCnt="1" />
+<Method Token="100663538" Name="ZoomWin" Variables="ed;min;max;V_0;V_1;V_2;V_3;V_4;" ParamCnt="3" />
+<Method Token="100663539" Name="ZoomWin" Variables="ed;min;max;V_0;V_1;V_2;" ParamCnt="3" />
+<Method Token="100663540" Name="GetPointsFromPolyline" Variables="pline;V_0;V_1;V_2;V_3;" ParamCnt="1" />
+<Method Token="100663541" Name="PurgeLayers" Variables="layerFilter;useWildCard;V_0;V_1;V_2;V_3;V_4;" ParamCnt="2" />
+<Method Token="100663542" Name="PurgeLayers" Variables="db;trans;layerFilter;useWildCard;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;" ParamCnt="4" />
+<Method Token="100663543" Name="SetLimits" Variables="db;minX;minY;maxX;maxY;V_0;V_1;" ParamCnt="5" />
+<Method Token="100663544" Name="SetLimits" Variables="db;trans;minX;minY;maxX;maxY;V_0;V_1;" ParamCnt="6" />
+<Method Token="100663545" Name="SetGridSpacing" Variables="db;viewportId;gridSpacingX;gridSpacingY;V_0;V_1;" ParamCnt="4" />
+<Method Token="100663546" Name="SetGridSpacing" Variables="db;trans;viewportId;gridSpacingX;gridSpacingY;V_0;V_1;" ParamCnt="5" />
+<Method Token="100663547" Name="SetSnapSpacing" Variables="db;viewportId;snapSpacingX;snapSpacingY;V_0;V_1;" ParamCnt="4" />
+<Method Token="100663548" Name="SetSnapSpacing" Variables="db;trans;viewportId;snapSpacingX;snapSpacingY;V_0;V_1;" ParamCnt="5" />
+<Method Token="100663549" Name="GetObjectIdsOnLayer" Variables="db;trans;layerNames;objectNames;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;" ParamCnt="4" />
+<Method Token="100663550" Name="GetAllObjectIdsInModel" Variables="includeErased;V_0;V_1;V_2;" ParamCnt="1" />
+<Method Token="100663551" Name="GetAllObjectIdsInModel" Variables="db;includeErased;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663552" Name="GetAllObjectIdsInModel" Variables="db;trans;includeErased;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663553" Name="GetModelSpaceViewportId" Variables="db;trans;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="2" />
+<Method Token="100663554" Name="FuzzyEqualTo" Variables="value1;value2;V_0;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663555" Name="FuzzyLessThan" Variables="leftSide;rightSide;V_0;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663556" Name="FuzzyGreaterThan" Variables="leftSide;rightSide;V_0;V_1;V_2;" ParamCnt="2" />
+<Method Token="100663557" Name="MergeObjectIdCollections" Variables="oids;mergeIds;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663558" Name="GetPolarPoint" Variables="basePointX;basePointY;angle;distance;V_0;" ParamCnt="4" />
+<Method Token="100663559" Name="GetPolarPoint" Variables="basePoint;angle;distance;V_0;" ParamCnt="3" />
+<Method Token="100663560" Name="GetPolarPoint" Variables="basePoint;angle;distance;V_0;" ParamCnt="3" />
+<Type Token="33554450" Name="BBC.Common.AutoCAD.TextStyleManager" />
+<Method Token="100663561" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663562" Name="GetTextStyleNames" Variables="db;V_0;V_1;V_2;V_3;" ParamCnt="1" />
+<Method Token="100663563" Name="GetTextStyleNames" Variables="db;trans;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="2" />
+<Method Token="100663564" Name="GetTextStyleNames" Variables="db;trans;filter;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663565" Name="SetTextStyleHeight" Variables="db;textStyleName;height;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663566" Name="SetTextStyleHeight" Variables="db;trans;textStyleName;height;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="4" />
+<Type Token="33554451" Name="BBC.Common.AutoCAD.DimStyleManager" />
+<Method Token="100663567" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663568" Name="GetDimStyleNames" Variables="db;V_0;V_1;V_2;V_3;" ParamCnt="1" />
+<Method Token="100663569" Name="GetDimStyleNames" Variables="db;trans;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="2" />
+<Method Token="100663570" Name="GetDimStyleNames" Variables="db;trans;filter;V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663571" Name="SetDimexe" Variables="db;dimStyleName;value;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663572" Name="SetDimexe" Variables="db;trans;dimStyleName;value;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="4" />
+<Method Token="100663573" Name="SetDimexo" Variables="db;dimStyleName;value;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663574" Name="SetDimexo" Variables="db;trans;dimStyleName;value;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="4" />
+<Method Token="100663575" Name="SetDimdli" Variables="db;dimStyleName;value;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663576" Name="SetDimdli" Variables="db;trans;dimStyleName;value;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="4" />
+<Method Token="100663577" Name="SetDimasz" Variables="db;dimStyleName;value;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663578" Name="SetDimasz" Variables="db;trans;dimStyleName;value;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="4" />
+<Method Token="100663579" Name="SetDimcen" Variables="db;dimStyleName;value;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663580" Name="SetDimcen" Variables="db;trans;dimStyleName;value;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="4" />
+<Method Token="100663581" Name="SetDimgap" Variables="db;dimStyleName;value;V_0;V_1;V_2;V_3;" ParamCnt="3" />
+<Method Token="100663582" Name="SetDimgap" Variables="db;trans;dimStyleName;value;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="4" />
+<Method Token="100663583" Name="GetDimexe" Variables="db;dimStyleName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663584" Name="GetDimexe" Variables="db;trans;dimStyleName;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="3" />
+<Method Token="100663585" Name="GetDimexo" Variables="db;dimStyleName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663586" Name="GetDimexo" Variables="db;trans;dimStyleName;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="3" />
+<Method Token="100663587" Name="GetDimdli" Variables="db;dimStyleName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663588" Name="GetDimdli" Variables="db;trans;dimStyleName;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="3" />
+<Method Token="100663589" Name="GetDimasz" Variables="db;dimStyleName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663590" Name="GetDimasz" Variables="db;trans;dimStyleName;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="3" />
+<Method Token="100663591" Name="GetDimcen" Variables="db;dimStyleName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663592" Name="GetDimcen" Variables="db;trans;dimStyleName;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="3" />
+<Method Token="100663593" Name="GetDimgap" Variables="db;dimStyleName;V_0;V_1;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663594" Name="GetDimgap" Variables="db;trans;dimStyleName;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="3" />
+<Type Token="33554452" Name="BBC.Common.AutoCAD.GemsPoint2d" />
+<Method Token="100663595" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Type Token="33554453" Name="BBC.Common.AutoCAD.SelectionManager" />
+<Method Token="100663596" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663597" Name="AddToPickSet" Variables="oids;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;" ParamCnt="1" />
+<Method Token="100663598" Name="GetWindowSelection" Variables="V_0;V_1;V_2;V_3;V_4;V_5;V_6;" ParamCnt="0" />
+<Method Token="100663599" Name="GetSelectionSet" Variables="prompt;V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="1" />
+<Method Token="100663600" Name="GetSelectionSet" Variables="prompt;layerFilter;objectFilter;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;" ParamCnt="3" />
+<Method Token="100663601" Name="GetSelectionSet" Variables="minX;minY;maxX;maxY;layerFilter;isCrossing;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;V_15;" ParamCnt="6" />
+<Method Token="100663602" Name="GetSelectionSet" Variables="polyPoints;layerFilter;isCrossing;isFence;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;" ParamCnt="4" />
+<Method Token="100663603" Name="GetSelectionSet" Variables="polyPoints;layerFilter;objectFilter;isCrossing;isFence;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;" ParamCnt="5" />
+<Method Token="100663604" Name="GetObjectsOnLayers" Variables="layerNames;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;V_13;V_14;" ParamCnt="1" />
+<Method Token="100663605" Name="GetObjectsOnLayer" Variables="layerName;V_0;V_1;V_2;V_3;V_4;V_5;V_6;V_7;V_8;V_9;V_10;V_11;V_12;" ParamCnt="1" />
+<Method Token="100663606" Name="GetObjectIdsFromPreviousSelection" Variables="V_0;V_1;V_2;V_3;V_4;V_5;" ParamCnt="0" />
+<Type Token="33554454" Name="Autodesk.AutoCAD.Interop.AcadApplication" />
+<Type Token="33554455" Name="Autodesk.AutoCAD.Interop.IAcadApplication" />
+<Method Token="100663607" Name="_VtblGap1_38" Variables="this;" ParamCnt="1" />
+<Method Token="100663608" Name="ZoomExtents" Variables="this;" ParamCnt="1" />
+<Method Token="100663609" Name="ZoomAll" Variables="this;" ParamCnt="1" />
+<Type Token="33554456" Name="Autodesk.AutoCAD.Interop.AcadPreferences" />
+<Type Token="33554457" Name="Autodesk.AutoCAD.Interop.IAcadPreferences" />
+<Method Token="100663610" Name="_VtblGap1_9" Variables="this;" ParamCnt="1" />
+<Method Token="100663611" Name="get_Profiles" Variables="this;" ParamCnt="1" />
+<Type Token="33554458" Name="Autodesk.AutoCAD.Interop.AcadPreferencesProfiles" />
+<Type Token="33554459" Name="Autodesk.AutoCAD.Interop.IAcadPreferencesProfiles" />
+<Method Token="100663612" Name="_VtblGap1_1" Variables="this;" ParamCnt="1" />
+<Method Token="100663613" Name="set_ActiveProfile" Variables="this;Path;" ParamCnt="2" />
+<Method Token="100663614" Name="get_ActiveProfile" Variables="this;" ParamCnt="1" />
+<Type Token="33554460" Name="Autodesk.AutoCAD.Interop._DAcadApplicationEvents_Event" />
+<Type Token="33554461" Name="Autodesk.AutoCAD.Interop._DAcadApplicationEvents" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663327" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly></Mappings>

@@ -1,0 +1,20 @@
+-- Script Date: 12/19/2015 7:22 AM  - ErikEJ.SqlCeScripting version 3.5.2.56
+DROP TABLE [CommandStack];
+GO
+CREATE TABLE [DrawingStack] (
+  [Id] int IDENTITY (326,1) NOT NULL
+, [Commands] nvarchar(500) NULL
+, [Function] nvarchar(100) NULL
+, [IsInvoked] bit NULL
+, [IsRunning] bit NULL
+, [IsCompleted] bit NULL
+, [HasError] bit NULL
+, [TimeStarted] datetime NULL
+, [TimeCompleted] datetime NULL
+, [SelectionSetID] bigint NULL
+, [SourceDWGID] bigint NULL
+, [SourceDWGGui] bigint NULL
+);
+GO
+ALTER TABLE [DrawingStack] ADD CONSTRAINT [PK_DrawingStack] PRIMARY KEY ([Id]);
+GO

@@ -1,0 +1,131 @@
+-- Script Date: 8/12/2015 6:55 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+DROP TABLE [Logs];
+GO
+CREATE TABLE [Logs] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [DateStamp] nchar(10) NOT NULL
+, [Issue] nchar(200) NOT NULL
+, [DrawingID] nchar(50) NULL
+);
+GO
+ALTER TABLE [Logs] ADD CONSTRAINT [PK_Logs] PRIMARY KEY ([Id]);
+GO
+DROP TABLE [PointCloud];
+GO
+CREATE TABLE [PointCloud]
+(
+	[Id] int IDENTITY (1,1) NOT NULL,
+    [DrawingName] NVARCHAR(50) NULL, 
+    [DrawingGUI] NVARCHAR(50) NULL, 
+    [SourcePath] NVARCHAR(50) NULL, 
+    [DestinationPath] NVARCHAR(50) NULL, 
+    [DateStamp] DATETIME NULL, 
+    [DateLoaded] DATETIME NULL
+);
+GO
+ALTER TABLE [PointCloud] ADD CONSTRAINT [PK_PointCloud] PRIMARY KEY ([Id]);
+GO
+DROP TABLE [Polyline];
+GO
+CREATE TABLE [Polyline] (
+    [Id] int IDENTITY (1,1) NOT NULL,
+    [DrawingName] NCHAR(50)    NULL, 
+    [DrawingID] NCHAR (50)     NOT NULL,
+    [Handle]    NCHAR (50)     NOT NULL,
+    [ObejctId]  NCHAR (50)     NOT NULL,
+    [Level]     NCHAR (50)     NOT NULL,
+    [Nodes]     NCHAR (50)     NOT NULL,
+    [Layer]     NCHAR (50)     NOT NULL,
+    [Area]      NCHAR (50)     NOT NULL,
+    [Length]    NCHAR (50)     NOT NULL,
+    [Geometry]  NCHAR (200) NOT NULL
+);
+GO
+ALTER TABLE [Polyline] ADD CONSTRAINT [PK_Polyline] PRIMARY KEY ([Id]);
+GO
+DROP TABLE [PolylineDWGS];
+GO
+CREATE TABLE [PolylineDWGS] (
+    [Id] int IDENTITY (1,1) NOT NULL,
+    [DrawingName]     NVARCHAR (50)  NULL,
+    [DrawingGUI]      NVARCHAR (50)  NULL,
+    [SourcePath]      NVARCHAR (50) NULL,
+    [DestinationPath] NVARCHAR (50) NULL,
+    [DateStamp]       DATETIME       NULL,
+    [DateLoaded]      DATETIME       NULL
+);
+GO
+ALTER TABLE [PolylineDWGS] ADD CONSTRAINT [PK_PolylineDWGS] PRIMARY KEY ([Id]);
+GO
+DROP TABLE [SourceDrawingInfo];
+GO  
+CREATE TABLE [SourceDrawingInfo]
+(
+    [Id] int IDENTITY (1,1) NOT NULL, 
+    [DrawingName] NVARCHAR(50) NULL, 
+    [DrawingPath] NVARCHAR(50) NULL, 
+    [DrawingGui] NVARCHAR(50) NULL, 
+    [DestinationPath] NVARCHAR(50) NULL, 
+    [TimeStampFile] NCHAR(10) NULL, 
+    [TimeStampProcessess] NCHAR(10) NULL, 
+    [LastSaveTime] NCHAR(10) NULL
+);
+GO
+ALTER TABLE [SourceDrawingInfo] ADD CONSTRAINT [PK_SourceDrawingInfoS] PRIMARY KEY ([Id]);
+GO
+DROP TABLE [CommandStack];
+GO  
+CREATE TABLE [CommandStack]
+(
+    [Id] int IDENTITY (1,1) NOT NULL,
+    [Commands] NVARCHAR(50) NULL, 
+    [Function] NCHAR(10) NULL, 
+    [IsInvoked] BIT NULL, 
+    [IsRunning] BIT NULL, 
+    [IsCompleted] BIT NULL, 
+    [HasError] BIT NULL, 
+    [TimeStarted] DATETIME NULL, 
+    [TimeCompleted] DATETIME NULL, 
+    [SelectionSetID] BIGINT NULL, 
+    [SourceDWGID] INT NULL, 
+    [SourceDWGGui] BIGINT NULL
+);
+GO
+ALTER TABLE [CommandStack] ADD CONSTRAINT [PK_CommandStack] PRIMARY KEY ([Id]);
+GO
+DROP TABLE [PolylineChildren];
+GO
+CREATE TABLE [PolylineChildren] 
+(
+    [Id] int IDENTITY (1,1) NOT NULL,
+    [PolylineParentID]   BIGINT         NOT NULL,
+    [PolylineChildrenID] NVARCHAR (50) NULL,
+    [ListDelimiter]      NCHAR (10)     NULL,
+    [DrawingID]          NVARCHAR (50)  NULL,
+    [LayerName]          NVARCHAR (50)  NULL,
+    [OriginalGeometry]   NVARCHAR (200) NULL,
+    [DateStamp]          DATETIME       NULL
+);
+GO
+ALTER TABLE [PolylineChildren] ADD CONSTRAINT [PK_PolylineChildren] PRIMARY KEY ([Id]);
+GO
+DROP TABLE [Settings];
+GO
+CREATE TABLE [Settings]
+(
+	 [Id] int IDENTITY (1,1) NOT NULL, 
+    [GlobalPointFilePath] NVARCHAR(50) NULL, 
+    [GlobalPolylineFilePath] NVARCHAR(50) NULL, 
+    [TemplateDWG] NVARCHAR(50) NULL, 
+    [SeverPath] NVARCHAR(50) NULL, 
+    [CourseName] NVARCHAR(50) NULL, 
+    [DateStamp] DATETIME NULL, 
+    [StartTime] DATETIME NULL, 
+    [EndTime] DATETIME NULL, 
+    [DestinationFolder] NVARCHAR(50) NULL, 
+    [CreateDXF] BIT NULL, 
+    [DestDXFFolder] NVARCHAR(50) NULL   
+);
+GO
+ALTER TABLE [Settings] ADD CONSTRAINT [PK_Settings]PRIMARY KEY ([Id]);
+GO

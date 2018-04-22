@@ -1,0 +1,13 @@
+-- Script Date: 12/18/2015 4:52 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+CREATE TABLE [Stack] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [dwgid] int NOT NULL
+, [Command] nvarchar(500) NULL
+, [CommandFunction] nvarchar(500) NULL
+, [State] nvarchar(100) NULL
+, [HasError] bit  NOT NULL
+, [ErrorMessage] nvarchar(500) NULL
+);
+GO
+ALTER TABLE [Stack] ADD CONSTRAINT [PK_Stack] PRIMARY KEY ([Id]);
+GO

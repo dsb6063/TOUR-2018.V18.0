@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44ABA92C-E0B4-4982-867F-2649DCE9FF5F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PGA.ExportToAutoCAD</RootNamespace>
+    <AssemblyName>PGA.ExportToAutoCAD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AssemblyVersion>18105.3.0.742</AssemblyVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\accoremgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acdbmgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\acdbmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acmgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\acmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AecBaseMgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\AecBaseMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AeccDbMgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\C3D\AeccDbMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\Autodesk.AutoCAD.Interop.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop.Common">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\Autodesk.AutoCAD.Interop.Common.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CreateDXF.cs" />
+    <Compile Include="ExportToCad.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PGA.AcadUtilities\PGA.AcadUtilities\PGA.AcadUtilities.csproj">
+      <Project>{5fbc9423-49a9-420f-8026-c4205c4731e0}</Project>
+      <Name>PGA.AcadUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.Breaklines\PGA.Breaklines\PGA.Breaklines.csproj">
+      <Project>{8562e7f6-af08-4b6b-ac35-93f768831fa7}</Project>
+      <Name>PGA.Breaklines</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.Database.02\PGA.Database.Database.01\PGA.Database.01.csproj">
+      <Project>{5E0EEC36-50D3-4512-939D-D3E8C353310B}</Project>
+      <Name>PGA.Database.01</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.DataContext\PGA.DataContext\PGA.DataContext.csproj">
+      <Project>{506d9e8a-e07c-4de7-b57a-18f9ab2b7735}</Project>
+      <Name>PGA.DataContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.DrawingManager\PGA.DrawingManager\PGA.DrawingManager.csproj">
+      <Project>{e11645a8-8933-4998-b5e4-4c14b68920b3}</Project>
+      <Name>PGA.DrawingManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.MessengerManager\PGA.MessengerManager.csproj">
+      <Project>{55a6727a-77a2-43bd-bd1d-51b27db7ab79}</Project>
+      <Name>PGA.MessengerManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.PlotManager\PGA.AttributeRefManager\PGA.AttributeRefManager.csproj">
+      <Project>{f7bf56d8-6c10-4808-b41e-add2f167ae05}</Project>
+      <Name>PGA.AttributeRefManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.PlotManager\PGA.PlotManager\PGA.PlotManager.csproj">
+      <Project>{8c6c5700-48d1-42ed-be5a-ced89720b6e6}</Project>
+      <Name>PGA.PlotManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.PlotManager\PGA.SelectionManager.001\PGA.SelectionManager.001.csproj">
+      <Project>{8c54d4f7-c9ee-4ffb-a1bd-ba0a6d35b4c1}</Project>
+      <Name>PGA.SelectionManager.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.SurfaceManager\PGA.SurfaceManager\PGA.SurfaceManager.csproj">
+      <Project>{a3541071-e2f4-45ae-b3fd-fcf408a9107c}</Project>
+      <Name>PGA.SurfaceManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

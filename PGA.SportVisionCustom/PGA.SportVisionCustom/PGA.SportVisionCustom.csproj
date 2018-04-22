@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CFFA7B35-3CFC-4C25-8E13-1F88BC36F871}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PGA.SportVision</RootNamespace>
+    <AssemblyName>PGA.SportVision</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AssemblyVersion>18103.0.0.490</AssemblyVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\accoremgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acdbmgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\acdbmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acmgd">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\acmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\..\PGA.SV30MOffset\packages\MathNet.Numerics.3.13.0\lib\portable-net45+sl5+netcore45+MonoAndroid1+MonoTouch1\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RegionConversion.cs" />
+    <Compile Include="HatchPolyline.cs" />
+    <Compile Include="OffsetPolylines.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PGA-Tour-Civil-App\PGA-Tour-Civil-App\PGA.Common.AutoCAD\BBC.Common.AutoCAD\BBC.Common.AutoCAD.csproj">
+      <Project>{94ce62e5-86c3-4fc9-ae04-14813e316925}</Project>
+      <Name>BBC.Common.AutoCAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.Database.02\PGA.Database.Database.01\PGA.Database.01.csproj">
+      <Project>{5e0eec36-50d3-4512-939d-d3e8c353310b}</Project>
+      <Name>PGA.Database.01</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.DataContext\PGA.DataContext\PGA.DataContext.csproj">
+      <Project>{506d9e8a-e07c-4de7-b57a-18f9ab2b7735}</Project>
+      <Name>PGA.DataContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.MessengerManager\PGA.MessengerManager.csproj">
+      <Project>{55a6727a-77a2-43bd-bd1d-51b27db7ab79}</Project>
+      <Name>PGA.MessengerManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.OpenDWG\PGA.OpenDWG\PGA.OpenDWG.csproj">
+      <Project>{d2014586-7cac-439a-9d2e-1a3899f0f7bb}</Project>
+      <Name>PGA.OpenDWG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.PolylineManager\PGA.PolylineManager\PGA.PolylineManager.csproj">
+      <Project>{b2d3f969-4762-4a2d-a80e-731247b8427b}</Project>
+      <Name>PGA.PolylineManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PGA.WindingNumAlgorithm\PGA.WindingNumAlgorithm\PGA.WindingNumAlgorithm.csproj">
+      <Project>{91071132-f0cb-4580-9817-a7feba5e0e7b}</Project>
+      <Name>PGA.WindingNumAlgorithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ProcessPolylines\ProcessPolylines\ProcessPolylines.csproj">
+      <Project>{936c3514-6f59-470d-a41a-637a22800557}</Project>
+      <Name>ProcessPolylines</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CO_FirstProject>True</CO_FirstProject>
+    <CO_LastProject>False</CO_LastProject>
+    <CO_Config>Debug|AnyCPU</CO_Config>
+    <CO_ProjectFilePath>..\PGA.SportVisionCustom_Debug_AnyCPU.obproj</CO_ProjectFilePath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="C:\Program Files (x86)\LogicNP Software\Crypto Obfuscator For .Net 2015\CryptoObfuscator.targets" />
+</Project>

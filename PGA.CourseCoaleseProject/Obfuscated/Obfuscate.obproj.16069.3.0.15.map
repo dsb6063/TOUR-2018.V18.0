@@ -1,0 +1,38 @@
+﻿<Mappings><Assembly Name="PGA.CivTinSurf"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="PGA.CourseCoalesceProject.Coalesce" />
+<Method Token="100663298" Name="get_Drawingpath" Variables="" ParamCnt="0" />
+<Method Token="100663299" Name="set_Drawingpath" Variables="value;" ParamCnt="1" />
+<Method Token="100663300" Name="get_Flag" Variables="" ParamCnt="0" />
+<Method Token="100663301" Name="set_Flag" Variables="value;" ParamCnt="1" />
+<Method Token="100663302" Name="get_Hole" Variables="" ParamCnt="0" />
+<Method Token="100663303" Name="set_Hole" Variables="value;" ParamCnt="1" />
+<Method Token="100663304" Name="set_DateStamp" Variables="value;" ParamCnt="1" />
+<Method Token="100663305" Name="get_DateStamp" Variables="" ParamCnt="0" />
+<Method Token="100663306" Name="LoadandProcessPolys" Variables="commands;TemplatePath;UseSimplify;dwgs;DwDrawingStacks;TotalDrawings;V_6;V_7;dwg;V_9;V_10;dwg;acDocMgr;acNewDoc;acDoc;V_15;V_16;V_17;V_18;V_19;V_20;V_21;acDbNewDoc;ed;gpath;V_25;path;V_27;V_28;V_29;db;wdb;collection;date;output;fileName;outdxf;outdwg;pTinSurface;civilcommand;writer;V_41;V_42;V_43;ex;ex1;" ParamCnt="0" />
+<Method Token="100663307" Name="AcDoc_CommandEnded" Variables="sender;e;" ParamCnt="2" />
+<Method Token="100663308" Name="LoadandProcessPolysByDB" Variables="commands;TemplatePath;dwgs;DwDrawingStacks;TotalDrawings;V_5;V_6;dwg;V_8;V_9;dwg;acDocMgr;acNewDoc;acDoc;V_14;V_15;V_16;V_17;V_18;V_19;acDbNewDoc;ed;gpath;V_23;path;V_25;V_26;V_27;V_28;db;wdb;collection;date;output;fileName;outdxf;outdwg;pTinSurface;civilcommand;V_39;V_40;V_41;ex;ex1;" ParamCnt="0" />
+<Method Token="100663309" Name="AcNewDoc_CommandEnded" Variables="sender;e;" ParamCnt="2" />
+<Method Token="100663310" Name="SaveSideDatabase" Variables="" ParamCnt="0" />
+<Method Token="100663311" Name="SavezCADFile" Variables="outdwg;acDbNewDoc;dwg;commands;hole;filepath;savepath;drawingname;completepath;V_6;" ParamCnt="3" />
+<Method Token="100663312" Name="SavesCADFile" Variables="outdwg;acDbNewDoc;dwg;commands;hole;filepath;savepath;drawingname;completepath;V_6;" ParamCnt="3" />
+<Method Token="100663313" Name="CreateAllSurfaceDXF" Variables="dateStamp;dwg;acDbNewDoc;outdxf;commands;filepath;setting;V_3;" ParamCnt="4" />
+<Method Token="100663314" Name="SetOutPutFolder" Variables="dwg;commands;date;output;V_2;V_3;V_4;" ParamCnt="2" />
+<Method Token="100663315" Name="get_GCloudPath" Variables="" ParamCnt="0" />
+<Method Token="100663316" Name="set_GCloudPath" Variables="value;" ParamCnt="1" />
+<Method Token="100663317" Name="get_DwDrawingStacks" Variables="" ParamCnt="0" />
+<Method Token="100663318" Name="set_DwDrawingStacks" Variables="value;" ParamCnt="1" />
+<Method Token="100663319" Name="get_GDwgPath" Variables="" ParamCnt="0" />
+<Method Token="100663320" Name="set_GDwgPath" Variables="value;" ParamCnt="1" />
+<Method Token="100663321" Name="LoadandProcessPolysSynch" Variables="commands;TemplatePath;dwgs;DwDrawingStacks;TotalDrawings;V_5;V_6;dwg;V_8;V_9;dwg;acDocMgr;acNewDoc;acDoc;V_14;V_15;V_16;V_17;V_18;V_19;acDbNewDoc;ed;gpath;V_23;path;V_25;V_26;V_27;V_28;db;wdb;collection;date;output;fileName;outdxf;outdwg;pTinSurface;civilcommand;V_39;V_40;V_41;ex;ex1;" ParamCnt="0" />
+<Field Token="67108865" Name="NumberofPolylines" />
+<Field Token="67108866" Name="&lt;Drawingpath&gt;k__BackingField" />
+<Field Token="67108867" Name="&lt;Flag&gt;k__BackingField" />
+<Field Token="67108868" Name="&lt;Hole&gt;k__BackingField" />
+<Field Token="67108869" Name="&lt;DateStamp&gt;k__BackingField" />
+<Field Token="67108870" Name="&lt;GCloudPath&gt;k__BackingField" />
+<Field Token="67108871" Name="&lt;DwDrawingStacks&gt;k__BackingField" />
+<Field Token="67108872" Name="&lt;GDwgPath&gt;k__BackingField" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663322" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly></Mappings>

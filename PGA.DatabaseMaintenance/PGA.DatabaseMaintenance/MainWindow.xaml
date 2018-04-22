@@ -1,0 +1,15 @@
+﻿<Window x:Class="PGA.DatabaseMaintenance.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PGA.DatabaseMaintenance"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="180" Width="220">
+    <Grid Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" ZIndex="10000">
+        <GroupBox Content="Database Maintenance" HorizontalAlignment="Center" Margin="2" VerticalAlignment="Center" Width="190" Height="100"/>
+        <Button x:Name="cmdRepair" Content="Repair"    VerticalAlignment="Center" Width="70" Click="cmdRepair_Click"  Height="19.28" Margin="22.1,45.36,97.9,45.36"/>
+        <Button x:Name="cmdClear" Content="Clear"     VerticalAlignment="Center" Width="70" Click="cmdClear_Click"  Height="19.28" Margin="97,45.36,22.8,45.36"/>
+
+    </Grid>
+</Window>

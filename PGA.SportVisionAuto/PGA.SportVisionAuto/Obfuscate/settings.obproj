@@ -1,0 +1,30 @@
+<Project ProjectFileVersion="4" UseRelativePaths="True" CheckVersionsWhileResolvingAssemblies="True" DisabledFromMSBuild="False" ID="{9a2be356-2e80-4f91-a10b-24ca512c9c6e}">
+  <SearchDirectories />
+  <OutputSettings OutputPath=".\CryptoObfuscator_Output" MainAssemblyPath="PGA.SportVisionAuto" RunAssemblyPath="" SNPath="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\sn.exe" SignToolPath="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\signtool.exe" LicensingDLLPath="" OverwriteInputFiles="False" BuildID="" MapFilesLocation="" FullParamNamesInMappingFile="False">
+    <AdditionalAssemblies>
+      <AdditionalAssembly Path="..\bin\Debug\BBC.Common.AutoCAD.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\MathNet.Numerics.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\PGA.Database.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\PGA.DataContext.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\PGA.DrawingManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\PGA.MessengerManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\PGA.OpenDWG.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\PGA.PolylineManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\PGA.WindingNumAlgorithm.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\ProcessPolylines.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\bin\Debug\System.Data.SqlServerCe.dll" Encrypt="False" Compress="True" />
+    </AdditionalAssemblies>
+  </OutputSettings>
+  <ExceptionReporting ExceptionReportingServiceURL="" TryToContinueOnException="True" LocalReportPath=".\settings_ExceptionReports" ApplicationName="" CompanyName="" ShowUI="True" EnableSaveToFileButton="True" EnableSendReportButton="True" DeleteDownloadedReportsFromServer="True" />
+  <ObfuscationSettings RenamingScheme="0" UseOverloadedFieldNames="False" UseOverloadedMethodNames="False" HonorObfuscationAttributes="True" ExcludeSerializedTypes="True" ProcessInlineStrings="True" ForceXAMLProcessingModeExclude="False" ForceRenameParams="False" SymbolPrefix="" SymbolSuffix="" FakeFields="" FakeTypes="" FakeMethods="" EncryptionActive="True" CompressionActive="True" RemoveAccessedThroughPropertyAttribute="False" UseSaltForCryptographicRenaming="False" />
+  <ObfuscationRules />
+  <InclusionExclusionRules />
+  <Assembly Load="true" Path="..\bin\Debug\PGA.SportVisionAuto.dll" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="..\..\..\..\Code Signing\OS201602226778.pfx" TimeStampURL="" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="" PfxPasswordCert="SQBBAG0AQgBhAG4AawBzADIAMAAxADYA" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="True" EncryptMethods="False" EncryptConstants="False" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="2" CodeMasking="0" SuppressILDASM="True" SuppressReflection="False" CombineResources="True" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="False" SymbolRenaming="True" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="False" Encrypt="False" Compress="False" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <WarningSuppressions />
+  <Warnings SaveWarningsToFile="" FailOnUnsuppressedWarning="False" SaveSuppressedWarnings="True" SaveUnsuppressedWarnings="True" />
+  <Filters />
+</Project>

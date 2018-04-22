@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DomainModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="2.0.0.0" name="EntitiesModel" namespace="PGA.Model.DAL" showPropertiesCompartment="true" xmlns="http://www.telerik.com/ORM">
+  <orm:orm name="EntitiesModel" backend="sqlite" xmlns:orm="http://tempuri.org/ORM">
+    <orm:namespace name="PGA.Model.DAL" default="true">
+      <orm:class name="PGALayerStates" uniqueId="941996dd-8f7e-4ed3-940a-cf8e0adcae76">
+        <orm:identity>
+          <orm:single-field field-name="_layerStateID" />
+        </orm:identity>
+        <orm:field name="_bridge" property="Bridge" uniqueId="3de8d283-61a1-4ce5-952b-7a66cd1884be" type="System.String" />
+        <orm:field name="_building" property="Building" uniqueId="0f251f37-787a-438a-9597-0bcb57f006ee" type="System.String" />
+        <orm:field name="_bunker" property="Bunker" uniqueId="a654549c-b83a-4d6b-9205-de204201ec45" type="System.String" />
+        <orm:field name="_bushOutline" property="BushOutline" uniqueId="0f12000c-b44f-46f5-8316-6067d4a94e64" type="System.String" />
+        <orm:field name="_cartPath" property="CartPath" uniqueId="2409dcdc-2aab-4f5a-98b0-da526a456b2c" type="System.String" />
+        <orm:field name="_collar" property="Collar" uniqueId="19b4a48c-6e56-46f8-a01a-527dcab5b4b6" type="System.String" />
+        <orm:field name="_dirtOutline" property="DirtOutline" uniqueId="fcf2b828-3e27-4ba4-8f25-3306e18e56a8" type="System.String" />
+        <orm:field name="_fairway" property="Fairway" uniqueId="a7b5cba5-70d8-4db4-97c6-8bed7e0405fb" type="System.String" />
+        <orm:field name="_green" property="Green" uniqueId="75ee6162-ad4c-429d-8f53-3b1e0a3beff6" type="System.String" />
+        <orm:field name="_greenSideBunker" property="GreenSideBunker" uniqueId="e3d23951-ec7b-4ef6-9813-5ac9e7d7fc25" type="System.String" />
+        <orm:field name="_intMedRough" property="IntMedRough" uniqueId="95ab7700-66f6-48f6-a17e-9d3f85eb99be" type="System.String" />
+        <orm:field name="_landScaping" property="LandScaping" uniqueId="b821c3fa-ef8b-4ef7-b860-bba4888a66f5" type="System.String" />
+        <orm:field name="_nativeArea" property="NativeArea" uniqueId="7d57e0ea-44a2-4929-a9aa-a006e15c2821" type="System.String" />
+        <orm:field name="_other" property="Other" uniqueId="b48fa70d-80ca-4e9b-b1cd-a0f58bb461c1" type="System.String" />
+        <orm:field name="_path" property="Path" uniqueId="4b9c2179-8cf8-4738-9340-edfaaa1060d9" type="System.String" />
+        <orm:field name="_rockOutline" property="RockOutline" uniqueId="bc547a66-56c0-47da-b660-a862cc9fbb4a" type="System.String" />
+        <orm:field name="_roughOutline" property="RoughOutline" uniqueId="defe56e1-81cc-440e-85d4-d412c34de2e2" type="System.String" />
+        <orm:field name="_steps" property="Steps" uniqueId="f56c6e42-299e-451c-96ae-45987ac59f89" type="System.String" />
+        <orm:field name="_teeBox" property="TeeBox" uniqueId="72f68df3-94f3-4dd5-a423-fa36ee03e29a" type="System.String" />
+        <orm:field name="_treeOutline" property="TreeOutline" uniqueId="32d28392-df00-412d-862e-01011deb2316" type="System.String" />
+        <orm:field name="_walkStrip" property="WalkStrip" uniqueId="a031ef2a-1951-4be3-86e4-ab0fd98ba2ec" type="System.String" />
+        <orm:field name="_wall" property="Wall" uniqueId="dd8c36e8-cf45-47ca-b7ae-e731154d8e09" type="System.String" />
+        <orm:field name="_water" property="Water" uniqueId="47a4536a-b032-49dc-8abb-702560b77721" type="System.String" />
+        <orm:field name="_waterDrop" property="WaterDrop" uniqueId="1c2f8a51-6e3e-421c-bf90-556b64f39781" type="System.String" />
+        <orm:field name="_layerStateID" property="LayerStateID" uniqueId="3becfc66-d559-4ba2-8de5-b5ba0cd2e9fc" type="System.UInt32" />
+      </orm:class>
+      <orm:class name="PGAFeatureObjects" uniqueId="62c6bf00-5da9-428e-a42e-d4789a9808a2">
+        <orm:identity>
+          <orm:single-field field-name="_id" />
+        </orm:identity>
+        <orm:field name="_id" property="Id" uniqueId="4d9f636d-2a67-4d0b-aba9-174433dbb725" type="System.Int32" />
+        <orm:field name="_feature" property="Feature" uniqueId="8411107c-f98b-4256-a344-29f3c0432ace" type="System.IO.Stream" />
+        <orm:field name="_name" property="Name" uniqueId="e75faec5-43ec-4be3-8223-5d8e1904e904" type="System.String" />
+        <orm:field name="_type" property="Type" uniqueId="457ef875-35a3-4518-b607-03bb53239596" type="System.String" />
+        <orm:field name="_layer" property="Layer" uniqueId="cc33ae1e-746c-41d8-82e4-62ec158a208b" type="System.String" />
+      </orm:class>
+    </orm:namespace>
+    <orm:schema schema="">
+      <orm:table name="Layers">
+        <orm:column name="CartPath" sql-type="varchar" nullable="false" length="0" scale="0" primary-key="true" ado-type="" />
+        <orm:column name="BushOutline" sql-type="varchar" nullable="false" length="0" scale="0" ado-type="" />
+        <orm:column name="Bunker" sql-type="varchar" nullable="false" length="0" scale="0" ado-type="" />
+        <orm:column name="Building" sql-type="varchar" nullable="false" length="0" scale="0" ado-type="" />
+        <orm:column name="Bridge" sql-type="varchar" nullable="false" length="0" scale="0" ado-type="" />
+        <orm:column name="Collar" sql-type="varchar" nullable="false" length="0" scale="0" ado-type="" />
+      </orm:table>
+    </orm:schema>
+    <orm:relational-naming-settings>
+      <orm:remove-leading-underscore>False</orm:remove-leading-underscore>
+      <orm:source-strategy>Property</orm:source-strategy>
+      <orm:remove-camel-case>False</orm:remove-camel-case>
+    </orm:relational-naming-settings>
+  </orm:orm>
+  <ModelSettings xmlns="">
+    <SaveConnectionStringInAppConfig>false</SaveConnectionStringInAppConfig>
+    <NamingSettings>
+      <ClassRules>
+        <CaseMode>PascalCase</CaseMode>
+        <PluralizationMode>Singularize</PluralizationMode>
+      </ClassRules>
+      <FieldRules>
+        <AddPrefix>_</AddPrefix>
+        <CaseMode>CamelCase</CaseMode>
+      </FieldRules>
+      <PropertyRules>
+        <CaseMode>PascalCase</CaseMode>
+      </PropertyRules>
+      <NavigationPropertyRules />
+    </NamingSettings>
+    <CodeGenerationSettings>
+      <MappingDefinitionType>Xml</MappingDefinitionType>
+    </CodeGenerationSettings>
+    <SchemaUpdateSettings>
+      <DeploymentProject>PGA.Model.DAL</DeploymentProject>
+    </SchemaUpdateSettings>
+    <BackendConfigurationSettings>
+      <BackendConfiguration>
+        <Backend>SQLite</Backend>
+        <ProviderName>System.Data.SQLite</ProviderName>
+        <Logging>
+          <MetricStoreSnapshotInterval>0</MetricStoreSnapshotInterval>
+        </Logging>
+      </BackendConfiguration>
+    </BackendConfigurationSettings>
+  </ModelSettings>
+  <Types>
+    <DomainClass Id="941996dd-8f7e-4ed3-940a-cf8e0adcae76" name="PGALayerStates" namespace="PGA.Model.DAL" showPropertiesCompartment="true" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="3de8d283-61a1-4ce5-952b-7a66cd1884be" name="Bridge" label="Bridge : String" fieldName="_bridge" />
+      <Property Id="0f251f37-787a-438a-9597-0bcb57f006ee" name="Building" label="Building : String" fieldName="_building" />
+      <Property Id="a654549c-b83a-4d6b-9205-de204201ec45" name="Bunker" label="Bunker : String" fieldName="_bunker" />
+      <Property Id="0f12000c-b44f-46f5-8316-6067d4a94e64" name="BushOutline" label="BushOutline : String" fieldName="_bushOutline" />
+      <Property Id="2409dcdc-2aab-4f5a-98b0-da526a456b2c" name="CartPath" label="CartPath : String" fieldName="_cartPath" />
+      <Property Id="19b4a48c-6e56-46f8-a01a-527dcab5b4b6" name="Collar" label="Collar : String" fieldName="_collar" />
+      <Property Id="fcf2b828-3e27-4ba4-8f25-3306e18e56a8" name="DirtOutline" label="DirtOutline : String" fieldName="_dirtOutline" />
+      <Property Id="a7b5cba5-70d8-4db4-97c6-8bed7e0405fb" name="Fairway" label="Fairway : String" fieldName="_fairway" />
+      <Property Id="75ee6162-ad4c-429d-8f53-3b1e0a3beff6" name="Green" label="Green : String" fieldName="_green" />
+      <Property Id="e3d23951-ec7b-4ef6-9813-5ac9e7d7fc25" name="GreenSideBunker" label="GreenSideBunker : String" fieldName="_greenSideBunker" />
+      <Property Id="95ab7700-66f6-48f6-a17e-9d3f85eb99be" name="IntMedRough" label="IntMedRough : String" fieldName="_intMedRough" />
+      <Property Id="b821c3fa-ef8b-4ef7-b860-bba4888a66f5" name="LandScaping" label="LandScaping : String" fieldName="_landScaping" />
+      <Property Id="7d57e0ea-44a2-4929-a9aa-a006e15c2821" name="NativeArea" label="NativeArea : String" fieldName="_nativeArea" />
+      <Property Id="b48fa70d-80ca-4e9b-b1cd-a0f58bb461c1" name="Other" label="Other : String" fieldName="_other" />
+      <Property Id="4b9c2179-8cf8-4738-9340-edfaaa1060d9" name="Path" label="Path : String" fieldName="_path" />
+      <Property Id="bc547a66-56c0-47da-b660-a862cc9fbb4a" name="RockOutline" label="RockOutline : String" fieldName="_rockOutline" />
+      <Property Id="defe56e1-81cc-440e-85d4-d412c34de2e2" name="RoughOutline" label="RoughOutline : String" fieldName="_roughOutline" />
+      <Property Id="f56c6e42-299e-451c-96ae-45987ac59f89" name="Steps" label="Steps : String" fieldName="_steps" />
+      <Property Id="72f68df3-94f3-4dd5-a423-fa36ee03e29a" name="TeeBox" label="TeeBox : String" fieldName="_teeBox" />
+      <Property Id="32d28392-df00-412d-862e-01011deb2316" name="TreeOutline" label="TreeOutline : String" fieldName="_treeOutline" />
+      <Property Id="a031ef2a-1951-4be3-86e4-ab0fd98ba2ec" name="WalkStrip" label="WalkStrip : String" fieldName="_walkStrip" />
+      <Property Id="dd8c36e8-cf45-47ca-b7ae-e731154d8e09" name="Wall" label="Wall : String" fieldName="_wall" />
+      <Property Id="47a4536a-b032-49dc-8abb-702560b77721" name="Water" label="Water : String" fieldName="_water" />
+      <Property Id="1c2f8a51-6e3e-421c-bf90-556b64f39781" name="WaterDrop" label="WaterDrop : String" fieldName="_waterDrop" />
+      <Property Id="3becfc66-d559-4ba2-8de5-b5ba0cd2e9fc" name="LayerStateID" type="UInt32" label="LayerStateID : UInt32" identity="true" fieldName="_layerStateID" />
+    </DomainClass>
+    <DomainClass Id="62c6bf00-5da9-428e-a42e-d4789a9808a2" name="PGAFeatureObjects" namespace="PGA.Model.DAL" showPropertiesCompartment="true" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="4d9f636d-2a67-4d0b-aba9-174433dbb725" name="Id" type="System.Int32" label="Id : System.Int32" identity="true" fieldName="_id" />
+      <Property Id="8411107c-f98b-4256-a344-29f3c0432ace" name="Feature" type="Stream" label="Feature : Stream" fieldName="_feature" />
+      <Property Id="e75faec5-43ec-4be3-8223-5d8e1904e904" name="Name" label="Name : String" fieldName="_name" />
+      <Property Id="457ef875-35a3-4518-b607-03bb53239596" name="Type" label="Type : String" fieldName="_type" />
+      <Property Id="cc33ae1e-746c-41d8-82e4-62ec158a208b" name="Layer" label="Layer : String" fieldName="_layer" />
+    </DomainClass>
+  </Types>
+  <domainContext>
+    <domainModelHasDomainContext Id="ef796c2f-bf08-4080-8fd9-f19c94f7cd5a">
+      <domainContainer name="EntitiesModel" namespace="PGA.Model.DAL" showPropertiesCompartment="true">
+        <entitySetProperty name="PGALayerStates" namespace="PGA.Model.DAL" type="PGALayerStates" label="PGALayerStates : IQueryable&lt;PGA.Model.DAL.PGALayerStates&gt;" />
+        <entitySetProperty name="PGAFeatureObjects" namespace="PGA.Model.DAL" type="PGAFeatureObjects" label="PGAFeatureObjects : IQueryable&lt;PGA.Model.DAL.PGAFeatureObjects&gt;" />
+      </domainContainer>
+    </domainModelHasDomainContext>
+  </domainContext>
+</DomainModel>

@@ -1,0 +1,27 @@
+<Project ProjectFileVersion="4" UseRelativePaths="True" CheckVersionsWhileResolvingAssemblies="True" DisabledFromMSBuild="False" ID="{3312f5b7-35c3-4026-b69a-4dc575af5d78}">
+  <SearchDirectories />
+  <OutputSettings OutputPath="." MainAssemblyPath="PGA.Notifications" RunAssemblyPath="" SNPath="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\sn.exe" SignToolPath="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\signtool.exe" LicensingDLLPath="" OverwriteInputFiles="False" BuildID="16187.10.16.43" MapFilesLocation="" FullParamNamesInMappingFile="False">
+    <AdditionalAssemblies>
+      <AdditionalAssembly Path="..\PGA.Notifications\bin\Debug\PGA.Database.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.Notifications\bin\Debug\PGA.DataContext.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.Notifications\bin\Debug\PGA.MessengerManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.Notifications\bin\Debug\System.Data.SqlServerCe.dll" Encrypt="False" Compress="True" />
+    </AdditionalAssemblies>
+  </OutputSettings>
+  <ExceptionReporting ExceptionReportingServiceURL="" TryToContinueOnException="True" LocalReportPath=".\obfuscated_ExceptionReports" ApplicationName="" CompanyName="" ShowUI="True" EnableSaveToFileButton="True" EnableSendReportButton="True" DeleteDownloadedReportsFromServer="True" />
+  <ObfuscationSettings RenamingScheme="0" UseOverloadedFieldNames="False" UseOverloadedMethodNames="False" HonorObfuscationAttributes="True" ExcludeSerializedTypes="True" ProcessInlineStrings="True" ForceXAMLProcessingModeExclude="False" ForceRenameParams="False" SymbolPrefix="" SymbolSuffix="" FakeFields="" FakeTypes="" FakeMethods="" EncryptionActive="True" CompressionActive="True" RemoveAccessedThroughPropertyAttribute="False" UseSaltForCryptographicRenaming="False" />
+  <ObfuscationRules />
+  <InclusionExclusionRules>
+    <Entity FullName="{3312f5b7-35c3-4026-b69a-4dc575af5d78}">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+  </InclusionExclusionRules>
+  <Assembly Load="true" Path="..\PGA.Notifications\bin\Debug\PGA.Notifications.dll" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="..\..\..\Code Signing\OS201602226778.pfx" TimeStampURL="" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="" PfxPasswordCert="SQBBAG0AQgBhAG4AawBzADIAMAAxADYA" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="False" EncryptMethods="False" EncryptConstants="False" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="0" CodeMasking="0" SuppressILDASM="False" SuppressReflection="False" CombineResources="False" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="False" SymbolRenaming="False" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="True" Encrypt="False" Compress="True" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <WarningSuppressions />
+  <Warnings SaveWarningsToFile="" FailOnUnsuppressedWarning="False" SaveSuppressedWarnings="True" SaveUnsuppressedWarnings="True" />
+  <Filters />
+</Project>

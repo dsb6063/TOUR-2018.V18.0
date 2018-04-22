@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="PGA.LogManagerUC.LogManagerUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PGA.LogManagerUC"
+             mc:Ignorable="d" 
+             Height="200" Width="550"
+             d:DesignHeight="200" d:DesignWidth="550">
+    <Grid Margin="5">
+        <DataGrid x:Name="dgTasks" HorizontalAlignment="Center" Margin="10,40,10,10" VerticalAlignment="Top" Height="140" Width="500" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Date" IsReadOnly="True" Width="75"  Binding="{Binding DateStamp}" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Issue" IsReadOnly="True" Width="475"  Binding="{Binding Issue}"></DataGridTextColumn>
+                <!--<DataGridTextColumn Header="Drawing ID" IsReadOnly="True" Width="*" Binding="{Binding DrawingID}"></DataGridTextColumn>-->
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid VerticalAlignment="Top" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0"  >
+            <Button x:Name="cmdExportLogs" Content="Export"  Width="75" Click="cmdExportLogs_Click" d:LayoutOverrides="Height"/>
+            <Button x:Name="cmdClear" Content="Clear"  Width="75" Click="cmdClear_Click" d:LayoutOverrides="Height"/>
+            <Button x:Name="cmdOpen" Content="Open"  Width="75" Click="cmdOpen_Click" d:LayoutOverrides="Height"/>
+            <Button x:Name="cmdRefresh" Content="Refresh"  Width="75" Click="cmdRefresh_Click" Padding="0,0,5,0" d:LayoutOverrides="Height"/>
+            </StackPanel>
+            <CheckBox x:Name="chkFilterErrors" Content="Errors"  VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Right" Margin="0,10,-95,0"/>
+
+        </Grid>
+    </Grid>
+
+</UserControl>

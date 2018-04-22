@@ -1,0 +1,40 @@
+<Project ProjectFileVersion="4" UseRelativePaths="True" CheckVersionsWhileResolvingAssemblies="True" DisabledFromMSBuild="False" ID="{3b52dbc4-8c64-4511-b26f-b3ff5f35a5f2}">
+  <SearchDirectories />
+  <OutputSettings OutputPath="." MainAssemblyPath="PGA.DrawingWatcher" RunAssemblyPath="" SNPath="" SignToolPath="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\signtool.exe" LicensingDLLPath="" OverwriteInputFiles="False" BuildID="" MapFilesLocation="" FullParamNamesInMappingFile="False">
+    <AdditionalAssemblies>
+      <AdditionalAssembly Path="..\PGA.DrawingWatcher\bin\Debug\PGA.AcadUtilities.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.DrawingWatcher\bin\Debug\PGA.Database.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.DrawingWatcher\bin\Debug\PGA.DataContext.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.DrawingWatcher\bin\Debug\PGA.DrawingManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.DrawingWatcher\bin\Debug\PGA.ExportToAutoCAD.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.DrawingWatcher\bin\Debug\PGA.MessengerManager.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.DrawingWatcher\bin\Debug\System.Data.SqlServerCe.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\PGA.DrawingWatcher\bin\Debug\PGA.Breaklines.dll" Encrypt="False" Compress="True" />
+      <AdditionalAssembly Path="..\..\PGA.PlotManager\PGA.PlotManager\bin\Debug\PGA.PlotManager.dll" Encrypt="False" Compress="True" />
+    </AdditionalAssemblies>
+  </OutputSettings>
+  <ExceptionReporting ExceptionReportingServiceURL="" TryToContinueOnException="True" LocalReportPath=".\Water_ExceptionReports" ApplicationName="" CompanyName="" ShowUI="True" EnableSaveToFileButton="True" EnableSendReportButton="True" DeleteDownloadedReportsFromServer="True" />
+  <ObfuscationSettings RenamingScheme="0" UseOverloadedFieldNames="False" UseOverloadedMethodNames="False" HonorObfuscationAttributes="True" ExcludeSerializedTypes="True" ProcessInlineStrings="True" ForceXAMLProcessingModeExclude="False" ForceRenameParams="False" SymbolPrefix="" SymbolSuffix="" FakeFields="" FakeTypes="" FakeMethods="" EncryptionActive="True" CompressionActive="True" RemoveAccessedThroughPropertyAttribute="False" UseSaltForCryptographicRenaming="False" />
+  <ObfuscationRules />
+  <InclusionExclusionRules>
+    <Entity FullName="{3b52dbc4-8c64-4511-b26f-b3ff5f35a5f2}">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="PGA.Sv.PostAudit">
+      <Rule Targets="4095" Exclude="True" Features="131071" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+  </InclusionExclusionRules>
+  <Assembly Load="true" Path="..\PGA.DrawingWatcher\bin\Debug\PGA.DrawingWatcher.dll" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="..\..\..\Code Signing\OS201602226778.pfx" TimeStampURL="" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="" PfxPasswordCert="SQBBAG0AQgBhAG4AawBzADIAMAAxADYA" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="False" EncryptMethods="False" EncryptConstants="False" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="0" CodeMasking="0" SuppressILDASM="False" SuppressReflection="False" CombineResources="False" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="False" SymbolRenaming="False" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="True" Encrypt="False" Compress="True" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <Assembly Load="true" Path="..\PGA.DrawingWatcher\bin\Debug\PGA.Sv.PostAudit.dll" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="" TimeStampURL="" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="" PfxPasswordCert="" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="False" EncryptMethods="False" EncryptConstants="False" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="0" CodeMasking="0" SuppressILDASM="False" SuppressReflection="False" CombineResources="False" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="False" SymbolRenaming="False" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="False" Encrypt="False" Compress="False" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <WarningSuppressions />
+  <Warnings SaveWarningsToFile="" FailOnUnsuppressedWarning="False" SaveSuppressedWarnings="True" SaveUnsuppressedWarnings="True" />
+  <Filters />
+</Project>

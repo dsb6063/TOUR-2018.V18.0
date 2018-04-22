@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="PGA.AdjustSimplify.UC_Simplify"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PGA.AdjustSimplify"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="150">
+    <Grid>
+        <Grid>
+            <GroupBox x:Name="groupBox" Header="Simplify Settings" Width="140" HorizontalAlignment="Center"   VerticalAlignment="Center" ToolTip="Ordered by Decreasing (File Size, Points, and Triangles)">
+                <ComboBox x:Name="comboBox" HorizontalAlignment="Center" Margin="0,10,0,10" VerticalAlignment="Center" Width="100" IsReadOnly="True" SelectedIndex="4" SelectionChanged="comboBox_SelectionChanged">
+                    <ListBoxItem Content="0.0001" Background="#FFF18181"/>
+                    <ListBoxItem Content="0.001" Background="#FFEC8E07"/>
+                    <ListBoxItem Content="0.005" Background="#FFF1D104"/>
+                    <ListBoxItem Content="0.007" Background="#FFF7EC02"/>
+                    <ListBoxItem Content="0.01" Background="#FF99D84D"/>
+                    <ListBoxItem Content="0.02" Background="#FF99E83B"/>
+                    <ListBoxItem Content="0.04" Background="#FF5B9B0F"/>
+                    <ListBoxItem Content="0.06" Background="#FF498007"/>
+                    <ListBoxItem Content="0.08" Background="#FF749151"/>
+                    <ListBoxItem Content="0.10" Background="#FF88DADE"/>
+                    <ListBoxItem Content="0.15" Background="#FFBDBABA"/>
+                    <ListBoxItem Content="0.20" Background="#FF838181"/>
+                </ComboBox>
+            </GroupBox>
+
+        </Grid>
+
+</Grid>
+</UserControl>

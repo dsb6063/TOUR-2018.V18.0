@@ -1,0 +1,301 @@
+﻿<Mappings><Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;&gt;9" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;&gt;9" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;&gt;9__1_0" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;&gt;9__1_0" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;&gt;9__1_1" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;&gt;9__1_1" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;&gt;9__2_0" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;&gt;9__2_0" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;&gt;9__2_1" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;&gt;9__2_1" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;&gt;9__2_2" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;&gt;9__2_2" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;&gt;9__2_3" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;&gt;9__2_3" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__21_0" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__21_0" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__27_0" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__27_0" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__27_1" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__27_1" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__35_0" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__35_0" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__40_0" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__40_0" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__49_1" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__49_1" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__50_0" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__50_0" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__50_2" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__50_2" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__50_3" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__50_3" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__54_0" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__54_0" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__55_1" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__55_1" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__69_0" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__69_0" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__69_1" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__69_1" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__69_2" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__69_2" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__69_3" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__69_3" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;&gt;9__69_4" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;&gt;9__69_4" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass49_0.p" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass49_0.CO_p" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass49_0.CS$&lt;&gt;8__locals1" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass49_0.CO_CS$&lt;&gt;8__locals1" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass49_1.TOLERANCE" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass49_1.CO_TOLERANCE" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass50_0.outer" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass50_0.CO_outer" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass51_0.o" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass51_0.CO_o" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass55_0.r" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass55_0.CO_r" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass56_0.handle" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass56_0.CO_handle" />
+<Entry OldName="PGA.SV30MOffset.Program.OnCommandEnded(Object sender, CommandEventArgs e)" NewName="PGA.SV30MOffset.Program.CO_OnCommandEnded(Object CO_sender, CommandEventArgs CO_e)" />
+<Entry OldName="PGA.SV30MOffset.Program.SetVars()" NewName="PGA.SV30MOffset.Program.CO_SetVars()" />
+<Entry OldName="PGA.SV30MOffset.Program.SetSaveTime()" NewName="PGA.SV30MOffset.Program.CO_SetSaveTime()" />
+<Entry OldName="PGA.SV30MOffset.Program.ResetVars()" NewName="PGA.SV30MOffset.Program.CO_ResetVars()" />
+<Entry OldName="PGA.SV30MOffset.Program.OrderPolylines(ObjectIdCollection polyoId)" NewName="PGA.SV30MOffset.Program.CO_OrderPolylines(ObjectIdCollection CO_polyoId)" />
+<Entry OldName="PGA.SV30MOffset.Program.ForceClosePolyLine(Polyline&amp; polyline)" NewName="PGA.SV30MOffset.Program.CO_ForceClosePolyLine(Polyline&amp; CO_polyline)" />
+<Entry OldName="PGA.SV30MOffset.Program.GetObjectAsRegion(ObjectId oid)" NewName="PGA.SV30MOffset.Program.CO_GetObjectAsRegion(ObjectId CO_oid)" />
+<Entry OldName="PGA.SV30MOffset.Program.GetAllPolylines()" NewName="PGA.SV30MOffset.Program.CO_GetAllPolylines()" />
+<Entry OldName="PGA.SV30MOffset.Program.GetAllRegions()" NewName="PGA.SV30MOffset.Program.CO_GetAllRegions()" />
+<Entry OldName="PGA.SV30MOffset.Program.GetAllPoints()" NewName="PGA.SV30MOffset.Program.CO_GetAllPoints()" />
+<Entry OldName="PGA.SV30MOffset.Program.GetObject(ObjectId polyoid)" NewName="PGA.SV30MOffset.Program.CO_GetObject(ObjectId CO_polyoid)" />
+<Entry OldName="PGA.SV30MOffset.Program.FilteredPolys(String name)" NewName="PGA.SV30MOffset.Program.CO_FilteredPolys(String CO_name)" />
+<Entry OldName="PGA.SV30MOffset.Program.GetGreen(ObjectIdCollection collection)" NewName="PGA.SV30MOffset.Program.CO_GetGreen(ObjectIdCollection CO_collection)" />
+<Entry OldName="PGA.SV30MOffset.Program.ClearPolylineInners()" NewName="PGA.SV30MOffset.Program.CO_ClearPolylineInners()" />
+<Entry OldName="PGA.SV30MOffset.Program.GetAllInnerToSelected(ObjectId oid)" NewName="PGA.SV30MOffset.Program.CO_GetAllInnerToSelected(ObjectId CO_oid)" />
+<Entry OldName="PGA.SV30MOffset.Program.GetHandlesbyAreaLayer(IList`1 polyinfo, Region r)" NewName="PGA.SV30MOffset.Program.CO_GetHandlesbyAreaLayer(IList`1 CO_polyinfo, Region CO_r)" />
+<Entry OldName="PGA.SV30MOffset.Program.GetInnersbyHandle(IList`1 polyinfo, String handle)" NewName="PGA.SV30MOffset.Program.CO_GetInnersbyHandle(IList`1 CO_polyinfo, String CO_handle)" />
+<Entry OldName="PGA.SV30MOffset.Program.GetPolylineInfo()" NewName="PGA.SV30MOffset.Program.CO_GetPolylineInfo()" />
+<Entry OldName="PGA.SV30MOffset.Program.SetXData(ObjectId o, ResultBuffer rb)" NewName="PGA.SV30MOffset.Program.CO_SetXData(ObjectId CO_o, ResultBuffer CO_rb)" />
+<Entry OldName="PGA.SV30MOffset.Program.ParseXData(TypedValue tv)" NewName="PGA.SV30MOffset.Program.CO_ParseXData(TypedValue CO_tv)" />
+<Entry OldName="PGA.SV30MOffset.Program.AddRegAppTableRecord(String regAppName)" NewName="PGA.SV30MOffset.Program.CO_AddRegAppTableRecord(String CO_regAppName)" />
+<Entry OldName="PGA.SV30MOffset.Program.GetStartPointByIndex(Point3d sPoint, Point3dCollection collection)" NewName="PGA.SV30MOffset.Program.CO_GetStartPointByIndex(Point3d CO_sPoint, Point3dCollection CO_collection)" />
+<Entry OldName="PGA.SV30MOffset.Program.GetEndPointByIndex(Point3d sPoint, Point3dCollection collection)" NewName="PGA.SV30MOffset.Program.CO_GetEndPointByIndex(Point3d CO_sPoint, Point3dCollection CO_collection)" />
+<Entry OldName="PGA.SV30MOffset.Program.Get3DPFromPoly(DBObjectCollection o)" NewName="PGA.SV30MOffset.Program.CO_Get3DPFromPoly(DBObjectCollection CO_o)" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;Offset&gt;b__1_0(Polyline pline)" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;Offset&gt;b__1_0(Polyline CO_pline)" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;Offset&gt;b__1_1(Polyline pline)" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;Offset&gt;b__1_1(Polyline CO_pline)" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;Offset&gt;b__2_0(Polyline pline)" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;Offset&gt;b__2_0(Polyline CO_pline)" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;Offset&gt;b__2_1(Polyline pline)" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;Offset&gt;b__2_1(Polyline CO_pline)" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;Offset&gt;b__2_2(Polyline pline)" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;Offset&gt;b__2_2(Polyline CO_pline)" />
+<Entry OldName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.&lt;Offset&gt;b__2_3(Polyline pline)" NewName="PGA.SV30MOffset.PolylineExtension.&lt;&gt;c.CO_&lt;Offset&gt;b__2_3(Polyline CO_pline)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;OrderPolylines&gt;b__21_0(Polyline p)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;OrderPolylines&gt;b__21_0(Polyline CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;IntersectOffsetRegion&gt;b__27_0(TypedValue p)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;IntersectOffsetRegion&gt;b__27_0(TypedValue CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;IntersectOffsetRegion&gt;b__27_1(TypedValue p)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;IntersectOffsetRegion&gt;b__27_1(TypedValue CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;RefinePolylines&gt;b__35_0(Polyline p)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;RefinePolylines&gt;b__35_0(Polyline CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;GetFeatureLines&gt;b__40_0(ObjectId id)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;GetFeatureLines&gt;b__40_0(ObjectId CO_id)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;DeleteDups&gt;b__49_1(Polyline d)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;DeleteDups&gt;b__49_1(Polyline CO_d)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;SubstractRegions&gt;b__50_0(TypedValue p)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;SubstractRegions&gt;b__50_0(TypedValue CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;SubstractRegions&gt;b__50_2(Polyline v)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;SubstractRegions&gt;b__50_2(Polyline CO_v)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;SubstractRegions&gt;b__50_3(TypedValue p)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;SubstractRegions&gt;b__50_3(TypedValue CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;GetAllInnerToSelected&gt;b__54_0(TypedValue p)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;GetAllInnerToSelected&gt;b__54_0(TypedValue CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;GetHandlesbyAreaLayer&gt;b__55_1(Polyline p)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;GetHandlesbyAreaLayer&gt;b__55_1(Polyline CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;LinearInterpolation&gt;b__69_0(Double[] d)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;LinearInterpolation&gt;b__69_0(Double[] CO_d)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;LinearInterpolation&gt;b__69_1(Double[] d)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;LinearInterpolation&gt;b__69_1(Double[] CO_d)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;LinearInterpolation&gt;b__69_2(Double[] d)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;LinearInterpolation&gt;b__69_2(Double[] CO_d)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;LinearInterpolation&gt;b__69_3(Double[] d)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;LinearInterpolation&gt;b__69_3(Double[] CO_d)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c.&lt;LinearInterpolation&gt;b__69_4(Double[] d)" NewName="PGA.SV30MOffset.Program.&lt;&gt;c.CO_&lt;LinearInterpolation&gt;b__69_4(Double[] CO_d)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass49_0..ctor()" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass49_0..ctor()" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass49_0.&lt;DeleteDups&gt;b__0(Polyline r)" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass49_0.CO_&lt;DeleteDups&gt;b__0(Polyline CO_r)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass49_1..ctor()" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass49_1..ctor()" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass50_0..ctor()" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass50_0..ctor()" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass50_0.&lt;SubstractRegions&gt;b__1(Polyline v)" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass50_0.CO_&lt;SubstractRegions&gt;b__1(Polyline CO_v)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass51_0..ctor()" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass51_0..ctor()" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass51_0.&lt;DeleteOperations&gt;b__0(Region p)" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass51_0.CO_&lt;DeleteOperations&gt;b__0(Region CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass55_0..ctor()" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass55_0..ctor()" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass55_0.&lt;GetHandlesbyAreaLayer&gt;b__0(Polyline p)" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass55_0.CO_&lt;GetHandlesbyAreaLayer&gt;b__0(Polyline CO_p)" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass56_0..ctor()" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass56_0..ctor()" />
+<Entry OldName="PGA.SV30MOffset.Program.&lt;&gt;c__DisplayClass56_0.&lt;GetInnersbyHandle&gt;b__0(Polyline p)" NewName="PGA.SV30MOffset.Program.CO_PGA_SV30MOffset_Program.&lt;&gt;c__DisplayClass56_0.CO_&lt;GetInnersbyHandle&gt;b__0(Polyline CO_p)" />
+<Entry OldName="PGA.SV30MOffset.RegionConversion.Commands.BulgeFromCurve(Curve cv, Boolean clockwise)" NewName="PGA.SV30MOffset.RegionConversion.Commands.CO_BulgeFromCurve(Curve CO_cv, Boolean CO_clockwise)" />
+<Entry OldName="PGA.SV30MOffset.Program+&lt;&gt;c__DisplayClass49_0" NewName="PGA.SV30MOffset.Program+CO_PGA_SV30MOffset_Program+&lt;&gt;c__DisplayClass49_0" />
+<Entry OldName="PGA.SV30MOffset.Program+&lt;&gt;c__DisplayClass49_1" NewName="PGA.SV30MOffset.Program+CO_PGA_SV30MOffset_Program+&lt;&gt;c__DisplayClass49_1" />
+<Entry OldName="PGA.SV30MOffset.Program+&lt;&gt;c__DisplayClass50_0" NewName="PGA.SV30MOffset.Program+CO_PGA_SV30MOffset_Program+&lt;&gt;c__DisplayClass50_0" />
+<Entry OldName="PGA.SV30MOffset.Program+&lt;&gt;c__DisplayClass51_0" NewName="PGA.SV30MOffset.Program+CO_PGA_SV30MOffset_Program+&lt;&gt;c__DisplayClass51_0" />
+<Entry OldName="PGA.SV30MOffset.Program+&lt;&gt;c__DisplayClass55_0" NewName="PGA.SV30MOffset.Program+CO_PGA_SV30MOffset_Program+&lt;&gt;c__DisplayClass55_0" />
+<Entry OldName="PGA.SV30MOffset.Program+&lt;&gt;c__DisplayClass56_0" NewName="PGA.SV30MOffset.Program+CO_PGA_SV30MOffset_Program+&lt;&gt;c__DisplayClass56_0" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\Active.cs" NewName="File0" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\HatchPolyline.cs" NewName="File1" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\OffsetPolylines.cs" NewName="File2" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\Program.cs" NewName="File3" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\RegionConversion.cs" NewName="File4" />
+<Assembly Name="PGA.SV30MOffset"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="PGA.SV30MOffset.Active" />
+<Method Token="100663298" Name="get_Editor" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663299" Name="get_Document" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663300" Name="get_Database" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663301" Name="WriteMessage" Variables="message;" ParamCnt="1" />
+<Method Token="100663302" Name="WriteMessage" Variables="message;parameter;" ParamCnt="2" />
+<Method Token="100663303" Name="get_WorkingDatabase" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663304" Name="StartTransaction" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663305" Name="get_MdiDocument" Variables="V_0;" ParamCnt="0" />
+<Type Token="33554436" Name="PGA.SV30MOffset.HatchPolyline" />
+<Method Token="100663307" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663308" Name="TestHatch" Variables="poly;doc;db;ed;V_3;Tx;ModelSpaceId;btr;ObjIds;oHatch;normal;ex;" ParamCnt="1" />
+<Type Token="33554438" Name="PGA.SV30MOffset.PolylineExtension" />
+<Method Token="100663315" Name="Offset" Variables="source;offsetDist;side;plines;offsetRight;offsetLeft;areaRight;areaLeft;V_5;V_6;" ParamCnt="3" />
+<Method Token="100663316" Name="Offset" Variables="source;offsetDist;side;plines;offsetRight;offsetLeft;areaRight;areaLeft;V_6;V_7;" ParamCnt="2" />
+<Type Token="33554439" Name="PGA.SV30MOffset.Program" />
+<Method Token="100663317" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663318" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663319" Name="Initialize" Variables="this;" ParamCnt="1" />
+<Method Token="100663320" Name="CheckLicense" Variables="this;" ParamCnt="1" />
+<Method Token="100663321" Name="Terminate" Variables="this;" ParamCnt="1" />
+<Method Token="100663322" Name="UnlockCommands" Variables="this;doc;" ParamCnt="2" />
+<Method Token="100663323" Name="OnCommandEnded" Variables="this;sender;e;ex;" ParamCnt="3" />
+<Method Token="100663324" Name="SetVars" Variables="" ParamCnt="0" />
+<Method Token="100663325" Name="SetSaveTime" Variables="ex;" ParamCnt="0" />
+<Method Token="100663326" Name="ResetVars" Variables="" ParamCnt="0" />
+<Method Token="100663327" Name="WN_StartProgram" Variables="ed;ex;" ParamCnt="0" />
+<Method Token="100663328" Name="StartProgram" Variables="ed;ex;" ParamCnt="0" />
+<Method Token="100663329" Name="StartProgramSynch" Variables="ed;ex;" ParamCnt="0" />
+<Method Token="100663330" Name="ZoomExtents" Variables="acad;" ParamCnt="0" />
+<Method Token="100663331" Name="SaveDwg" Variables="lLock;db;dir;V_3;path;file;V_6;ex;" ParamCnt="0" />
+<Method Token="100663332" Name="Hatch" Variables="polyoId;ordered;V_2;p;V_4;ex;ex;" ParamCnt="0" />
+<Method Token="100663333" Name="OrderPolylines" Variables="polyoId;ordered;V_1;i;tr;V_4;V_5;" ParamCnt="1" />
+<Method Token="100663334" Name="TagXData" Variables="polyoId;V_1;oid;polyline;rb;V_5;ex;V_7;ex;" ParamCnt="0" />
+<Method Token="100663335" Name="ForceClosePolyLine" Variables="polyline;tr;p;V_2;ex;" ParamCnt="1" />
+<Method Token="100663336" Name="CreateRegions" Variables="layer;acDoc;acCurDb;polyoId;region;V_5;oid;polyline;V_8;rb;tr;acBlkTbl;acBlkTblRec;curves;reg;enumerable;ex;V_17;ex;" ParamCnt="0" />
+<Method Token="100663337" Name="GetCurves" Variables="polyline;curves;V_1;V_2;V_3;V_4;ex;" ParamCnt="1" />
+<Method Token="100663338" Name="CreateRegions" Variables="oid;polyline;acDoc;acCurDb;res;V_4;V_5;tr;acBlkTbl;acBlkTblRec;curves;reg;V_11;ex;ex;" ParamCnt="1" />
+<Method Token="100663339" Name="IntersectOffsetRegion" Variables="reg;regId;V_2;oid;acDoc;acCurDb;tr;r1;r2;layer;acBlkTbl;acBlkTblRec;reg1;reg2;r1X;r2X;r1V;r2V;rb1;rb2;V_20;V_21;V_22;V_23;V_24;ex;V_26;ex;" ParamCnt="0" />
+<Method Token="100663340" Name="GetObjectAsRegion" Variables="oid;tr;obj;reg;V_3;" ParamCnt="1" />
+<Method Token="100663341" Name="IntersectRegions" Variables="r1;r2;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663342" Name="GetAllPolylines" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663343" Name="GetAllRegions" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663344" Name="GetAllPoints" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663345" Name="GetObject" Variables="polyoid;tr;obj;lwp;V_3;V_4;V_5;" ParamCnt="1" />
+<Method Token="100663346" Name="OffsetGreen" Variables="polylineOids;OGR;offsetDist;polyline;acDoc;acCurDb;rb;V_7;V_8;acTrans;acBlkTbl;acBlkTblRec;ex;" ParamCnt="0" />
+<Method Token="100663347" Name="RefinePolylines" Variables="polys;filtered;ordered;V_3;V_4;o;i;outer;inner;intpoints;V_10;p;V_12;V_13;tr;V_15;ex;" ParamCnt="0" />
+<Method Token="100663348" Name="PolylinesIntersect" Variables="p1;p2;intpoints;V_1;a;b;result;V_5;V_6;ex;" ParamCnt="2" />
+<Method Token="100663349" Name="FilteredPolys" Variables="name;oids;polys;tr;V_3;oid;RXclass;V_6;dbobject;polyline;V_9;layer;V_11;V_12;V_13;" ParamCnt="1" />
+<Method Token="100663350" Name="GetGreen" Variables="collection;theClass;V_1;oid;polyline;V_4;V_5;V_6;V_7;V_8;V_9;ex;" ParamCnt="1" />
+<Method Token="100663351" Name="ConvertRegToPolyline" Variables="regId;V_1;oid;ex;V_4;ex;" ParamCnt="0" />
+<Method Token="100663352" Name="GetFeatureLines" Variables="ids;db;tran;tbl;br;b;ex;V_7;" ParamCnt="0" />
+<Method Token="100663353" Name="GetInternalPolys" Variables="dictionary;polyLines;db;oids;V_4;objectId;V_6;V_7;" ParamCnt="0" />
+<Method Token="100663354" Name="WritePolysToDatabase" Variables="data;p;commands;dictionary;V_2;V_3;obj;date;o;c;V_8;V_9;ob;po;V_12;V_13;V_14;V_15;ex;" ParamCnt="2" />
+<Method Token="100663355" Name="RegisterPolys" Variables="dictionary;polyLines;db;oids;V_4;objectId;tr;p;V_8;V_9;ex;V_11;" ParamCnt="0" />
+<Method Token="100663356" Name="WN_RegisterPolys" Variables="dictionary;polyLines;db;oids;V_4;objectId;tr;p;V_8;V_9;ex;V_11;" ParamCnt="0" />
+<Method Token="100663357" Name="ClearPolylineInners" Variables="commands;ex;" ParamCnt="0" />
+<Method Token="100663358" Name="DeleteZeroRegions" Variables="db;oids;V_2;objectId;tr;p;V_6;V_7;ex;V_9;" ParamCnt="0" />
+<Method Token="100663359" Name="DeletePolys" Variables="db;oids;V_2;objectId;tr;p;V_6;ex;V_8;" ParamCnt="0" />
+<Method Token="100663360" Name="DeleteOffsetPolys" Variables="db;oids;V_2;objectId;tr;p;V_6;V_7;ex;V_9;" ParamCnt="0" />
+<Method Token="100663361" Name="DeleteDups" Variables="polylines;usedPolys;db;oids;V_5;objectId;tr;p;V_9;ex;V_11;V_12;tr;result;i;V_17;g;obj;V_20;V_21;V_22;V_23;V_24;ex;" ParamCnt="0" />
+<Method Token="100663362" Name="SubstractRegions" Variables="reg;regId;polyinfo;used;delete;V_5;oid;acDoc;acCurDb;master;V_11;h;dependants;V_14;V_15;V_16;V_17;o;xd;inner;V_21;V_22;tr;r1;r2;layer;acBlkTbl;acBlkTblRec;reg1;reg2;treg1;treg2;V_33;V_34;V_35;V_36;V_37;V_38;V_39;ex;V_41;ex;ex;" ParamCnt="0" />
+<Method Token="100663363" Name="DeleteOperations" Variables="delete;tr;data;V_2;r;V_5;V_6;" ParamCnt="1" />
+<Method Token="100663364" Name="DeleteOperations" Variables="ex;" ParamCnt="0" />
+<Method Token="100663365" Name="DeleteOperations" Variables="delete;tr;V_1;o;r;V_4;ex;" ParamCnt="1" />
+<Method Token="100663366" Name="GetAllInnerToSelected" Variables="oid;pl;doc;tr;data;s;commands;V_6;" ParamCnt="1" />
+<Method Token="100663367" Name="GetHandlesbyAreaLayer" Variables="polyinfo;r;result;V_2;" ParamCnt="2" />
+<Method Token="100663368" Name="GetInnersbyHandle" Variables="polyinfo;handle;result;V_2;" ParamCnt="2" />
+<Method Token="100663369" Name="GetPolylineInfo" Variables="commands;V_1;" ParamCnt="0" />
+<Method Token="100663370" Name="SetXData" Variables="o;rb;doc;tr;V_2;" ParamCnt="2" />
+<Method Token="100663371" Name="GetXData" Variables="o;tv;doc;tr;V_3;" ParamCnt="1" />
+<Method Token="100663372" Name="ParseXData" Variables="tv;V_0;" ParamCnt="1" />
+<Method Token="100663373" Name="AddRegAppTableRecord" Variables="regAppName;doc;ed;db;tr;V_4;rat;V_6;ratr;" ParamCnt="1" />
+<Method Token="100663374" Name="Get3DPolylines" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663375" Name="Convert3DPolylines" Variables="oids;outids;tr;V_2;o;v;V_5;V_6;ex;" ParamCnt="1" />
+<Method Token="100663376" Name="CorrectPolylines" Variables="objects;polylines;V_2;pl;tr;p;ex;" ParamCnt="0" />
+<Method Token="100663377" Name="CorrectPolylines" Variables="poly;SElev;EElev;SPoint;EPoint;SElevPoint;EElevPoint;collection;updatable;keypoints;endpoints;tr;V_11;p;pl;V_14;n;t;c;V_18;pnt;V_20;V_21;V_22;ex;V_24;" ParamCnt="1" />
+<Method Token="100663378" Name="GetStartPointByIndex" Variables="sPoint;collection;result;s;V_2;ex;" ParamCnt="2" />
+<Method Token="100663379" Name="GetEndPointByIndex" Variables="sPoint;collection;result;f;V_2;ex;" ParamCnt="2" />
+<Method Token="100663380" Name="Get3DPFromPoly" Variables="o;collection;tr;V_2;dbob;p3d;V_5;V_6;vId;v3d;V_9;V_10;" ParamCnt="1" />
+<Method Token="100663381" Name="LinearInterpolation" Variables="p;n;c;xy;z;result;V_5;point;_x;_y;_z;V_10;ex;" ParamCnt="1" />
+<Method Token="100663382" Name="ExecuteAutoCADFile" Variables="drawings;V_0;filename;doc;db;ed;V_5;" ParamCnt="1" />
+<Method Token="100663383" Name="ExecuteAutoCADFile" Variables="selectedfile;doc;db;ed;V_4;" ParamCnt="0" />
+<Method Token="100663384" Name="SaveDrawings" Variables="doc;db;ed;V_3;name;" ParamCnt="0" />
+<Method Token="100663385" Name="CloseDrawings" Variables="doc;db;ed;V_3;" ParamCnt="0" />
+<Method Token="100663386" Name="ClosePolylines" Variables="pId;V_1;oid;tr;p;V_5;ex;V_7;ex;" ParamCnt="0" />
+<Field Token="67108866" Name="OffsetObject" />
+<Field Token="67108867" Name="MasPolylineIds" />
+<Field Token="67108868" Name="MasRegions" />
+<Field Token="67108869" Name="Drawings" />
+<Field Token="67108870" Name="Counter" />
+<Field Token="67108871" Name="Stopwatch" />
+<Field Token="67108872" Name="MaxWait" />
+<Type Token="33554441" Name="PGA.SV30MOffset.RegionConversion" />
+<Type Token="33554442" Name="PGA.SV30MOffset.PolylineExtension/OffsetSide" />
+<Field Token="67108875" Name="value__" />
+<Field Token="67108876" Name="In" />
+<Field Token="67108877" Name="Out" />
+<Field Token="67108878" Name="Left" />
+<Field Token="67108879" Name="Right" />
+<Field Token="67108880" Name="Both" />
+<Type Token="33554443" Name="PGA.SV30MOffset.PolylineExtension/IDisposableCollection`1" />
+<Method Token="100663394" Name="AddRange" Variables="this;items;" ParamCnt="2" />
+<Method Token="100663395" Name="RemoveRange" Variables="this;items;" ParamCnt="2" />
+<Type Token="33554444" Name="PGA.SV30MOffset.PolylineExtension/DisposableSet`1" />
+<Method Token="100663396" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663397" Name=".ctor" Variables="this;items;" ParamCnt="2" />
+<Method Token="100663398" Name="Dispose" Variables="this;V_0;last;list;V_3;item;V_5;ex;V_7;" ParamCnt="1" />
+<Method Token="100663399" Name="AddRange" Variables="this;items;V_0;" ParamCnt="2" />
+<Method Token="100663400" Name="RemoveRange" Variables="this;items;V_0;V_1;" ParamCnt="2" />
+<Type Token="33554445" Name="PGA.SV30MOffset.PolylineExtension/&lt;&gt;c" />
+<Method Token="100663401" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663402" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663403" Name="&lt;Offset&gt;b__1_0" Variables="this;pline;" ParamCnt="2" />
+<Method Token="100663404" Name="&lt;Offset&gt;b__1_1" Variables="this;pline;" ParamCnt="2" />
+<Method Token="100663405" Name="&lt;Offset&gt;b__2_0" Variables="this;pline;" ParamCnt="2" />
+<Method Token="100663406" Name="&lt;Offset&gt;b__2_1" Variables="this;pline;" ParamCnt="2" />
+<Method Token="100663407" Name="&lt;Offset&gt;b__2_2" Variables="this;pline;" ParamCnt="2" />
+<Method Token="100663408" Name="&lt;Offset&gt;b__2_3" Variables="this;pline;" ParamCnt="2" />
+<Field Token="67108881" Name="&lt;&gt;9" />
+<Field Token="67108882" Name="&lt;&gt;9__1_0" />
+<Field Token="67108883" Name="&lt;&gt;9__1_1" />
+<Field Token="67108884" Name="&lt;&gt;9__2_0" />
+<Field Token="67108885" Name="&lt;&gt;9__2_1" />
+<Field Token="67108886" Name="&lt;&gt;9__2_2" />
+<Field Token="67108887" Name="&lt;&gt;9__2_3" />
+<Type Token="33554446" Name="PGA.SV30MOffset.Program/&lt;&gt;c" />
+<Method Token="100663409" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663410" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663411" Name="&lt;OrderPolylines&gt;b__21_0" Variables="this;p;" ParamCnt="2" />
+<Method Token="100663412" Name="&lt;IntersectOffsetRegion&gt;b__27_0" Variables="this;p;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663413" Name="&lt;IntersectOffsetRegion&gt;b__27_1" Variables="this;p;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663414" Name="&lt;RefinePolylines&gt;b__35_0" Variables="this;p;" ParamCnt="2" />
+<Method Token="100663415" Name="&lt;GetFeatureLines&gt;b__40_0" Variables="this;id;" ParamCnt="2" />
+<Method Token="100663416" Name="&lt;DeleteDups&gt;b__49_1" Variables="this;d;" ParamCnt="2" />
+<Method Token="100663417" Name="&lt;SubstractRegions&gt;b__50_0" Variables="this;p;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663418" Name="&lt;SubstractRegions&gt;b__50_2" Variables="this;v;" ParamCnt="2" />
+<Method Token="100663419" Name="&lt;SubstractRegions&gt;b__50_3" Variables="this;p;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663420" Name="&lt;GetAllInnerToSelected&gt;b__54_0" Variables="this;p;V_0;V_1;" ParamCnt="2" />
+<Method Token="100663421" Name="&lt;GetHandlesbyAreaLayer&gt;b__55_1" Variables="this;p;" ParamCnt="2" />
+<Method Token="100663422" Name="&lt;LinearInterpolation&gt;b__69_0" Variables="this;d;" ParamCnt="2" />
+<Method Token="100663423" Name="&lt;LinearInterpolation&gt;b__69_1" Variables="this;d;" ParamCnt="2" />
+<Method Token="100663424" Name="&lt;LinearInterpolation&gt;b__69_2" Variables="this;d;" ParamCnt="2" />
+<Method Token="100663425" Name="&lt;LinearInterpolation&gt;b__69_3" Variables="this;d;" ParamCnt="2" />
+<Method Token="100663426" Name="&lt;LinearInterpolation&gt;b__69_4" Variables="this;d;" ParamCnt="2" />
+<Field Token="67108888" Name="&lt;&gt;9" />
+<Field Token="67108889" Name="&lt;&gt;9__21_0" />
+<Field Token="67108890" Name="&lt;&gt;9__27_0" />
+<Field Token="67108891" Name="&lt;&gt;9__27_1" />
+<Field Token="67108892" Name="&lt;&gt;9__35_0" />
+<Field Token="67108893" Name="&lt;&gt;9__40_0" />
+<Field Token="67108894" Name="&lt;&gt;9__49_1" />
+<Field Token="67108895" Name="&lt;&gt;9__50_0" />
+<Field Token="67108896" Name="&lt;&gt;9__50_2" />
+<Field Token="67108897" Name="&lt;&gt;9__50_3" />
+<Field Token="67108898" Name="&lt;&gt;9__54_0" />
+<Field Token="67108899" Name="&lt;&gt;9__55_1" />
+<Field Token="67108900" Name="&lt;&gt;9__69_0" />
+<Field Token="67108901" Name="&lt;&gt;9__69_1" />
+<Field Token="67108902" Name="&lt;&gt;9__69_2" />
+<Field Token="67108903" Name="&lt;&gt;9__69_3" />
+<Field Token="67108904" Name="&lt;&gt;9__69_4" />
+<Type Token="33554447" Name="PGA.SV30MOffset.Program/&lt;&gt;c__DisplayClass49_0" />
+<Method Token="100663427" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663428" Name="&lt;DeleteDups&gt;b__0" Variables="this;r;" ParamCnt="2" />
+<Field Token="67108905" Name="p" />
+<Field Token="67108906" Name="CS$&lt;&gt;8__locals1" />
+<Type Token="33554448" Name="PGA.SV30MOffset.Program/&lt;&gt;c__DisplayClass49_1" />
+<Method Token="100663429" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Field Token="67108907" Name="TOLERANCE" />
+<Type Token="33554450" Name="PGA.SV30MOffset.Program/&lt;&gt;c__DisplayClass50_0" />
+<Method Token="100663433" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663434" Name="&lt;SubstractRegions&gt;b__1" Variables="this;v;" ParamCnt="2" />
+<Field Token="67108909" Name="outer" />
+<Type Token="33554451" Name="PGA.SV30MOffset.Program/&lt;&gt;c__DisplayClass51_0" />
+<Method Token="100663435" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663436" Name="&lt;DeleteOperations&gt;b__0" Variables="this;p;" ParamCnt="2" />
+<Field Token="67108910" Name="o" />
+<Type Token="33554452" Name="PGA.SV30MOffset.Program/&lt;&gt;c__DisplayClass55_0" />
+<Method Token="100663437" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663438" Name="&lt;GetHandlesbyAreaLayer&gt;b__0" Variables="this;p;" ParamCnt="2" />
+<Field Token="67108911" Name="r" />
+<Type Token="33554454" Name="PGA.SV30MOffset.Program/&lt;&gt;c__DisplayClass56_0" />
+<Method Token="100663446" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663447" Name="&lt;GetInnersbyHandle&gt;b__0" Variables="this;p;" ParamCnt="2" />
+<Field Token="67108918" Name="handle" />
+<Type Token="33554455" Name="PGA.SV30MOffset.RegionConversion/Commands" />
+<Method Token="100663448" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663449" Name="RegionToPolyline" Variables="regId;doc;db;ed;tr;V_4;bt;btr;reg;V_8;objs;V_10;ent;V_12;" ParamCnt="1" />
+<Method Token="100663450" Name="PolylineFromRegion" Variables="reg;res;cvs;pl;V_3;finished;cvCnt;nonCvCnt;fstCvIdx;i;tmpCv;V_10;V_11;V_12;V_13;V_14;fstCv;p;nextPt;prevCnt;V_19;V_20;obj;cv;V_23;V_24;bulge;V_26;V_27;V_28;V_29;V_30;V_31;V_32;obj;subReg;V_35;subRes;V_37;o;V_39;V_40;V_41;" ParamCnt="1" />
+<Method Token="100663451" Name="BulgeFromCurve" Variables="cv;clockwise;bulge;a;V_2;newStart;V_4;V_5;V_6;" ParamCnt="2" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663306" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly><File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\Active.cs" NewName="File0" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\HatchPolyline.cs" NewName="File1" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\OffsetPolylines.cs" NewName="File2" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\Program.cs" NewName="File3" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.SV30MOffset\PGA.SV30MOffset\RegionConversion.cs" NewName="File4" />
+</Mappings>

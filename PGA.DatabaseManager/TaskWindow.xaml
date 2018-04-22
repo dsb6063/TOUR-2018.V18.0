@@ -1,0 +1,17 @@
+﻿<Window x:Class="PGA.DatabaseManager.TaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TaskWindow" Height="300" Width="901" Loaded="Window_Loaded">
+    <Grid Margin="0,0,2,0" Loaded="Grid_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="148*"/>
+            <ColumnDefinition Width="859*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dgTasks" Grid.Column="1" HorizontalAlignment="Left" Margin="30,222,0,0" VerticalAlignment="Top" Width="632" SelectionChanged="dgTasks_SelectionChanged">
+            <DataGrid.ItemBindingGroup>
+                <BindingGroup/>
+            </DataGrid.ItemBindingGroup>
+        </DataGrid>
+
+    </Grid>
+</Window>

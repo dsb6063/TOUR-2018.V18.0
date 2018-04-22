@@ -1,0 +1,878 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>PGA.sdf Database Schema</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
+                    body { background-color: #fff; color: #000; font-family: Consolas, monospace}
+                    a:link { color: #03d; }
+                    a:visited { color: #039; }
+                    a:hover { color: #09f; }
+                    table { border-collapse: collapse; width: 100%; }
+                    table caption { color: #666; text-align: right; font-size: 65%; margin-bottom: .5ex; }
+                    table td, table th { border: solid 1px #666; border-collapse: collapse; padding: .3ex .5ex; vertical-align: top; }
+                    table tbody tr:hover { background-color: #ffc; }
+                    table thead th { text-align: left; background-color: #ccc; }
+                    table tbody th { text-align: left; white-space: nowrap; }
+                    .table { page-break-inside: avoid; }
+                    .pk { float: right; cursor: arrow; color: #999; }
+                    .type { white-space: nowrap; }
+                    .null { text-align: center; }
+                    .flag { white-space: nowrap; font-size: 70%; display: inline-block; border: solid 1px #ccc; padding: .25ex .5ex; background-color: #ddd; margin-right: 1ex; }
+                    .tocref { float: right; text-decoration: none; font-weight: normal; }
+                    .footer { text-align: center; margin-top: 1em; font-size: 80%;}
+                    li.view:before { content: "VIEW"; font-size: 70%; display: inline-block; border: solid 1px #ccc; padding: .25ex .5ex; background-color: #ddd; margin-right: 1ex; }
+                    @media print {
+                    body { font-size: .8em; }
+                    #toc, .tocref { display: none; }
+                    a:link, a:visited { color: #000; text-decoration: none; }
+                    }
+                </style>
+  </head>
+  <body>
+    <h1>PGA.sdf Database Schema</h1>
+    <div id="toc">
+      <ul>
+        <li class="table"><a href="#CommandStack">CommandStack</a></li>
+        <li class="table"><a href="#GlobalSettings">GlobalSettings</a></li>
+        <li class="table"><a href="#Logs">Logs</a></li>
+        <li class="table"><a href="#PointCloud">PointCloud</a></li>
+        <li class="table"><a href="#Polyline">Polyline</a></li>
+        <li class="table"><a href="#PolylineChildren">PolylineChildren</a></li>
+        <li class="table"><a href="#PolylineDWGS">PolylineDWGS</a></li>
+        <li class="table"><a href="#Settings">Settings</a></li>
+        <li class="table"><a href="#SourceDrawingInfo">SourceDrawingInfo</a></li>
+        <li class="table"><a href="#Tasks">Tasks</a></li>
+      </ul>
+    </div>
+    <div class="table">
+      <h2 id=""><a href="#toc" class="tocref">⇧</a>
+        Database Properties
+      </h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Property</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="type">Locale Identifier</td>
+            <td class="type">1033</td>
+          </tr>
+          <tr>
+            <td class="type">Encryption Mode</td>
+            <td class="type">Platform Default</td>
+          </tr>
+          <tr>
+            <td class="type">Case Sensitive</td>
+            <td class="type">False</td>
+          </tr>
+          <tr>
+            <td class="type">Database</td>
+            <td class="type">C:\Users\Daryl-Win-8\AppData\Roaming\Autodesk\ApplicationPlugins\PGA-PuttTinSurface2014.bundle\Database\PGA.sdf</td>
+          </tr>
+          <tr>
+            <td class="type">ServerVersion</td>
+            <td class="type">4.0.8876.1</td>
+          </tr>
+          <tr>
+            <td class="type">DatabaseSize</td>
+            <td class="type">192 KB</td>
+          </tr>
+          <tr>
+            <td class="type">Created</td>
+            <td class="type">12/17/2015 3:48 PM</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="CommandStack"><a href="#toc" class="tocref">⇧</a>Table CommandStack</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_CommandStack">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (326,1)</span></td>
+          </tr>
+          <tr>
+            <th>Commands</th>
+            <td class="type">nvarchar (500)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>Function</th>
+            <td class="type">nvarchar (100)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>IsInvoked</th>
+            <td class="type">bit</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>IsRunning</th>
+            <td class="type">bit</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>IsCompleted</th>
+            <td class="type">bit</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>HasError</th>
+            <td class="type">bit</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>TimeStarted</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>TimeCompleted</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>SelectionSetID</th>
+            <td class="type">bigint</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>SourceDWGID</th>
+            <td class="type">bigint</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>SourceDWGGui</th>
+            <td class="type">bigint</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="GlobalSettings"><a href="#toc" class="tocref">⇧</a>Table GlobalSettings</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_GlobalSettings">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (2,1)</span></td>
+          </tr>
+          <tr>
+            <th>PointsPath</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>PolylinePath</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>SourceDWG</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ServerName</th>
+            <td class="type">nvarchar (100)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ServerPath</th>
+            <td class="type">nvarchar (100)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>EmailAddress</th>
+            <td class="type">nvarchar (100)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>EmailServer</th>
+            <td class="type">nvarchar (100)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>EmailPort</th>
+            <td class="type">nvarchar (100)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>EmailUserName</th>
+            <td class="type">nvarchar (100)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>EmailPassword</th>
+            <td class="type">nvarchar (100)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>IsEmailSecured</th>
+            <td class="type">bit</td>
+            <td class="null">☒</td>
+            <td><span class="flag">DEFAULT NULL</span></td>
+          </tr>
+          <tr>
+            <th>IsAttachment</th>
+            <td class="type">bit</td>
+            <td class="null">☒</td>
+            <td><span class="flag">DEFAULT NULL</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="Logs"><a href="#toc" class="tocref">⇧</a>Table Logs</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_Logs">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (1,1)</span></td>
+          </tr>
+          <tr>
+            <th>DateStamp</th>
+            <td class="type">nchar (10)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>Issue</th>
+            <td class="type">nchar (200)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DrawingID</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="PointCloud"><a href="#toc" class="tocref">⇧</a>Table PointCloud</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_PointCloud">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (115,1)</span></td>
+          </tr>
+          <tr>
+            <th>DrawingName</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DrawingGUI</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>SourcePath</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DestinationPath</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DateStamp</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DateLoaded</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="Polyline"><a href="#toc" class="tocref">⇧</a>Table Polyline</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_Polyline">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (1,1)</span></td>
+          </tr>
+          <tr>
+            <th>DrawingName</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DrawingID</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>Handle</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ObejctId</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>Level</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>Nodes</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>Layer</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>Area</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>Length</th>
+            <td class="type">nchar (50)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>Geometry</th>
+            <td class="type">nchar (200)</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="PolylineChildren"><a href="#toc" class="tocref">⇧</a>Table PolylineChildren</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_PolylineChildren">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (1,1)</span></td>
+          </tr>
+          <tr>
+            <th>PolylineParentID</th>
+            <td class="type">bigint</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>PolylineChildrenID</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DateStamp</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>PolylineID</th>
+            <td class="type">bigint</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="PolylineDWGS"><a href="#toc" class="tocref">⇧</a>Table PolylineDWGS</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_PolylineDWGS">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (109,1)</span></td>
+          </tr>
+          <tr>
+            <th>DrawingName</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DrawingGUI</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>SourcePath</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DestinationPath</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DateStamp</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DateLoaded</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="Settings"><a href="#toc" class="tocref">⇧</a>Table Settings</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_Settings">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (4,1)</span></td>
+          </tr>
+          <tr>
+            <th>GlobalPointFilePath</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>GlobalPolylineFilePath</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>TemplateDWG</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>SeverPath</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>CourseName</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DateStamp</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>StartTime</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>EndTime</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DestinationFolder</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>CreateDXF</th>
+            <td class="type">bit</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DestDXFFolder</th>
+            <td class="type">nvarchar (200)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ProjectName</th>
+            <td class="type">nvarchar (250)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ProjectCity</th>
+            <td class="type">nvarchar (250)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ProjectState</th>
+            <td class="type">nvarchar (250)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ProjectDate</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ProjectCreator</th>
+            <td class="type">nvarchar (250)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ProjectManager</th>
+            <td class="type">nvarchar (250)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>ProjectSurveyor</th>
+            <td class="type">nvarchar (250)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="SourceDrawingInfo"><a href="#toc" class="tocref">⇧</a>Table SourceDrawingInfo</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_SourceDrawingInfoS">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (1,1)</span></td>
+          </tr>
+          <tr>
+            <th>DrawingName</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DrawingPath</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DrawingGui</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>DestinationPath</th>
+            <td class="type">nvarchar (50)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>TimeStampFile</th>
+            <td class="type">nchar (10)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>TimeStampProcessess</th>
+            <td class="type">nchar (10)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>LastSaveTime</th>
+            <td class="type">nchar (10)</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <h2 id="Tasks"><a href="#toc" class="tocref">⇧</a>Table Tasks</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:30ex">Name</th>
+            <th style="width:20ex">Type</th>
+            <th style="width:4ex">NULL</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><span class="pk" title="PRIMARY KEY PK_Tasks">◆</span>Id</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td><span class="flag">IDENTITY (27,1)</span></td>
+          </tr>
+          <tr>
+            <th>ProjectID</th>
+            <td class="type">int</td>
+            <td class="null">☐</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>TimeStarted</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>TimeEnded</th>
+            <td class="type">datetime</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>IsCancelled</th>
+            <td class="type">bit</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>IsPaused</th>
+            <td class="type">bit</td>
+            <td class="null">☒</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="footer">
+                    Generated by <a href="http://SqlDbDoc.codeplex.com/">DB&gt;doc</a> and <a href="http://sqlcetoolbox.codeplex.com/">SQL Server Compact/SQLite Toolbox</a> on
+                    December 17, 2015, 22:17:01</div>
+  </body>
+</html>

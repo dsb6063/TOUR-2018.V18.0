@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGA.MapClean", "PGA.MapCleanx64", "{50882F56-5150-439F-8D94-7EC7B2E1D432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50882F56-5150-439F-8D94-7EC7B2E1D432}.Debug|x64.ActiveCfg = Debug|x64
+		{50882F56-5150-439F-8D94-7EC7B2E1D432}.Debug|x64.Build.0 = Debug|x64
+		{50882F56-5150-439F-8D94-7EC7B2E1D432}.Release|x64.ActiveCfg = Release|x64
+		{50882F56-5150-439F-8D94-7EC7B2E1D432}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

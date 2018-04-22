@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="PGA.UpdateManager.UpdateUC_2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PGA.UpdateManager"
+             mc:Ignorable="d" 
+             d:DesignHeight="65" d:DesignWidth="300">
+    <Grid>
+        <GroupBox Header="Updates" BorderThickness="2,2,2,2" Height="55">
+            <GroupBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}"/>
+                    <GradientStop Color="#FFC5BCBC" Offset="0.881"/>
+                    <GradientStop Color="#7FAAA2A2" Offset="0.613"/>
+                </LinearGradientBrush>
+            </GroupBox.Background>
+            <Grid>
+                <Button x:Name="cmdUpdate"  Content="Update" HorizontalAlignment="Center" Margin="-60,0,0,0" VerticalAlignment="Center" Width="75"/>
+                <Button x:Name="cmdPatch"    Content="Patch" HorizontalAlignment="Center" Margin="100,0,0,0" VerticalAlignment="Center" Width="70" Height="19.28"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>

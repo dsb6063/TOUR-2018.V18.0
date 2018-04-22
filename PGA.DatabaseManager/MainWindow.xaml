@@ -1,0 +1,80 @@
+﻿<Window x:Class="PGA.DatabaseManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PGA Tour Database Loader" Height="592.1" Width="1193.15" Loaded="Window_Loaded">
+    <Grid HorizontalAlignment="Left" Height="545" Margin="36,35,0,-19" VerticalAlignment="Top" Width="1095">
+        <Border BorderBrush="Black" BorderThickness="0,0,1,1" HorizontalAlignment="Left" Height="123" Margin="862,339,0,0" VerticalAlignment="Top" Width="223" Opacity="0.25"/>
+        <TextBox x:Name="txtPointPath" HorizontalAlignment="Left" Height="23" Margin="176,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="560"/>
+        <TextBox x:Name="txtServerPath" HorizontalAlignment="Left" Height="23" Margin="176,174,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="560"/>
+        <TextBox x:Name="txtTemplatePath" HorizontalAlignment="Left" Height="23" Margin="176,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="560"/>
+        <TextBox x:Name="txtPolylinePath" HorizontalAlignment="Left" Height="23" Margin="176,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="560"/>
+        <Label Content="File Paths" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,15,0,0" Width="119" BorderThickness="0,0,0,1">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="2"/>
+            </Label.Effect>
+        </Label>
+        <Label Content="Point Path" HorizontalAlignment="Left" Margin="30,47,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Polyline Path" HorizontalAlignment="Left" Margin="30,83,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Template Path" HorizontalAlignment="Left" Margin="30,128,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Server Path" HorizontalAlignment="Left" Margin="30,171,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Project Details" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,312,0,0" Width="119" BorderThickness="0,0,0,1">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="2"/>
+            </Label.Effect>
+        </Label>
+        <TextBox x:Name="txtNewDWGPath" HorizontalAlignment="Left" Height="23" Margin="176,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="560"/>
+        <Label Content="New DWG Path" HorizontalAlignment="Left" Margin="30,215,0,0" VerticalAlignment="Top" Width="119"/>
+        <TextBox x:Name="txtNewDXFPath" HorizontalAlignment="Left" Height="23" Margin="176,255,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="560"/>
+        <Label Content="New DXF Path" HorizontalAlignment="Left" Margin="30,255,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Time Stamps" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="828,15,0,0" Width="119" BorderThickness="0,0,0,1">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="2"/>
+            </Label.Effect>
+        </Label>
+        <TextBlock HorizontalAlignment="Left" Height="26" Margin="943,111,-42,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <TextBox x:Name="txtDateCreated" HorizontalAlignment="Left" Height="23" Margin="931,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="txtStartTime" HorizontalAlignment="Left" Height="23" Margin="931,101,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="txtEndTime" HorizontalAlignment="Left" Height="23" Margin="931,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Date Created" HorizontalAlignment="Left" Height="26" Margin="828,60,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Start Time" HorizontalAlignment="Left" Height="26" Margin="828,97,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="End Time&#xA;End Time&#xA;" HorizontalAlignment="Left" Height="26" Margin="828,134,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:Name="txtProjectName" HorizontalAlignment="Left" Height="23" Margin="152,368,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="187" TabIndex="7"/>
+        <TextBox x:Name="txtPrjectCity" HorizontalAlignment="Left" Height="23" Margin="152,406,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="187" RenderTransformOrigin="0.508,2.391" TabIndex="8"/>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="23" Margin="401,368,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" TabIndex="9"/>
+        <TextBox x:Name="txtState" HorizontalAlignment="Left" Height="23" Margin="401,403,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" RenderTransformOrigin="0.508,2.391" TabIndex="10"/>
+        <TextBox x:Name="txtManager" HorizontalAlignment="Left" Height="23" Margin="619,368,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TabIndex="11"/>
+        <TextBox x:Name="txtSurveyor" HorizontalAlignment="Left" Height="23" Margin="619,406,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.508,2.391" TabIndex="12"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="88,367,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="City&#xA;&#x9;" HorizontalAlignment="Left" Margin="90,400,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="State" HorizontalAlignment="Left" Margin="344,403,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="User" HorizontalAlignment="Left" Margin="344,364,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Manager" HorizontalAlignment="Left" Margin="555,368,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Surveyor" HorizontalAlignment="Left" Margin="555,402,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Create DXF" HorizontalAlignment="Left" Height="26" Margin="828,228,0,0" VerticalAlignment="Top" Width="98"/>
+        <Button x:Name="cmdPointPath" Content="..." HorizontalAlignment="Left" Height="23" Margin="741,50,0,0" VerticalAlignment="Top" Width="32" Click="cmdPointPath_Click"  />
+        <Button x:Name="cmdPolylinePath" Content="..." HorizontalAlignment="Left" Height="23" Margin="741,86,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.531,2.174" Click="cmdPolylinePath_Click"/>
+        <Button x:Name="cmdTemplatePath" Content="..." HorizontalAlignment="Left" Height="23" Margin="741,130,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.531,2.174" Click="cmdTemplatePath_Click"/>
+        <Button x:Name="cmdServerPath" Content="..." HorizontalAlignment="Left" Height="23" Margin="741,173,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.531,2.174" Click="cmdServerPath_Click"/>
+        <Button x:Name="cmdDWGPath" Content="..." HorizontalAlignment="Left" Height="23" Margin="741,217,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.531,2.174" Click="cmdDWGPath_Click"/>
+        <Button x:Name="cmdDXFPath" Content="..." HorizontalAlignment="Left" Height="23" Margin="741,256,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.531,2.174" Click="cmdDXFPath_Click"/>
+        <Button x:Name="cmdNewTask" Content="New Task" HorizontalAlignment="Left" Margin="976,360,0,0" VerticalAlignment="Top" Width="75" Click="cmdNewTask_Click"/>
+        <Button x:Name="cmdClose" Content="Close" HorizontalAlignment="Left" Margin="976,387,0,0" VerticalAlignment="Top" Width="75" Click="cmdClose_Click"/>
+        <Label Content="Execute Task" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="862,312,0,0" Width="119" BorderThickness="0,0,0,1">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3"/>
+            </Label.Effect>
+        </Label>
+        <Border BorderBrush="Black" BorderThickness="1,0,0,1" HorizontalAlignment="Left" Height="123" Margin="1,344,0,0" VerticalAlignment="Top" Width="223" Opacity="0.25"/>
+        <Border BorderBrush="Black" BorderThickness="0,1,1,0" HorizontalAlignment="Left" Height="44" Margin="1045,3,0,0" VerticalAlignment="Top" Width="40" Opacity="0.25"/>
+        <Border BorderBrush="Black" BorderThickness="1,1,0,0" HorizontalAlignment="Left" Height="44" Margin="0,3,0,0" VerticalAlignment="Top" Width="40" Opacity="0.25"/>
+        <CheckBox x:Name="chkCreateDXF" Content="Enable" HorizontalAlignment="Left" Margin="931,234,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="cmdTest" Content="Test  " HorizontalAlignment="Left" Margin="884,360,0,0" VerticalAlignment="Top" Width="75" Click="cmdTest_Click"/>
+        <Button x:Name="cmdLoadData" Content="Load" HorizontalAlignment="Left" Margin="884,387,0,0" VerticalAlignment="Top" Width="75" Click="cmdLoadData_Click"/>
+        <TextBox x:Name="txtCourseName" HorizontalAlignment="Left" Height="27" Margin="339,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="335"/>
+        <Label Content="Golf Course Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="339,283,0,0" Width="119" BorderThickness="0,0,0,1">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="2"/>
+            </Label.Effect>
+        </Label>
+    </Grid>
+</Window>

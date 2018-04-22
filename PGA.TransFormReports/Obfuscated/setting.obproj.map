@@ -1,0 +1,137 @@
+﻿<Mappings><Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\Active.cs" NewName="File0" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\Commands.cs" NewName="File1" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\Program.cs" NewName="File2" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\ServiceManager.cs" NewName="File3" />
+<Entry OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\TransformReports.cs" NewName="File4" />
+<Assembly Name="PGA.TransFormReports"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Type Token="33554434" Name="PGA.TransFormReports.Active" />
+<Method Token="100663297" Name="get_Editor" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663298" Name="get_Document" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663299" Name="get_Database" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663300" Name="WriteMessage" Variables="message;" ParamCnt="1" />
+<Method Token="100663301" Name="WriteMessage" Variables="message;parameter;" ParamCnt="2" />
+<Method Token="100663302" Name="get_ActiveCivilDocument" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663303" Name="get_WorkingDatabase" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663304" Name="StartTransaction" Variables="V_0;" ParamCnt="0" />
+<Method Token="100663305" Name="get_MdiDocument" Variables="V_0;" ParamCnt="0" />
+<Type Token="33554436" Name="PGA.TransFormReports.Commands" />
+<Method Token="100663307" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663308" Name="GetReports" Variables="this;report;commands;logs;errors;V_4;items;ex;" ParamCnt="1" />
+<Method Token="100663309" Name="GetReportsToWrite" Variables="report;commands;logs;errors;V_4;ex;" ParamCnt="0" />
+<Type Token="33554437" Name="PGA.TransFormReports.IServiceManager" />
+<Method Token="100663310" Name="StartService" Variables="this;" ParamCnt="1" />
+<Method Token="100663311" Name="StopService" Variables="this;" ParamCnt="1" />
+<Method Token="100663312" Name="SendReport" Variables="this;info;" ParamCnt="2" />
+<Type Token="33554438" Name="PGA.TransFormReports.Program" />
+<Method Token="100663313" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663314" Name="Main" Variables="args;sm;" ParamCnt="1" />
+<Type Token="33554439" Name="PGA.TransFormReports.ServiceManager" />
+<Method Token="100663315" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663316" Name=".ctor" Variables="this;datetime;" ParamCnt="2" />
+<Method Token="100663317" Name="HeaderComments" Variables="this;exception;" ParamCnt="1" />
+<Method Token="100663318" Name="FooterComments" Variables="this;" ParamCnt="1" />
+<Method Token="100663319" Name="StartService" Variables="this;V_0;V_1;" ParamCnt="1" />
+<Method Token="100663320" Name="SetWorkDirs" Variables="this;tempPath;workingfolder;ex;" ParamCnt="1" />
+<Method Token="100663321" Name="CreateWorkDirs" Variables="this;tempPath;workingfolder;V_2;V_3;ex;" ParamCnt="1" />
+<Method Token="100663322" Name="DoWork" Variables="this;reports;firstOrDefault;V_2;V_3;items;filename;V_6;commands;V_8;V_9;dwgfiles;pntfiles;V_12;V_13;ex;ex;" ParamCnt="1" />
+<Method Token="100663323" Name="CleanDirs" Variables="this;di;V_1;V_2;file;V_4;V_5;dir;exception;" ParamCnt="1" />
+<Method Token="100663324" Name="DoWorkAllErrors" Variables="this;commands;logs;filtered;remoteName;V_4;V_5;sw;V_7;l;sw;V_10;V_11;l;V_13;" ParamCnt="1" />
+<Method Token="100663325" Name="StopService" Variables="this;processes;count;V_2;V_3;p;V_5;exception;" ParamCnt="1" />
+<Method Token="100663326" Name="SendReport" Variables="this;info;" ParamCnt="2" />
+<Method Token="100663327" Name="GetDwgFiles" Variables="this;dwgfiles;filename;rec;source;name;V_4;" ParamCnt="3" />
+<Method Token="100663328" Name="GetHole" Variables="this;filename;namewoext;hole;V_2;" ParamCnt="2" />
+<Method Token="100663329" Name="ConfigProperties" Variables="this;process;exception;" ParamCnt="2" />
+<Method Token="100663330" Name="SetAdminPrivledges" Variables="this;V_0;ps;exeName;startInfo;" ParamCnt="1" />
+<Method Token="100663331" Name="IsAdministrator" Variables="identity;principal;V_2;" ParamCnt="0" />
+<Field Token="67108865" Name="_dateTime" />
+<Field Token="67108866" Name="_temp" />
+<Field Token="67108867" Name="_start" />
+<Field Token="67108868" Name="name" />
+<Field Token="67108869" Name="path" />
+<Type Token="33554440" Name="PGA.TransFormReports.TransformReports" />
+<Method Token="100663332" Name=".ctor" Variables="this;V_0;V_1;V_2;" ParamCnt="1" />
+<Method Token="100663333" Name=".ctor" Variables="this;logs;masterdump;drawings;result;errors;V_4;" ParamCnt="2" />
+<Method Token="100663334" Name="GetDrawings" Variables="this;commands;logs;V_2;V_3;V_4;V_5;ex;" ParamCnt="1" />
+<Method Token="100663335" Name="GetStartStopPoint" Variables="this;logs;result;V_2;" ParamCnt="2" />
+<Method Token="100663336" Name="FiltersByErrorType" Variables="this;logs;type;result;V_2;" ParamCnt="3" />
+<Method Token="100663337" Name="FiltersByAllErrors" Variables="this;logs;result;V_1;" ParamCnt="2" />
+<Method Token="100663338" Name="GetDrawingName" Variables="this;logs;log;array;V_2;V_3;" ParamCnt="2" />
+<Method Token="100663339" Name="FiltersCombinedAllErrors" Variables="this;logs;localdump;collection;dwgs;i;V_4;tworecs;bounded;result;V_9;V_10;V_11;" ParamCnt="2" />
+<Method Token="100663340" Name="WriteReport" Variables="this;errors;ex;" ParamCnt="2" />
+<Field Token="67108870" Name="_logs" />
+<Field Token="67108871" Name="_alldata" />
+<Field Token="67108872" Name="_drawings" />
+<Field Token="67108873" Name="_result" />
+<Field Token="67108874" Name="_errors" />
+<Type Token="33554441" Name="PGA.TransFormReports.ServiceManager/&lt;StartService&gt;d__9" />
+<Method Token="100663341" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663342" Name="MoveNext" Variables="this;V_0;V_1;V_2;" ParamCnt="1" />
+<Method Token="100663343" Name="SetStateMachine" Variables="this;stateMachine;" ParamCnt="2" />
+<Field Token="67108875" Name="&lt;&gt;1__state" />
+<Field Token="67108876" Name="&lt;&gt;t__builder" />
+<Field Token="67108877" Name="&lt;&gt;4__this" />
+<Field Token="67108878" Name="&lt;exception&gt;5__1" />
+<Type Token="33554442" Name="PGA.TransFormReports.ServiceManager/&lt;&gt;c" />
+<Method Token="100663344" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663345" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663346" Name="&lt;DoWorkAllErrors&gt;b__14_0" Variables="this;p;" ParamCnt="2" />
+<Field Token="67108879" Name="&lt;&gt;9" />
+<Field Token="67108880" Name="&lt;&gt;9__14_0" />
+<Type Token="33554443" Name="PGA.TransFormReports.ServiceManager/&lt;&gt;c__DisplayClass17_0" />
+<Method Token="100663347" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663348" Name="&lt;GetDwgFiles&gt;b__0" Variables="this;p;" ParamCnt="2" />
+<Field Token="67108881" Name="filename" />
+<Type Token="33554444" Name="PGA.TransFormReports.TransformReports/ErrorType" />
+<Field Token="67108882" Name="value__" />
+<Field Token="67108883" Name="Acad" />
+<Field Token="67108884" Name="Exception" />
+<Field Token="67108885" Name="Alert" />
+<Field Token="67108886" Name="Error" />
+<Field Token="67108887" Name="Locked" />
+<Field Token="67108888" Name="Runtime" />
+<Type Token="33554445" Name="PGA.TransFormReports.TransformReports/&lt;&gt;c" />
+<Method Token="100663349" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663350" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663351" Name="&lt;GetDrawings&gt;b__8_0" Variables="this;l;" ParamCnt="2" />
+<Method Token="100663352" Name="&lt;GetDrawings&gt;b__8_1" Variables="this;o;" ParamCnt="2" />
+<Method Token="100663353" Name="&lt;GetStartStopPoint&gt;b__9_0" Variables="this;p;" ParamCnt="2" />
+<Method Token="100663354" Name="&lt;GetStartStopPoint&gt;b__9_1" Variables="this;p;" ParamCnt="2" />
+<Method Token="100663355" Name="&lt;FiltersByAllErrors&gt;b__11_0" Variables="this;p;" ParamCnt="2" />
+<Method Token="100663356" Name="&lt;FiltersCombinedAllErrors&gt;b__13_0" Variables="this;l;" ParamCnt="2" />
+<Method Token="100663357" Name="&lt;FiltersCombinedAllErrors&gt;b__13_1" Variables="this;o;" ParamCnt="2" />
+<Method Token="100663358" Name="&lt;FiltersCombinedAllErrors&gt;b__13_3" Variables="this;p;" ParamCnt="2" />
+<Method Token="100663359" Name="&lt;WriteReport&gt;b__14_0" Variables="this;p;V_0;" ParamCnt="2" />
+<Field Token="67108889" Name="&lt;&gt;9" />
+<Field Token="67108890" Name="&lt;&gt;9__8_0" />
+<Field Token="67108891" Name="&lt;&gt;9__8_1" />
+<Field Token="67108892" Name="&lt;&gt;9__9_0" />
+<Field Token="67108893" Name="&lt;&gt;9__9_1" />
+<Field Token="67108894" Name="&lt;&gt;9__11_0" />
+<Field Token="67108895" Name="&lt;&gt;9__13_0" />
+<Field Token="67108896" Name="&lt;&gt;9__13_1" />
+<Field Token="67108897" Name="&lt;&gt;9__13_3" />
+<Field Token="67108898" Name="&lt;&gt;9__14_0" />
+<Type Token="33554446" Name="PGA.TransFormReports.TransformReports/&lt;&gt;c__DisplayClass9_0" />
+<Method Token="100663360" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663361" Name="&lt;GetStartStopPoint&gt;b__2" Variables="this;l;" ParamCnt="2" />
+<Field Token="67108899" Name="last" />
+<Field Token="67108900" Name="first" />
+<Type Token="33554447" Name="PGA.TransFormReports.TransformReports/&lt;&gt;c__DisplayClass10_0" />
+<Method Token="100663362" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663363" Name="&lt;FiltersByErrorType&gt;b__0" Variables="this;p;" ParamCnt="2" />
+<Field Token="67108901" Name="type" />
+<Type Token="33554448" Name="PGA.TransFormReports.TransformReports/&lt;&gt;c__DisplayClass13_0" />
+<Method Token="100663364" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663365" Name="&lt;FiltersCombinedAllErrors&gt;b__2" Variables="this;l;" ParamCnt="2" />
+<Method Token="100663366" Name="&lt;FiltersCombinedAllErrors&gt;b__4" Variables="this;p;V_0;V_1;" ParamCnt="2" />
+<Field Token="67108902" Name="last" />
+<Field Token="67108903" Name="first" />
+<Field Token="67108904" Name="name" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663306" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly><File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\Active.cs" NewName="File0" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\Commands.cs" NewName="File1" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\Program.cs" NewName="File2" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\ServiceManager.cs" NewName="File3" />
+<File OldName="C:\Users\m4800\Documents\Visual Studio 2015\Projects\PGA.TransFormReports\PGA.TransFormReports\TransformReports.cs" NewName="File4" />
+</Mappings>

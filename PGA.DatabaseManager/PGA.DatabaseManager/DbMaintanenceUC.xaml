@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="PGA.DbMaintanenceUC.DbMaintanenceUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PGA.DatabaseManager"
+             mc:Ignorable="d"   d:DesignHeight="65" d:DesignWidth="300">
+    <Grid Margin="2" VerticalAlignment="Top" HorizontalAlignment="Center" >
+        <GroupBox Header="Database Maintenance" BorderThickness="1"  HorizontalAlignment="Center"   VerticalAlignment="Center" Height="55" Width="215" BorderBrush="#FF5C8ECB">
+            <GroupBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}"/>
+                    <GradientStop Color="#ff5c8ecb" Offset="0.881"/>
+                    <GradientStop Color="#7FAAA2A2" Offset="0.613"/>
+                </LinearGradientBrush>
+            </GroupBox.Background>
+            <Grid >
+                <Button x:Name="cmdRepair" Content="Repair" Width="70" Height="19.28"    Click="cmdRepair_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,29,0"/>
+                <Button x:Name="cmdClear"  Content="Clear" Width="70"  Height="19.28"    Click="cmdClear_Click" VerticalAlignment="Center"  HorizontalAlignment="Left"  Margin="28,0,0,0"/>
+                <!--<Button x:Name="cmdClrCache" Content="Clear Cache" VerticalAlignment="Bottom" Width="70" Click="cmdClearCache_Click"  Height="19.28" Margin="77,0,0,-0.687"/>-->
+                <!--<Button x:Name="cmdCompact" Content="Compact"      VerticalAlignment="Bottom" Width="70" Click="cmdCompact_Click"  Height="19.28" Margin="-0.55,0,77.55,-0.687"/>-->
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>

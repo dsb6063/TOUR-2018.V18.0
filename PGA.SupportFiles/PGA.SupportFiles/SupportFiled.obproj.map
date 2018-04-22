@@ -1,0 +1,7 @@
+﻿<Mappings><Assembly Name="PGA.SupportFiles"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="PGA.SupportFiles.Class1" />
+<Method Token="100663298" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663299" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly></Mappings>

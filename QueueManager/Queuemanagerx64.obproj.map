@@ -1,0 +1,46 @@
+﻿<Mappings><Assembly Name="PGA.QueueManager"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="PGA.DatabaseManager.QueueManager" />
+<Method Token="100663298" Name=".ctor" Variables="this;unknown;" ParamCnt="2" />
+<Method Token="100663299" Name="LoadSettingsData" Variables="this;" ParamCnt="1" />
+<Method Token="100663300" Name="GetTasks" Variables="this;commands;task;V_2;V_3;ex;" ParamCnt="1" />
+<Method Token="100663301" Name="Grid_Loaded" Variables="this;sender;e;" ParamCnt="3" />
+<Method Token="100663302" Name="Window_Loaded" Variables="this;sender;e;" ParamCnt="3" />
+<Method Token="100663303" Name="dgTasks_SelectionChanged" Variables="this;sender;e;V_0;dateStamp;V_2;ex;" ParamCnt="3" />
+<Method Token="100663304" Name="get_DateSelected" Variables="this;" ParamCnt="1" />
+<Method Token="100663305" Name="set_DateSelected" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663306" Name="GetCurrentRow" Variables="this;dataGrid;str;V_1;i;row;V_4;gridColumn;V_6;value;cellContent;V_9;V_10;" ParamCnt="2" />
+<Method Token="100663307" Name="GetCell" Variables="this;row;column;customDataGrid;dataGridCell;rowContainer;V_2;presenter;cell;V_5;V_6;" ParamCnt="4" />
+<Method Token="100663308" Name="GetVisualChild" Variables="parent;child;numVisuals;i;v;V_4;V_5;V_6;V_7;" ParamCnt="1" />
+<Method Token="100663309" Name="GetRow" Variables="this;_currentRowIndex;customDataGrid;row;V_1;V_2;" ParamCnt="3" />
+<Method Token="100663310" Name="cmdPause_Click" Variables="this;sender;e;" ParamCnt="3" />
+<Method Token="100663311" Name="cmdCancel_Click" Variables="this;sender;e;" ParamCnt="3" />
+<Method Token="100663312" Name="cmdRunTask_Click" Variables="this;sender;e;commands;button;" ParamCnt="3" />
+<Method Token="100663313" Name="Window_Closing" Variables="this;sender;e;manager;button;V_2;V_3;V_4;ex;" ParamCnt="3" />
+<Method Token="100663314" Name="cmdClose_Click" Variables="this;sender;e;" ParamCnt="3" />
+<Method Token="100663315" Name="InitializeComponent" Variables="this;resourceLocater;V_1;" ParamCnt="1" />
+<Method Token="100663316" Name="System.Windows.Markup.IComponentConnector.Connect" Variables="this;connectionId;target;V_0;" ParamCnt="3" />
+<Field Token="67108865" Name="&lt;DateSelected&gt;k__BackingField" />
+<Field Token="67108866" Name="dgTasks" />
+<Field Token="67108867" Name="cmdRunTask" />
+<Field Token="67108868" Name="cmdClose" />
+<Field Token="67108869" Name="_contentLoaded" />
+<Type Token="33554436" Name="QueueManager.CmdCommands" />
+<Method Token="100663318" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663319" Name="CommandTranslation" Variables="this;doc;nm;ce;V_3;" ParamCnt="1" />
+<Method Token="100663320" Name="StopCommandTranslation" Variables="this;doc;V_1;" ParamCnt="1" />
+<Method Token="100663321" Name="OnUnknownCommand" Variables="this;sender;e;doc;V_1;V_2;ex;" ParamCnt="3" />
+<Method Token="100663322" Name="OnCommandSomething" Variables="this;sender;e;" ParamCnt="3" />
+<Field Token="67108870" Name="_launched" />
+<Type Token="33554437" Name="QueueManager.Commands" />
+<Method Token="100663323" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663324" Name=".cctor" Variables="" ParamCnt="0" />
+<Method Token="100663325" Name="Main" Variables="" ParamCnt="0" />
+<Method Token="100663326" Name="ShowWindow" Variables="_window;doc;V_2;V_3;" ParamCnt="0" />
+<Method Token="100663327" Name="StartDWG" Variables="doc;V_1;" ParamCnt="0" />
+<Method Token="100663328" Name="OnCommandSomething" Variables="sender;e;" ParamCnt="2" />
+<Method Token="100663329" Name="OnUnknownCommand" Variables="sender;e;" ParamCnt="2" />
+<Field Token="67108871" Name="_launched" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663317" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly></Mappings>

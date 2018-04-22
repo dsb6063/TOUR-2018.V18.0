@@ -1,0 +1,27 @@
+-- Script Date: 9/6/2015 3:00 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+DROP TABLE [Settings];
+GO
+CREATE TABLE [Settings] (
+  [Id] int IDENTITY (1,1) NOT NULL
+, [GlobalPointFilePath] nvarchar(200) NULL
+, [GlobalPolylineFilePath] nvarchar(200) NULL
+, [TemplateDWG] nvarchar(200) NULL
+, [SeverPath] nvarchar(200) NULL
+, [CourseName] nvarchar(50) NULL
+, [DateStamp] datetime NULL
+, [StartTime] datetime NULL
+, [EndTime] datetime NULL
+, [DestinationFolder] nvarchar(200) NULL
+, [CreateDXF] bit NULL
+, [DestDXFFolder] nvarchar(200) NULL
+, [ProjectName] nvarchar(250) NULL
+, [ProjectCity] nvarchar(250) NULL
+, [ProjectState] nvarchar(250) NULL
+, [ProjectDate] datetime NULL
+, [ProjectCreator] nvarchar(250) NULL
+, [ProjectManager] nvarchar(250) NULL
+, [ProjectSurveyor] nvarchar(250) NULL
+);
+GO
+ALTER TABLE [Settings] ADD CONSTRAINT [PK_Settings] PRIMARY KEY ([Id]);
+GO
